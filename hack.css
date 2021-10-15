@@ -39,11 +39,15 @@ a.submenu__sections__section__title__link {
 }
 
 div.submenu__sections.flex-auto.flex.flex-col.overflow-auto.ember-view {
-  width: 65%;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  
 }
 
 div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col {
-    width: 80%;
+    width: 50%;
     margin: 0;
     padding: 0;
     border: 0;
@@ -51,16 +55,16 @@ div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col
 }
 
 div.conversation__inbox__list-wrapper.skiptranslate.notranslate {
-  width: 15%;
+  width: 20%;
   padding: 0;
   margin: 0;
   border: 0;
-  left: 2vw;  
+  left: -8vw;  
 }
 
 div.ember-view.conversation__stream.u__relative.u__3dfix.flex-1 {
     width: 100%;
-    zoom: 80%;
+    zoom: 75%;
     margin: 0;
     padding: 0;
     border: 0;
@@ -86,7 +90,7 @@ a.ember-view.left-nav__link.o__product.o__subscribed.product-icon__link.js__ghos
 }
 
 div.flex-none.flex.flex-col.left-nav.ember-view {
-  width: 2%;
+display:none;
   margin:0;
   padding: 0;
 }
@@ -110,7 +114,14 @@ div.ember-view {
 
 
 div.flex.flex-col.conversation__inbox__current-context {
-  width: 24%;
+  border-radius: 0px;
+  padding: 0;
+  margin: 0;
+  display:flex;
+  
+  width: 40%;
+  left: 40vw;
+  font-size: 14px;
 }
 
 div.intercom-lightweight-app-launcher-icon.intercom-lightweight-app-launcher-icon-open {
@@ -128,12 +139,30 @@ div.submenu.flex-none.flex.flex-col.ember-view {
 }
 
 div.conversation__inbox {
-width: 112%;
+width: 150%;
 margin: 0;
 padding: 0;
-left: -9vw;
+left: -14vw;
 }
 
 div.flex-none.flex.flex-col.inbox__full-height {
   width: 110%;
+}
+
+div.inbox__card__header.flex.items-center.o__with-title {
+  height: 1px; 
+  padding: 0;
+  margin: 0;
+  }
+
+div.inbox__conversation-controls__inserter.ember-view {
+  display:none;
+
+}
+
+div.intercom-interblocks-image.intercom-interblocks-align-left {
+  width: 30%;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
