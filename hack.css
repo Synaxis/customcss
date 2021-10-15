@@ -125,14 +125,8 @@ div.submenu.flex-none.flex.flex-col.ember-view {
 
 div.conversation__inbox {
 width: 100%;
-left: -6vw;
 margin: 0;
 padding: 0;
 }
 
-div.conversation__inbox__outlet {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  right: -5vw;
-}
+
