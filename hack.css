@@ -1,0 +1,35 @@
+div.submenu__header__title.flex-auto.min-w-0 {
+  display:none;
+  margin:0;
+  padding: 0;
+}
+
+a.ember-view.left-nav__link.o__logo.t__no-decoration.left-nav__updated.rounded-br-lg.bg-gray-light {
+    display:none;
+  margin:0;
+  padding: 0;
+}
+
+a.left-nav__link.o__bottom__item.o__messenger.ember-view {
+    display:none;
+  margin:0;
+  padding: 0;
+}
+
+a.left-nav__link.o__bottom__item.o__appstore.ember-view {
+    display:none;
+  margin:0;
+  padding: 0;
+}
+
+a.ember-view.left-nav__link.o__product.product-icon__link.js__product-tour-nav-wrapper.o__subscribed.rounded-tr-lg.bg-gray-light {
+    display:none;
+  margin:0;
+  padding: 0;
+}
+
+a.submenu__sections__section__title__link {
+    display:none;
+  margin:0;
+  padding: 0;
+}
