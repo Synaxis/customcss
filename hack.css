@@ -39,16 +39,19 @@ div.submenu__sections.flex-auto.flex.flex-col.overflow-auto.ember-view {
 }
 
 div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col {
-    width: 85%;
+    width: 80%;
     margin: 0;
+    padding: 0;
+    border: 0;
+    
 }
 
 div.conversation__inbox__list-wrapper.skiptranslate.notranslate {
-  width: 13%;
+  width: 15%;
   padding: 0;
   margin: 0;
   border: 0;
-  left: -2vw;  
+  left: 2vw;  
 }
 
 div.ember-view.conversation__stream.u__relative.u__3dfix.flex-1 {
@@ -125,4 +128,11 @@ width: 100%;
 left: -6vw;
 margin: 0;
 padding: 0;
+}
+
+div.conversation__inbox__outlet {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  right: -5vw;
 }
