@@ -52,8 +52,7 @@ div.conversation__inbox__list-wrapper.skiptranslate.notranslate {
 }
 
 div.ember-view.conversation__stream.u__relative.u__3dfix.flex-1 {
-    left :3vw;
-    width: 44vw;
+    width: 50vw;
     margin: 0;
     padding: 0;
     border: 0;
@@ -104,7 +103,7 @@ div.ember-view {
 
 
 div.flex.flex-col.conversation__inbox__current-context {
-  width: 26%;
+  width: 24%;
 }
 
 div.intercom-lightweight-app-launcher-icon.intercom-lightweight-app-launcher-icon-open {
@@ -119,8 +118,6 @@ div.intercom-lightweight-app-launcher.intercom-launcher {
 
 div.submenu.flex-none.flex.flex-col.ember-view {
   right: 4vw;
-  width: 
-
 }
 
 div.conversation__inbox {
@@ -128,5 +125,4 @@ width: 100%;
 left: -6vw;
 margin: 0;
 padding: 0;
-border-radius:0; 
 }
