@@ -44,10 +44,54 @@ div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col
 }
 
 div.conversation__inbox__list-wrapper.skiptranslate.notranslate {
-  width: 15%
+  width: 13%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  left: -1vw;  
 }
 
 div.ember-view.conversation__stream.u__relative.u__3dfix.flex-1 {
     right: 7vw;
     width: 112%;
+}
+
+a.u__pointer-cursor.left-nav__link.o__product-changes.o__bottom__item {
+      display:none;
+  margin:0;
+  padding: 0;
+}
+
+a.ember-view.left-nav__link.o__product.o__subscribed.product-icon__link.js__ghostinspector__nav__platform {
+      display:none;
+  margin:0;
+  padding: 0;
+}
+
+div.flex-none.flex.flex-col.left-nav.ember-view {
+  width: 2%;
+  margin:0;
+  padding: 0;
+}
+
+svg.interface-icon.o__standard.o__standard__tooltip {
+    margin:0;
+  padding: 0;
+  display: none;
+}
+
+svg.interface-icon.o__standard.o__standard__clock {
+    margin:0;
+  padding: 0;
+  display: none;
+}
+
+div.ember-view {
+  right: 0.2vw;
+}
+
+div.conversation__outlet__inner__background.o__plain.ember-view {
+  width: 60%;
+  
+  padding: 0;
 }
