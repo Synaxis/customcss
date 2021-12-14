@@ -1,5 +1,7 @@
 * {
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 18px;
+  font-stretch: 0;
 }
 div.submenu__sections.flex-auto.flex.flex-col.overflow-auto.ember-view {
   width: 80%;
@@ -45,21 +47,19 @@ div.mt-2.mr-1.mb-2.u__cf {
 }
 
 div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col {
-  right: 20px;
+  right: 10px;
   margin: 0;
   padding: 0;
   border: 0;
 }
 
 .conversation__stream {
-  flex: 8;
+  flex: 1;
   font: inherit;
-  -ms-flex-preferred-size: auto;
   overflow-y: scroll;
-  zoom: 80%;
-  font-size: 10px;
-  width: 43vw;
-  right: 20px;
+  zoom: 65%;
+  width: 53vw;
+  right: 35px;
 }
 
 svg.interface-icon.o__standard.o__standard__product-tours {
@@ -88,4 +88,35 @@ div.inbox__conversation-sidebar__conversation-attributes__attribute-row {
 
 a.quick-action.o__inbox-composer-help-opener {
   display: none;
+}
+
+.conversation__inbox__list {
+    overflow: auto;
+    bottom: 0;
+    /* position: absolute; */
+    width: 100%;
+    z-index: 1;
+    zoom: 85%;
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 1280px)
+.conversation__inbox__current-context {
+    width: 32%;
+}
+
+.conversation__outlet__inner__background.o__background-gray {
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.avatar__media {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+    border-radius: 50%;
+    background-clip: padding-box;
+    box-sizing: border-box;
 }
