@@ -44,6 +44,25 @@ div.mt-2.mr-1.mb-2.u__cf {
     display: none;
 }
 
-a.ember-view.left-nav__link.o__product.product-icon__link.js__product-tour-nav-wrapper.o__subscribed {
+div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col {
+  right: 20px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.conversation__stream {
+  flex: 8;
+  font: inherit;
+  -ms-flex-preferred-size: auto;
+  overflow-y: scroll;
+  zoom: 80%;
+  font-size: 10px;
+  width: 43vw;
+  right: 20px;
+}
+
+
+div.conversation__outlet__inner__background.o__background-gray.ember-view {
   
 }
