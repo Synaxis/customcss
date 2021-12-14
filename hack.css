@@ -62,7 +62,30 @@ div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col
   right: 20px;
 }
 
+svg.interface-icon.o__standard.o__standard__product-tours {
+  display: none;
+}
 
-div.conversation__outlet__inner__background.o__background-gray.ember-view {
-  
+div.inbox__conversation-controls__inserter.inbox__conversation-controls__inserter-opener {
+  display: none;
+}
+
+svg.interface-icon.o__standard.o__standard__app-store {
+  display: none;
+}
+
+div.inbox__conversation-controls__inserter.ember-view {
+  display: none;
+}
+
+div.flex.flex-row.flex-wrap.items-start {
+  display: none;
+}
+
+div.inbox__conversation-sidebar__conversation-attributes__attribute-row {
+  display: none;
+}
+
+a.quick-action.o__inbox-composer-help-opener {
+  display: none;
 }
