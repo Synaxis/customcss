@@ -166,3 +166,14 @@ div.flex.flex-col.conversation__inbox__current-context {
     height: 4vh;
     padding: 0 10px;
 }
+
+div.submenu__header.flex-none.flex.items-center.ember-view {
+  padding: 0;
+  height: 5vh;
+  background-color: white;
+}
+
+a.submenu__sections__section__title__link {
+  font-weight: lighter;
+  padding: 0.3vw;
+}
