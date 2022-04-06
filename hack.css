@@ -48,11 +48,12 @@ div.mt-2.mr-1.mb-2.u__cf {
 
 div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col {
   right: 1vw;
-  margin-right: 2vw;
+  margin-right: 3vw;
   padding: 0;
   border: 0;
   align-content: center;
   width: 25vw;
+  zoom: 85%
 }
 
 .conversation__stream {
