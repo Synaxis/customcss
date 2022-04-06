@@ -47,10 +47,12 @@ div.mt-2.mr-1.mb-2.u__cf {
 }
 
 div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col {
-  right: 10px;
-  margin: 0;
+  right: 1vw;
+  margin-right: 4vw;
   padding: 0;
   border: 0;
+  width: 25vw;
+
 }
 
 .conversation__stream {
@@ -58,8 +60,8 @@ div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col
   font: inherit;
   overflow-y: scroll;
   zoom: 65%;
-  width: 53vw;
-  right: 35px;
+  width: 73vw;
+  right: 2.8vw;
 }
 
 svg.interface-icon.o__standard.o__standard__product-tours {
@@ -101,10 +103,6 @@ a.quick-action.o__inbox-composer-help-opener {
 }
 
 
-@media screen and (max-width: 1280px)
-.conversation__inbox__current-context {
-    width: 32%;
-}
 
 .conversation__outlet__inner__background.o__background-gray {
     background-color: #ffffff;
@@ -119,4 +117,52 @@ a.quick-action.o__inbox-composer-help-opener {
     border-radius: 50%;
     background-clip: padding-box;
     box-sizing: border-box;
+}
+
+div.submenu__sections__section__title__link.inbox2__inbox1-link.cursor-pointer {
+  display: none;
+}
+
+div.flex-none.flex.flex-col.left-nav.ember-view {
+  zoom: 65%
+}
+
+div.submenu.flex-none.flex.flex-col.ember-view {
+   zoom: 85%
+}
+
+div.inbox__card__header.flex.items-center.o__with-title {
+   zoom: 75%;
+}
+
+a.left-nav__link.o__bottom__item.o__messenger.ember-view {
+  display: none;
+}
+
+div.flex.flex-col.conversation__inbox__current-context {
+  zoom: 65%;
+}
+
+.main__content-outlet {
+    left: 17vw;
+}
+
+.conversation__inbox__current-context {
+    width: 33%;
+}
+
+.z-10 {
+    z-index: 10;
+    zoom: 65%;
+    height: 18vh;
+}
+
+.conversation__inbox__list-header {
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",sans-serif;
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    font-weight: 200;
+    box-sizing: border-box;
+    height: 4vh;
+    padding: 0 10px;
 }
