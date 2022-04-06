@@ -123,7 +123,10 @@ div.submenu.flex-none.flex.flex-col.ember-view {
 }
 
 div.inbox__card__header.flex.items-center.o__with-title {
-   zoom: 75%;
+   zoom: 95%;
+   font-weight: lighter;
+   height: 1vh;
+   width: 39vw;
 }
 
 a.left-nav__link.o__bottom__item.o__messenger.ember-view {
@@ -192,3 +195,13 @@ element.style {
     line-height: 3vh;
 }
 
+.conversation__action__text {
+    padding: 0 16px;
+    background-color: transparent;
+    /* display: inline-block; */
+    position: relative;
+    max-width: 80%;
+    margin: 0;
+    border: 0;
+    font-size: 1.3em;
+}
