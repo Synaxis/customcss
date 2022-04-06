@@ -1,8 +1,4 @@
-* {
-  font-size: 18px;
-  line-height: 18px;
-  font-stretch: 0;
-}
+
 div.submenu__sections.flex-auto.flex.flex-col.overflow-auto.ember-view {
   width: 15vw;
   border: 0;
@@ -50,9 +46,9 @@ div.mt-2.mr-1.mb-2.u__cf {
 
 .conversation__stream {
   flex: 1;
-  font: inherit;
   overflow-y: scroll;
-  zoom: 65%;
+  zoom: 55%;
+  
   width: 73vw;
   right: 2.8vw;
 }
@@ -183,3 +179,16 @@ element.style {
     position: relative;
     
 }
+
+.conversation__text {
+    -webkit-hyphens: none;
+    hyphens: none;
+    font-size: 1.7em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    line-height: 3vh;
+}
+
