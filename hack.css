@@ -3,9 +3,7 @@ div.submenu__sections.flex-auto.flex.flex-col.overflow-auto.ember-view {
   width: 15vw;
   border: 0;
   margin: 0;
-
-  padding: 0;
-  
+  padding: 0;  
 }
 
 .submenu {
@@ -47,9 +45,8 @@ div.mt-2.mr-1.mb-2.u__cf {
 .conversation__stream {
   flex: 1;
   overflow-y: scroll;
-  zoom: 55%;
-  
-  width: 73vw;
+  zoom: 55%;  
+  width: 80vw;
   right: 2.8vw;
 }
 
@@ -204,4 +201,8 @@ element.style {
     margin: 0;
     border: 0;
     font-size: 1.3em;
+}
+
+div.conversation__inbox__list-wrapper.skiptranslate.notranslate {
+  padding: ;
 }
