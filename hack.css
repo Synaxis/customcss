@@ -4,9 +4,10 @@
   font-stretch: 0;
 }
 div.submenu__sections.flex-auto.flex.flex-col.overflow-auto.ember-view {
-  width: 80%;
+  width: 15vw;
   border: 0;
   margin: 0;
+
   padding: 0;
   
 }
@@ -46,15 +47,6 @@ div.mt-2.mr-1.mb-2.u__cf {
     display: none;
 }
 
-div.ember-view.conversation__inbox__list.o__vertical-nav.flex-none.flex.flex-col {
-  right: 1vw;
-  margin-right: 3vw;
-  padding: 0;
-  border: 0;
-  align-content: center;
-  width: 25vw;
-  zoom: 85%
-}
 
 .conversation__stream {
   flex: 1;
@@ -129,7 +121,9 @@ div.flex-none.flex.flex-col.left-nav.ember-view {
 }
 
 div.submenu.flex-none.flex.flex-col.ember-view {
-   zoom: 85%
+   zoom: 90%;
+   padding: 0;
+   
 }
 
 div.inbox__card__header.flex.items-center.o__with-title {
