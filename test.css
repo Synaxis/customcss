@@ -1,1 +1,356 @@
 
+html {
+    line-height: 19px !important;
+  } 
+  
+  * {
+    -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  --tw-text-opacity: '';
+    text-decoration: none !important;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+   text-rendering: optimizeLegibility !important;
+   --tw-text-opacity: none;
+   /* Font varient */
+   font-variant-ligatures: none;
+   -webkit-font-variant-ligatures: none;
+   /* Smoothing */ 
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+   user-select: text;
+   text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  }
+  
+  
+  /* CHAT */
+  .inbox2 {
+       -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+      --conversation-stream-width: 71%;
+      --conversation-details-sidebar-transform: none;
+      --inbox2-sending-animation-bg: #ffffff;
+      --inbox2-sending-animation-bg-dark: #ffffff5b;
+      font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   letter-spacing: normal;
+   line-height: 19px;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  
+
+  font-weight: 400;
+  color: rgb(36, 41, 46);
+  -webkit-font-smoothing: antialiased;
+   text-decoration: none;
+   text-rendering: optimizeLegibility; 
+   font-size: 1.1em;
+  }
+  
+   /* CHAT */ 
+  div div p {
+       -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+   font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+   letter-spacing: 0.2px;
+   line-height: 1.2353641176;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  z-index: 1;
+  margin: 0.2%;
+  font-weight: 359;
+  color: #343436;
+  -webkit-font-smoothing: antialiased;
+  text-indent: 4px;
+   text-decoration: none;
+   text-align: justify;
+   text-rendering: optimizeLegibility; 
+   font-size: 1em;
+    direction: ltr;
+    font-synthesis: none
+  }
+  
+  .bg-blue-light-ib2 {
+   background-color: white;
+   box-shadow: -1px 0 8px -2px rgb(34 39 64 / 15%);
+   margin: 0;
+  font-size: 1em !important;
+   padding: 2px;
+   border: 0;
+   color: rgb(36, 41, 46);
+   font-weight: 400;
+   font-family: apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   text-decoration: none;
+   text-rendering: optimizeLegibility !important;
+  }
+  
+  /* CHAT */ 
+  .text-black {
+    color: rgb(36, 41, 46);
+  }
+  
+  /* CHAT */ 
+  .bg-gray-lightest {
+  color: black !important;
+  font-size: 1em !important ;
+  font-weight: normal !important ;
+  text-decoration: none !important ;
+  text-rendering: optimizeLegibility !important;
+   background-color: #f9f9f9;
+   box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
+   padding: 2px
+  }
+  
+  /* Composer */
+   div.inbox2__reply-composer.flex.flex-row.gap-2.px-6 {
+   -webkit-box-flex: 0;
+   width: 100%;  
+   display: flex;   
+   z-index: 1;
+   color: rgb(36, 41, 46) !important;
+  font-size: 1em !important ;
+  font-weight: 400 !important ;
+  text-decoration: none !important ;
+  text-rendering: optimizeLegibility !important;
+   background-color: #f9f9f9;
+   box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
+   margin-bottom: -25px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   -webkit-box-ordinal-group: 4;
+   -ms-flex-order: 3;
+   order: 3;
+   position: relative;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   min-height: 62px;
+   padding: 0 25px 10px 24px;
+  }
+  body * {
+   font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+   font-weight: 400;
+   -webkit-font-smoothing: antialiased;
+   letter-spacing: 0;
+  }
+  
+  div.flex.justify-between.px-4.pb-4.items-center.text-gray-ib2.dark:text-dm-gray.text-sm.inbox2__icon-no-margin {
+   border-radius: 0;
+  }
+  
+  .inbox2__inbox-list-sidebar {
+   width: 150px;
+  }
+  
+  .inbox2__left-nav.o__expanded {
+   width: 150px;
+  }
+  
+  .pr-3 {
+   font-size: 1.4em;
+  }
+  
+  .truncate {
+   font-size: 1em;
+  }
+  
+  div.flex.flex-row.items-center.justify-between.mt-3.h-8 {
+   display:none;
+  }
+  
+  
+  
+  
+  div.flex.flex-col.gap-4 {
+   display: flex;
+    color: rgb(36, 41, 46);
+   padding-left: 0.1px;
+   font-family: apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   font-weight: 400;
+   text-rendering: optimizeLegibility !important;
+   font-size: 1em;
+   text-decoration: none;
+  }
+  
+  
+  
+  .text-lg {
+   font-size: 16px;
+   font-weight: 400;
+  }
+  
+  h2.font-brand.font-medium.flex.flex-col.flex-1.text-lg.u__one-truncated-line {
+   font-weight: 500;
+  }
+  
+  div.flex-1.font-brand.font-medium.inbox2__sidebar-section-heading.uppercase {
+   font-size: 12px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  div.flex.flex-1.gap-1.truncate {
+   margin-bottom: 10px;
+  }
+  
+  div#reference-ember6871 {
+   display: none;
+  }
+  
+  div.rounded-l-3xl.rounded-br-3xl.relative.inbox2__renderable-part.py-3.px-4.bg-blue-light-ib2.dark:bg-dm-blue-dark.text-blue-darkest.dark:text-dm-white {
+   background-color: white;
+  }
+  
+  div.rounded-l-3xl.rounded-r-3xl.relative.inbox2__renderable-part.py-3.px-4.bg-blue-light-ib2.dark:bg-dm-blue-dark.text-blue-darkest.dark:text-dm-white {
+   margin: 0;
+   padding: 0;
+   border: 0;
+  }
+  
+  
+  
+  div.flex.flex-col.overflow-y-auto.pr-3.pb-12 {
+   font-size: 1em;
+  }
+  
+ 
+  
+  div.rounded-r-3xl.rounded-l-3xl.relative.inbox2__renderable-part.py-3.px-4.bg-gray-lightest.dark:bg-dm-gray-darker.text-black.dark:text-dm-white {
+   text-decoration: none;
+   font-weight: 400;
+   text-rendering: optimizeLegibility;
+   border-left: solid 2px transparent;
+  display: none;
+  }
+  
+  .inbox-2__conversation-page__body {
+
+   width: 50vw;
+   max-width: 1200px;
+   margin-left: unset;
+   margin-right: unset;
+   overflow: hidden;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+  }
+  
+  div.flex.flex-col.flex-1.h-full.relative {
+   box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 4px;
+  }  
+
+  
+  .inbox2__avatar {
+   width: 22px;
+   height: 22px;
+   border-radius: 16px;
+   line-height: 32px;
+   font-size: 13px;
+   text-align: center;
+   text-transform: uppercase;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   font-family: Graphik,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+   font-weight: 500;
+   text-rendering: optimizeLegibility;
+  }
+  
+  .inbox2__conversation-list-sidebar {
+   width: 18%;
+   max-width: 600px;
+   text-decoration: none;
+   font-weight: 400;
+  
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+   background: #464525;
+   border-radius: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar {
+   width: 0.4rem;
+   background: silver;
+  }
+  
+  
+  
+  
+  div.flex.flex-row.items-center.h-8 {
+   font-size: 0.9em;
+   margin-left: -7px
+  }
+  
+  .px-6 {
+   padding-left: 14px;
+   padding-right: 14px;
+   text-rendering: optimizeLegibility;
+  }
+  
+  .inbox2__conversation-stream {
+    /* this is client and notes msgs */
+    background-color: white;
+      width: var(--conversation-stream-width);
+      overflow: hidden;   
+       text-rendering: optimizeLegibility !important;
+  
+      font-size: 1.1em;
+      font-weight: 400;
+      text-decoration: none;
+      transition: width 125ms ease-in-out;
+  }
+  
+  .bg-white {
+      background-color: white !important;
+  }
+  
+  /* second bar preview msg*/
+  
+  .text-sm {
+      font-size: 15px;
+      font-weight: 400;
+      text-decoration: none;
+  }
+  /* indicator of menus and preview chat text*/
+  
+  .leading-4 {
+      line-height: 16px;
+  }
+  
+  
+  div.flex-1 {
+   font-size: 1em;
+  }
+
+  .text-white {
+    color: white;
+}
+
+
+.inbox2__conversation-details-sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 29.5%;
+    max-width: 460px;
+    transform: var(--conversation-details-sidebar-transform);
+    transition: transform 125ms ease-in-out;
+    z-index: 2500;
+}
+
+
+.text-sm {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+}
+
+.ml-2 {
+    margin-left: 5px;
+    font-size: 0.9em;
+    font-weight: normal;
+}
