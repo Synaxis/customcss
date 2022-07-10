@@ -1,6 +1,39 @@
 html {
     line-height: 19px !important;
-  } 
+     text-rendering: optimizeLegibility;
+  }
+
+  div.flex.flex-col.flex-1.h-full.relative {
+    box-shadow: rgb(0 0 0 / 35%) 1000px 4px !important;
+    background-color: #f3f3f3;
+}
+
+/* chat header title  */
+.inbox-2__conversation-header {
+    margin-bottom: 0.4vh;
+    width: 100%;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    font-weight: normal;
+    text-decoration: none;
+    max-width: 1200px;
+    margin-left: auto;
+    text-rendering: optimizeLegibility;
+    margin-right: auto;
+}
+
+ /* last grid ( email etc)  */
+  .inbox2__conversation-details-sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 25.5%;
+    max-width: 440px;
+    transform: var(--conversation-details-sidebar-transform);
+    transition: transform 250ms ease-in-out;
+    z-index: 2500;
+} 
   
   * {
     -webkit-transition: none !important;
@@ -53,20 +86,23 @@ html {
   -moz-transition: none !important;
   -o-transition: none !important;
   transition: none !important;
-   font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-   letter-spacing: 0.4px;
-   line-height: 18px;
+   font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+   letter-spacing: 0.1px;
+   line-height: 1.12;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
   z-index: 1;
   margin: 0.2%;
+  width: 40vw;
   font-weight: 359;
   color: #343436;
   -webkit-font-smoothing: antialiased;
-  text-indent: 4px;
+  text-indent: none;
    text-decoration: none;
-   text-align: justify;
+   text-align: left;
    text-rendering: optimizeLegibility; 
    font-size: 1em;
+    direction: ltr;
+    font-synthesis: none
   }
   
   .bg-blue-light-ib2 {
@@ -98,6 +134,18 @@ html {
    background-color: #f9f9f9;
    box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
    padding: 2px
+  }
+
+
+     /* this is the chat "box" properties*/
+  .inbox-2__conversation-page__body {
+
+  width: 52vw !important;
+    max-width: 101% !important;
+    margin-left: unset !important;
+    margin-right: unset !important;
+    overflow: hidden !important;
+    box-shadow: rgb(0 0 0 / 25%) 0px 4px 20px !important;
   }
   
   /* Composer */
@@ -222,15 +270,7 @@ html {
   display: none;
   }
   
-  .inbox-2__conversation-page__body {
 
-   width: 50vw;
-   max-width: 1200px;
-   margin-left: unset;
-   margin-right: unset;
-   overflow: hidden;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
-  }
   
   div.flex.flex-col.flex-1.h-full.relative {
    box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 4px;
@@ -256,7 +296,7 @@ html {
   
   .inbox2__conversation-list-sidebar {
    width: 18%;
-   max-width: 600px;
+   max-width: 550px;
    text-decoration: none;
    font-weight: 400;
   
@@ -264,12 +304,12 @@ html {
   
   
   ::-webkit-scrollbar-thumb {
-   background: #464525;
-   border-radius: 0.5rem;
+   background: #919191;
+   border-radius: 0.3rem;
   }
   
   ::-webkit-scrollbar {
-   width: 0.4rem;
+   width: 0.39rem;
    background: silver;
   }
   
@@ -288,16 +328,15 @@ html {
   }
   
   .inbox2__conversation-stream {
-    /* this is client and notes msgs */
-    background-color: white;
-      width: var(--conversation-stream-width);
-      overflow: hidden;   
-       text-rendering: optimizeLegibility !important;
-  
-      font-size: 1.1em;
-      font-weight: 400;
-      text-decoration: none;
-      transition: width 125ms ease-in-out;
+    /* this is client chat and notes msgs */
+background-color: white !important;
+    width: 75% !important;
+    overflow: hidden !important;
+    text-rendering: optimizeLegibility !important;
+    font-size: 1em !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+    transition: width 250ms ease-in-out !important;
   }
   
   .bg-white {
@@ -327,16 +366,9 @@ html {
 }
 
 
-.inbox2__conversation-details-sidebar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 29.5%;
-    max-width: 460px;
-    transform: var(--conversation-details-sidebar-transform);
-    transition: transform 125ms ease-in-out;
-    z-index: 2500;
+
+.pt-2 {
+    padding-top: 4px;
 }
 
 
