@@ -296,7 +296,7 @@ html {
   
   .inbox2__conversation-list-sidebar {
    width: 18%;
-   max-width: 550px;
+   max-width: 700px;
    text-decoration: none;
    font-weight: 400;
   
@@ -382,4 +382,24 @@ background-color: white !important;
     margin-left: 5px;
     font-size: 0.9em;
     font-weight: normal;
+}
+
+.inbox2__composer .embercom-prosemirror-composer-placeholder {
+    opacity: .5;
+    display: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  /* the box of the chat composer*/
+.inbox2__composer__container {
+    box-shadow: 0 4px 8px 0rgba(62,67,108,.1);
+    font-size: 1.1em;
+    font-weight: normal;
+    
+    word-break: break-word;
+    border-radius: 1.5vw;
+    border-style: ridge;
+    width: 45vw;
+    height: auto;
+    text-align: normal;
 }
