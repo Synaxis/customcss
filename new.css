@@ -12,7 +12,7 @@ html {
 .inbox-2__conversation-header {
     margin-bottom: 0.4vh;
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1.15em;
     text-transform: capitalize;
     font-weight: normal;
     text-decoration: none;
@@ -77,7 +77,7 @@ html {
   -webkit-font-smoothing: antialiased;
    text-decoration: none;
    text-rendering: optimizeLegibility; 
-   font-size: 1.1em;
+   font-size: 1.15em;
   }
   
    /* CHAT */ 
@@ -87,20 +87,20 @@ html {
   -o-transition: none !important;
   transition: none !important;
    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-   letter-spacing: 0.1px;
-   line-height: 1.12;
+   letter-spacing: 0.12px;
+   line-height: 1;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
   z-index: 1;
   margin: 0.2%;
   width: 40vw;
-  font-weight: 359;
-  color: #343436;
+  font-weight: 450;
+  color: black;
   -webkit-font-smoothing: antialiased;
   text-indent: none;
    text-decoration: none;
    text-align: left;
    text-rendering: optimizeLegibility; 
-   font-size: 1em;
+   font-size: 1.15em;
     direction: ltr;
     font-synthesis: none
   }
@@ -155,7 +155,7 @@ html {
    display: flex;   
    z-index: 1;
    color: rgb(36, 41, 46) !important;
-  font-size: 1em !important ;
+  font-size: 1.15em !important ;
   font-weight: 400 !important ;
   text-decoration: none !important ;
   text-rendering: optimizeLegibility !important;
@@ -393,7 +393,7 @@ background-color: white !important;
   /* the box of the chat composer*/
 .inbox2__composer__container {
     box-shadow: 0 4px 8px 0rgba(62,67,108,.1);
-    font-size: 1.1em;
+    font-size: 1.15em;
     font-weight: normal;
     
     word-break: break-word;
@@ -402,4 +402,14 @@ background-color: white !important;
     width: 45vw;
     height: auto;
     text-align: normal;
+}div.flex.flex-col.conversation__inbox__current-context {
+  display:none;
+}
+
+div.flex.flex-col.pt-4.relative {
+  font-size: 2em;
+}
+
+div.flex.flex-col.flex-3 {
+   zoom:196%
 }
