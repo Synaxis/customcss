@@ -1,0 +1,104 @@
+ * {
+   font-smooth: always;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased; 
+ }
+
+ /* chat header title  */
+.inbox-2__conversation-header {
+    margin-bottom: 0.2vh;
+    width: 100%;
+    font-size: 1.15em;
+    text-transform: capitalize;
+    font-weight: normal;
+    text-decoration: none;
+    max-width: 1200px;
+    margin-left: auto;
+    text-rendering: optimizeLegibility;
+    margin-right: auto;
+}
+
+ /* first grid (unasigned etc)  */
+.inbox2__inbox-list-sidebar {
+  width: 14vw;
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+}
+ 
+ /* last grid ( email etc)  */
+ .inbox2__conversation-details-sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 27.5%;
+    max-width: 430px;
+    transform: var(--conversation-details-sidebar-transform);
+    transition: transform 250ms ease-in-out;
+    z-index: 2500;
+} 
+
+div.flex.flex-col.gap-4 {
+   width: 105%;
+}
+
+/* chat */
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.inbox2__conversation-page.flex.flex-row.flex-1.relative > div.flex.flex-col.inbox2__conversation-stream > div.inbox-2__conversation-page__body.flex.flex-col.h-full > div.flex.flex-grow.flex-1.flex-col.overflow-y-auto.dark\:bg-dm-black.pb-8.pt-2.px-6 {
+  width: 102%;
+  font-size: 1.13em;
+  font-weight: 400;
+  color: black;
+  text-rendering: optimizeLegibility;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+div h2 b {
+  font-size: 1.2em;
+  font-weight: 460;
+  color: black;
+  text-rendering: optimizeLegibility;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* border of the text from agent and customer */
+.py-3{
+  padding: 6px;
+  background-color: #2125290a !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+ 
+  /* CHAT */ 
+  .bg-gray-lightest {
+  color: black !important;
+  font-size: 1em !important ;
+  font-weight: normal !important ;
+  text-decoration: none !important ;
+  text-rendering: optimizeLegibility !important;
+   background-color: #2125290a;
+   box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
+   padding: 2px
+  }
+
+ /* CHAT */
+  .inbox2 {
+       -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+ --conversation-stream-width: 74%;
+      --conversation-details-sidebar-transform: none;
+      --inbox2-sending-animation-bg: #ffffff;      --inbox2-sending-animation-bg-dark: #ffffff5b;      
+  letter-spacing: normal;
+  line-height: 19px;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  
+
+  font-weight: 400;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+   text-decoration: none;
+   text-rendering: optimizeLegibility; 
+  }
+
