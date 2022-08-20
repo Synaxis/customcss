@@ -402,7 +402,16 @@ background-color: white !important;
     width: 45vw;
     height: auto;
     text-align: normal;
-}div.flex.flex-col.conversation__inbox__current-context {
+}
+
+
+
+.intercom-lightweight-app-launcher {
+  display: none;
+}
+
+
+div.flex.flex-col.conversation__inbox__current-context {
   display:none;
 }
 
@@ -412,4 +421,12 @@ div.flex.flex-col.pt-4.relative {
 
 div.flex.flex-col.flex-3 {
    zoom:196%
+}
+
+div.text-center.font-medium.p-3.bg-yellow-light.text-yellow-dark.rounded-tl-2xl.flow-root {
+  display: none
+}
+
+div svg path {
+  
 }
