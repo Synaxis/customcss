@@ -63,7 +63,7 @@
     
     /* segunda tab, aumenta o width  e preview do texto do cliente para ver se aumenta produtividade */
     .inbox2__conversation-list-sidebar {
-        width: 20%;
+        width: 25%;
         max-width: 500px;
         padding: 10px;
     }
