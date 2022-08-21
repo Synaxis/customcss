@@ -7,13 +7,17 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    
-    }
+    text-rendering: optimizeLegibility;    
+}
+/* 1st TAB */    
+.inbox2__inbox-list-sidebar.o__open {
+    transform: translateX(-20px);
+    color: black;
+}
     
   
-    /* CHAT 3 TAB */
-    .inbox-2__conversation-page__body {
+/* CHAT 3 TAB */
+.inbox-2__conversation-page__body {
         width: 100%;
         max-width: 1200px;
         margin-left: auto;
@@ -32,6 +36,7 @@
         overflow: hidden;
         display: -webkit-box;
         padding: 2px;
+        color: black;
         margin: 2px;
         border-color: black;
         font-weight: normal;
@@ -83,15 +88,11 @@
     .justify-between {
         justify-content: unset;
     }
-.list-none pb-1 a[href^="/"] {
-      padding: 10px;
-      margin: 10px;
-    }
-   
-    .border-r {
-      border-right-width: 3px;
-      border-radius: 20px;
-    }
+
+.list-none {
+  margin-bottom: 10px;
+;
+}
     
     /* reduz margin bottom */
     .mb-2 {
