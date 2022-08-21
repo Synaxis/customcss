@@ -18,6 +18,14 @@ html {
     background-color: #f3f3f3;
 }
 
+button, input[type="button"], input[type="submit"] { 
+    color: black; 
+    font-size: 0.9em;
+    background-color: white; 
+    border: 1px solid; 
+    border-color: #696 #363 #363 #696; 
+} 
+
 /* chat header title  */
 .inbox-2__conversation-header {
     margin-bottom: 0.4vh;
