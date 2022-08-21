@@ -1,89 +1,114 @@
 * {
-font-family: sans-serif !important;
-font-weight: normal;
-text-decoration: none;
--webkit-font-smoothing: subpixel-antialiased;
--moz-osx-font-smoothing: auto;
-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility;
-
-}
-/* CHAT 3 TAB */
-.inbox-2__conversation-page__body {
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    background-color: white;
-}
-
-/* aumentando o preview do texto na 2a tab */
-.line-clamp-1 {
-    overflow: hidden;
-    display: -webkit-box;
-    padding: 2px;
-    margin: 2px;
-    border-color: black;
+    font-family: sans-serif !important;
     font-weight: normal;
-    -webkit-line-clamp: 2;
-}
+    text-decoration: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    
+    }
+    
+  
+    /* CHAT 3 TAB */
+    .inbox-2__conversation-page__body {
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        background-color: white;
+    }
+    
+    .absolute w-full inbox2__animated-list-item-container inbox2__animated-list-transitions{
+      border: 10px;
+    
+    }
+    
+    /* aumentando o preview do texto na 2a tab */
+    .line-clamp-1 {
+        overflow: hidden;
+        display: -webkit-box;
+        padding: 2px;
+        margin: 2px;
+        border-color: black;
+        font-weight: normal;
+        -webkit-line-clamp: 2;
+    }
+    
+    /* padding up bottom chat */
+    .py-3 {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
+    /* padding sides chat */
+    .px-4 {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    
+    /* background color do chat q eu digito, cinza */
+    .bg-blue-light-ib2 {
+    
+        background-color: #efefef;
+    }
+    
+    /* encurtar primeira tab */
+    inbox2__inbox-list-sidebar.o__open {
+        transform: translateX(-20px);
+    }
+    
+    /* segunda tab, aumenta o width  e preview do texto do cliente para ver se aumenta produtividade */
+    .inbox2__conversation-list-sidebar {
+        width: 20%;
+        max-width: 500px;
+        padding: 10px;
+    }
+    
+    /* titulo topo */
+    .py-4 {
+        padding-top: 5px;
+        padding-bottom: 16px;
+    }
+    /* chat laterais(encurtar) */
+    .px-6 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    /* desabilita */
+    .justify-between {
+        justify-content: unset;
+    }
+.list-none pb-1 a[href^="/"] {
+      padding: 10px;
+      margin: 10px;
+    }
+   
+    .border-r {
+      border-right-width: 3px;
+      border-radius: 20px;
+    }
+    
+    /* reduz margin bottom */
+    .mb-2 {
+    margin-bottom: 4px;
+    }
+    
+    /* reduz altura minima */
+    .min-h-16 {
+        min-height: 32px;
+    }
 
-/* padding up bottom chat */
-.py-3 {
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
-
-/* padding sides chat */
-.px-4 {
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
-/* background color do chat q eu digito, cinza */
-.bg-blue-light-ib2 {
-
-    background-color: #efefef;
-}
-
-/* encurtar primeira tab */
-inbox2__inbox-list-sidebar.o__open {
-    transform: translateX(-20px);
-}
-
-/* segunda tab, aumenta o width  e preview do texto do cliente para ver se aumenta produtividade */
-.inbox2__conversation-list-sidebar {
-    width: 30%;
-    max-width: 500px;
-    padding: 10px;
-}
-
-/* titulo topo */
-.py-4 {
-    padding-top: 5px;
-    padding-bottom: 16px;
-}
-/* chat laterais(encurtar) */
-.px-6 {
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-/* desabilita */
-.justify-between {
-    justify-content: unset;
-}
-
-
-/* reduz margin bottom */
-.mb-2 {
-margin-bottom: 4px;
-}
-
-/* reduz altura minima */
-.min-h-16 {
-    min-height: 32px;
-}
+.p-3 {
+  padding: 4px;
+  margin: 0px;
+  border-radius: 5px;
+  width: 15vw;
+  max-width: 15vw;
+  
+  max-height: 10vh;
+  }
