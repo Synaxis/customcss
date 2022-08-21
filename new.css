@@ -3,6 +3,7 @@ html {
     line-height: 18px !important;
      text-rendering: optimizeLegibility;
      color: black;
+     font-family: sans-serif;
      font-weight: normal;
   }
 
@@ -10,6 +11,8 @@ html {
       line-height: 18px !important;
      text-rendering: optimizeLegibility;
      color: black;
+     font-family: sans-serif;
+
      font-weight: normal;
   }
 
@@ -19,11 +22,29 @@ html {
 }
 
 button, input[type="button"], input[type="submit"] { 
-    color: black; 
-    font-size: 0.9em;
-    background-color: white; 
-    border: 1px solid; 
-    border-color: #696 #363 #363 #696; 
+    appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
 } 
 
 /* chat header title  */
@@ -60,7 +81,7 @@ button, input[type="button"], input[type="submit"] {
   transition: none !important;
   --tw-text-opacity: '';
     text-decoration: none !important;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  font-family: sans-serif;
    text-rendering: optimizeLegibility !important;
    --tw-text-opacity: none;
    /* Font varient */
@@ -84,7 +105,7 @@ button, input[type="button"], input[type="submit"] {
       --conversation-details-sidebar-transform: none;
       --inbox2-sending-animation-bg: #ffffff;
       --inbox2-sending-animation-bg-dark: #ffffff5b;
-      font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
    letter-spacing: normal;
    line-height: 19px;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -104,7 +125,7 @@ button, input[type="button"], input[type="submit"] {
   -moz-transition: none !important;
   -o-transition: none !important;
   transition: none !important;
-   font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: sans-serif;
    letter-spacing: 0.12px;
    line-height: 1;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -132,7 +153,7 @@ button, input[type="button"], input[type="submit"] {
    border: 0;
    color: black;
    font-weight: normal;
-   font-family: apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
    text-decoration: none;
    text-rendering: optimizeLegibility !important;
   }
@@ -180,7 +201,7 @@ button, input[type="button"], input[type="submit"] {
    background-color: #f9f9f9;
    box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
    margin-bottom: -25px;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: sans-serif;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    -webkit-transform: translateZ(0);
    transform: translateZ(0);
@@ -194,7 +215,7 @@ button, input[type="button"], input[type="submit"] {
    padding: 0 25px 10px 24px;
   }
   body * {
-   font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+  font-family: sans-serif;
    font-weight: normal;
    -webkit-font-smoothing: antialiased;
    letter-spacing: 0;
@@ -231,7 +252,7 @@ button, input[type="button"], input[type="submit"] {
    display: flex;
     color: black;
    padding-left: 0.1px;
-   font-family: apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: sans-serif;
    font-weight: normal;
    text-rendering: optimizeLegibility !important;
    font-size: 1em;
@@ -251,7 +272,7 @@ button, input[type="button"], input[type="submit"] {
   
   div.flex-1.font-brand.font-medium.inbox2__sidebar-section-heading.uppercase {
    font-size: 12px;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: sans-serif;
   }
   
   div.flex.flex-1.gap-1.truncate {
@@ -307,7 +328,7 @@ button, input[type="button"], input[type="submit"] {
    background-position: center;
    background-size: cover;
    position: relative;
-   font-family: Graphik,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: sans-serif;
    font-weight: 500;
    text-rendering: optimizeLegibility;
   }
