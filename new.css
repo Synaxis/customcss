@@ -13,9 +13,22 @@ body * {
     background-color: #f3f3f3;
 }
 
+button, input[type="button"], input[type="submit"] { 
+    color: black; 
+    box-shadow: rgb(0 0 0 / 35%) 1000px 4px !important;
+    font: sans-serif;
+    padding: 2px;
+    background-color: white; 
+    border-radius: 10px;
+    border-color: black;
+    margin: 2px;
+    width: 5vw;
+    height: 3vh;
+} 
+
 /* chat header title  */
 .inbox-2__conversation-header {
-    margin-bottom: 0.4vh;
+    margin-bottom: -0.2vh;
     width: 100%;
     font-size: 1em;
     text-transform: capitalize;
@@ -23,7 +36,6 @@ body * {
     text-decoration: none;
     max-width: 1200px;
     margin-left: auto;
-    text-rendering: optimizeLegibility;
     margin-right: auto;
 }
 
@@ -48,7 +60,6 @@ body * {
   --tw-text-opacity: '';
     text-decoration: none !important;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-   text-rendering: optimizeLegibility !important;
    --tw-text-opacity: none;
    /* Font varient */
    font-variant-ligatures: none;
@@ -81,7 +92,6 @@ body * {
   color: rgb(36, 41, 46);
   -webkit-font-smoothing: antialiased;
    text-decoration: none;
-   text-rendering: optimizeLegibility; 
    font-size: 1em;
   }
   
@@ -103,8 +113,7 @@ body * {
   -webkit-font-smoothing: antialiased;
   text-indent: none;
    text-decoration: none;
-   text-align: left;
-   text-rendering: optimizeLegibility; 
+   text-align: left; 
    font-size: 1em;
     direction: ltr;
     font-synthesis: none
@@ -121,7 +130,6 @@ body * {
    font-weight: 400;
    font-family: apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
    text-decoration: none;
-   text-rendering: optimizeLegibility !important;
   }
   
   /* CHAT */ 
@@ -135,7 +143,6 @@ body * {
   font-size: 1em !important ;
   font-weight: normal !important ;
   text-decoration: none !important ;
-  text-rendering: optimizeLegibility !important;
    background-color: #f9f9f9;
    box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
    padding: 2px
@@ -163,7 +170,7 @@ body * {
   font-size: 1.05em !important ;
   font-weight: 400 !important ;
   text-decoration: none !important ;
-  text-rendering: optimizeLegibility !important;
+
    background-color: #f9f9f9;
    box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
    margin-bottom: -25px;
@@ -220,7 +227,6 @@ body * {
    padding-left: 0.1px;
    font-family: apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
    font-weight: 400;
-   text-rendering: optimizeLegibility !important;
    font-size: 1em;
    text-decoration: none;
   }
@@ -270,7 +276,6 @@ body * {
   div.rounded-r-3xl.rounded-l-3xl.relative.inbox2__renderable-part.py-3.px-4.bg-gray-lightest.dark:bg-dm-gray-darker.text-black.dark:text-dm-white {
    text-decoration: none;
    font-weight: 400;
-   text-rendering: optimizeLegibility;
    border-left: solid 2px transparent;
   display: none;
   }
@@ -296,7 +301,6 @@ body * {
    position: relative;
    font-family: Graphik,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
    font-weight: 500;
-   text-rendering: optimizeLegibility;
   }
   
   .inbox2__conversation-list-sidebar {
@@ -329,7 +333,6 @@ body * {
   .px-6 {
    padding-left: 14px;
    padding-right: 14px;
-   text-rendering: optimizeLegibility;
   }
   
   .inbox2__conversation-stream {
@@ -337,7 +340,6 @@ body * {
 background-color: white !important;
     width: 75% !important;
     overflow: hidden !important;
-    text-rendering: optimizeLegibility !important;
     font-size: 1em !important;
     font-weight: 400 !important;
     text-decoration: none !important;
