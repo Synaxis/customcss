@@ -8,23 +8,21 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility; 
-    margin: 0;  
-    padding: 0;
-    border: 0;
-    font-family: sans-serif;
-    font-weight: normal;
-    text-decoration: none;
-    color: black;   
+       color: #24292E;
+    font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: inherit;
+    line-height: 21px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0;
 }
 /* 1st TAB */    
 .inbox2__inbox-list-sidebar.o__open {
-    transform: translateX(-25px);
-    color: black;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-      font-weight: normal;
-
+    transform: translateX(-40px);
+    font-size: 15px;
     background-color:#f7f7f7;
-    padding: 30px;
+    padding: 40px;
+    border-radius: 15px;
 }
     
   
