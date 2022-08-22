@@ -7,14 +7,24 @@ div.flex.flex-row.items-center.h-8:nth-child(5){
 
 /* make img smaller lol */
 .inbox2__renderable-part img {
-    max-width: 30%;
+    max-width: 400px;
     height: auto;
     border-radius: 8px;
     border: 1px solid transparent;
     transition: box-shadow .1s ease;
-    margin: 2px 0;
-    box-shadow: 0 0 4px transparent;
+    margin: 1px 0;
 }
+
+.inbox2__renderable-part img:hover {
+    max-width: 140%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: box-shadow .1s ease;
+    
+}
+
+
 
 div.flex.flex-row.items-center.h-8 > p:nth-child(3){
   background-color: oldlace;
@@ -446,10 +456,10 @@ font-weight: normal;
 background-color: white !important;
     width: 75% !important;
     overflow: hidden !important;
-    font-size: 1.1em !important;
+    font-size: 1.3em !important;
     text-decoration: none !important;
     zoom: 85%;
-    box-shadow: ;
+    font-weight: normal;
     transition: none;
   }
   
