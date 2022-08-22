@@ -265,16 +265,17 @@ font-weight: normal;
    min-height: 62px;
    padding: 0 25px 10px 24px;
   }
-  body * {
-   font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
-   -webkit-font-smoothing: antialiased;
-   letter-spacing: 0;
-  }
   
   div.flex.justify-between.px-4.pb-4.items-center.text-gray-ib2.dark:text-dm-gray.text-sm.inbox2__icon-no-margin {
    border-radius: 0;
   }
   
+  h1 {
+    font-size: 1.15em;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
   .inbox2__inbox-list-sidebar {
    width: 150px;
   }
