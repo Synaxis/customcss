@@ -103,6 +103,14 @@ div div p {
   }
 
 
+ /* details on last tab*/
+.px-1 {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
+font-weight: normal;
+}
+
      /* this is the chat "box" properties*/
   .inbox-2__conversation-page__body {
 
@@ -163,7 +171,7 @@ div div p {
   }
   
   .truncate {
-   font-size: 1em;
+   font-size: 1.2em;
   }
   
   div.flex.flex-row.items-center.justify-between.mt-3.h-8 {
@@ -326,7 +334,7 @@ background-color: white !important;
 
 .ml-2 {
     margin-left: 5px;
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 
 .inbox2__composer .embercom-prosemirror-composer-placeholder {
