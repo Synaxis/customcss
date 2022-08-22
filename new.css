@@ -1,9 +1,7 @@
 body * {
-    color: #24292E;
-    font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 21px;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-family: sans-serif;
+    line-height: 20px;
     letter-spacing: 0;
 }
 
@@ -32,9 +30,7 @@ button, input[type="button"], input[type="submit"] {
     width: 100%;
     font-size: 1em;
     text-transform: capitalize;
-    font-weight: normal;
     text-decoration: none;
-    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -73,23 +69,14 @@ button, input[type="button"], input[type="submit"] {
   
   
   /* CHAT */
-  .inbox2 {
-       -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important;
-      --conversation-stream-width: 71%;
-      --conversation-details-sidebar-transform: none;
+  .inbox2 {   --conversation-details-sidebar-transform: none;
       --inbox2-sending-animation-bg: #ffffff;
       --inbox2-sending-animation-bg-dark: #ffffff5b;
       font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
    letter-spacing: normal;
    line-height: 19px;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-  
-
-  font-weight: 400;
-  color: rgb(36, 41, 46);
+    color: rgb(36, 41, 46);
   -webkit-font-smoothing: antialiased;
    text-decoration: none;
    font-size: 1em;
@@ -108,7 +95,6 @@ button, input[type="button"], input[type="submit"] {
   z-index: 1;
   margin: 0.2%;
   width: 40vw;
-  font-weight: 450;
   color: black;
   -webkit-font-smoothing: antialiased;
   text-indent: none;
@@ -127,7 +113,6 @@ button, input[type="button"], input[type="submit"] {
    padding: 2px;
    border: 0;
    color: rgb(36, 41, 46);
-   font-weight: 400;
    font-family: apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
    text-decoration: none;
   }
@@ -141,7 +126,6 @@ button, input[type="button"], input[type="submit"] {
   .bg-gray-lightest {
   color: black !important;
   font-size: 1em !important ;
-  font-weight: normal !important ;
   text-decoration: none !important ;
    background-color: #f9f9f9;
    box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
@@ -153,7 +137,7 @@ button, input[type="button"], input[type="submit"] {
   .inbox-2__conversation-page__body {
 
   width: 52vw !important;
-    max-width: 101% !important;
+    max-width: 100% !important;
     margin-left: unset !important;
     margin-right: unset !important;
     overflow: hidden !important;
@@ -168,7 +152,6 @@ button, input[type="button"], input[type="submit"] {
    z-index: 1;
    color: rgb(36, 41, 46) !important;
   font-size: 1.05em !important ;
-  font-weight: 400 !important ;
   text-decoration: none !important ;
 
    background-color: #f9f9f9;
@@ -189,7 +172,6 @@ button, input[type="button"], input[type="submit"] {
   }
   body * {
    font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
-   font-weight: 400;
    -webkit-font-smoothing: antialiased;
    letter-spacing: 0;
   }
@@ -226,7 +208,6 @@ button, input[type="button"], input[type="submit"] {
     color: rgb(36, 41, 46);
    padding-left: 0.1px;
    font-family: apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-   font-weight: 400;
    font-size: 1em;
    text-decoration: none;
   }
@@ -235,11 +216,9 @@ button, input[type="button"], input[type="submit"] {
   
   .text-lg {
    font-size: 16px;
-   font-weight: 400;
   }
   
   h2.font-brand.font-medium.flex.flex-col.flex-1.text-lg.u__one-truncated-line {
-   font-weight: 500;
   }
   
   div.flex-1.font-brand.font-medium.inbox2__sidebar-section-heading.uppercase {
@@ -275,7 +254,6 @@ button, input[type="button"], input[type="submit"] {
   
   div.rounded-r-3xl.rounded-l-3xl.relative.inbox2__renderable-part.py-3.px-4.bg-gray-lightest.dark:bg-dm-gray-darker.text-black.dark:text-dm-white {
    text-decoration: none;
-   font-weight: 400;
    border-left: solid 2px transparent;
   display: none;
   }
@@ -300,15 +278,12 @@ button, input[type="button"], input[type="submit"] {
    background-size: cover;
    position: relative;
    font-family: Graphik,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-   font-weight: 500;
   }
   
   .inbox2__conversation-list-sidebar {
    width: 18%;
    max-width: 700px;
-   text-decoration: none;
-   font-weight: 400;
-  
+   text-decoration: none;  
   }
   
   
@@ -341,9 +316,8 @@ background-color: white !important;
     width: 75% !important;
     overflow: hidden !important;
     font-size: 1em !important;
-    font-weight: 400 !important;
     text-decoration: none !important;
-    transition: width 250ms ease-in-out !important;
+    transition: none;
   }
   
   .bg-white {
@@ -354,7 +328,6 @@ background-color: white !important;
   
   .text-sm {
       font-size: 15px;
-      font-weight: 400;
       text-decoration: none;
   }
   /* indicator of menus and preview chat text*/
@@ -381,14 +354,12 @@ background-color: white !important;
 
 .text-sm {
     font-size: 10px !important;
-    font-weight: 400 !important;
     text-decoration: none !important;
 }
 
 .ml-2 {
     margin-left: 5px;
     font-size: 0.9em;
-    font-weight: normal;
 }
 
 .inbox2__composer .embercom-prosemirror-composer-placeholder {
@@ -400,9 +371,7 @@ background-color: white !important;
   /* the box of the chat composer*/
 .inbox2__composer__container {
     box-shadow: 0 4px 8px 0rgba(62,67,108,.1);
-    font-size: 1.15em;
-    font-weight: normal;
-    
+    font-size: 1.15em;    
     word-break: break-word;
     border-radius: 1.5vw;
     border-style: ridge;
@@ -416,7 +385,7 @@ background-color: white !important;
 div.flex.flex-col.pt-4.relative {
   font-size: 2em;
 }
-
+/* 
 div.flex.flex-col.flex-3 {
    zoom:196%
-}
+} */
