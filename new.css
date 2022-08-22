@@ -9,6 +9,32 @@
     display: none;
 }
 
+/* padding of some stuff */
+.p-4, .p-3 {
+    padding: 8px;
+}
+
+/* remove alert when afk; */
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div.flex.flex-row.flex-grow.h-0 > div.flex.flex-col.flex-grow > div.text-center.font-medium.p-3.bg-yellow-light.text-yellow-dark.flow-root {
+  display: none;
+}
+/* remove alert when afk; */
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div.text-center.font-medium.p-3.bg-yellow-light.text-yellow-dark.rounded-tl-2xl.flow-root {
+  display: none;
+}
+
+.inbox-2__conversation-page__body {
+    width: 52.2vw !important;
+    max-width: 100% !important;
+    margin-left: unset !important;
+    margin-right: unset !important;
+    font-size: 1em;
+    line-height: 0px;
+    /* letter-spacing: 0px; */
+    overflow: hidden !important;
+    box-shadow: rgb(0 0 0 / 25%) 0px 4px 20px !important;
+}
+
 .display-text {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
