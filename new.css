@@ -40,15 +40,18 @@
 }
 
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div * {
-  background-color: purple;
-   margin-bottom: 20px;
-  border-bottom: 20px;
+  background-color: white;
+   margin: -2px;
+  border-radius: 20px;
   padding: 10px;
+  font-size: 0.9em;
+  zoom: 99%;
   border: 10px;
 }
 
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li {
-  background-color: orange;
+  background-color: #f1f1f1;
+  margin: px
   
 }
 
@@ -457,6 +460,14 @@ background-color: white !important;
 .conversation__text pre,
 .conversation__text ul {
     margin: 0 0 1.3em
+}
+
+.ml-1 {
+    margin-left: -10px;
+}
+
+.inbox2__logo {
+  display: none;
 }
 
 .conversation__text .intercom-interblocks-ordered-list:last-child,
