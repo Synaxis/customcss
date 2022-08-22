@@ -6,6 +6,61 @@
   font-weight: normal;
 }
 
+
+.list-none {
+    list-style-type: none;
+    margin-bottom: 2px;
+}
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li > a * {
+  color: black;
+  margin-bottom: 0px;
+  border: 0px;
+  padding: 0;
+}
+
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div * {
+  background-color: purple;
+   margin-bottom: 20px;
+  border-bottom: 20px;
+  padding: 10px;
+  border: 10px;
+}
+
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li {
+  background-color: orange;
+  
+}
+
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li > * {
+  background-color: blue;
+  margin-bottom: 20px;
+  border-bottom: 20px;
+}
+
+.conversations_inbox {
+    /* margin: 2px;
+    padding: 2px;
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    outline: 2px */
+}
+
+
+.line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+
+.line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2
+}
+
   div.flex.flex-col.flex-1.h-full.relative{    
     box-shadow: rgb(0 0 0 / 35%) 1000px 4px !important;
     background-color: #f3f3f3;
@@ -366,6 +421,4 @@ div.flex.flex-col.pt-4.relative {
 /* 
 div.flex.flex-col.flex-3 {
    zoom:196%
-} */button.transition-colors.duration-100.cursor-pointer.font-medium.flex.flex-row.items-center.gap-1.text-sm.rounded-xl.focus:outline-none.whitespace-nowrap.inbox2__button.py-2.px-3.bg-black.text-white.dark:bg-dm-gray-light.dark:text-dm-black.hover:bg-gray-dark.dark:hover:bg-dm-white.active:bg-gray-dark.active:border-blue-light-ib2.dark:active:bg-dm-white.dark:active:border-dm-blue.focus:bg-gray-dark.focus:border-blue-light-ib2.dark:active:bg-dm-white.dark:focus:border-dm-blue.dark:focus:border-opacity-90 {
-  
-}
+} */
