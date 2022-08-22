@@ -51,14 +51,23 @@
 
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li {
   background-color: #f1f1f1;
-  margin: px
+  
   
 }
 
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li > * {
-  background-color: blue;
-  margin-bottom: 20px;
+  background-color: silver;
+  margin-bottom: 10px;
+  border: 2px;
+  font-size: 1.1em;
+  letter-spacing: 0;
+  font-family: Arial, Helvetica, sans-serif;
   border-bottom: 20px;
+}
+
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li > *:hover {
+  zoom: 110%;
+  font-weight: 600;
 }
 
 .conversations_inbox {
@@ -76,7 +85,7 @@
 .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
 }
 
 .line-clamp-2 {
