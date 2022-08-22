@@ -1,9 +1,14 @@
-html {
-    line-height: 19px !important;
-     text-rendering: optimizeLegibility;
-  }
+body * {
+    color: #24292E;
+    font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 21px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0;
+}
 
-  div.flex.flex-col.flex-1.h-full.relative {
+  div.flex.flex-col.flex-1.h-full.relative{
+    
     box-shadow: rgb(0 0 0 / 35%) 1000px 4px !important;
     background-color: #f3f3f3;
 }
