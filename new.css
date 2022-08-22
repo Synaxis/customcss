@@ -5,6 +5,27 @@
   letter-spacing: 0px;
   font-weight: normal;
 }
+.antialiased {
+    display: none;
+}
+
+.display-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    font-weight: normal;
+
+}
+
+.embercom-composer-editor {
+    -webkit-font-smoothing: none;
+}
+
+.inbox__conversation-composer__wrapper .embercom-prosemirror-composer-placeholder {
+    color: black;
+    -webkit-font-smoothing: unset;
+    -moz-osx-font-smoothing: unset
+}
 
 
 .list-none {
@@ -415,6 +436,41 @@ background-color: white !important;
   display:none;
 }
 
+
+.conversation__text {
+    word-wrap: break-word;
+    -ms-word-break: keep-all;
+    word-break: break-word;
+    -webkit-hyphens: none;
+    hyphens: none;
+    font-size: 1em;
+    line-height: 21px
+}
+
+.conversation__text .intercom-interblocks,
+.conversation__text .intercom-interblocks-ordered-list,
+.conversation__text .intercom-interblocks-paragraph,
+.conversation__text .intercom-interblocks-unordered-list,
+.conversation__text blockquote,
+.conversation__text ol,
+.conversation__text p,
+.conversation__text pre,
+.conversation__text ul {
+    margin: 0 0 1.3em
+}
+
+.conversation__text .intercom-interblocks-ordered-list:last-child,
+.conversation__text .intercom-interblocks-paragraph:last-child,
+.conversation__text .intercom-interblocks-unordered-list:last-child,
+.conversation__text .intercom-interblocks:last-child,
+.conversation__text blockquote:last-child,
+.conversation__text ol:last-child,
+.conversation__text p:last-child,
+.conversation__text pre:last-child,
+.conversation__text ul:last-child {
+    margin-bottom: 1px
+}
+
 div.flex.flex-col.pt-4.relative {
   font-size: 2em;
 }
@@ -422,3 +478,7 @@ div.flex.flex-col.pt-4.relative {
 div.flex.flex-col.flex-3 {
    zoom:196%
 } */
+ul.m-0.py-0.px-3 {
+  margin: -10px;
+  padding:  0px
+}
