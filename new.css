@@ -17,7 +17,7 @@ body * {
 .inbox-2__conversation-header {
     margin-bottom: 0.4vh;
     width: 100%;
-    font-size: 1.15em;
+    font-size: 1em;
     text-transform: capitalize;
     font-weight: normal;
     text-decoration: none;
@@ -82,7 +82,7 @@ body * {
   -webkit-font-smoothing: antialiased;
    text-decoration: none;
    text-rendering: optimizeLegibility; 
-   font-size: 1.15em;
+   font-size: 1em;
   }
   
    /* CHAT */ 
@@ -105,7 +105,7 @@ body * {
    text-decoration: none;
    text-align: left;
    text-rendering: optimizeLegibility; 
-   font-size: 1.15em;
+   font-size: 1em;
     direction: ltr;
     font-synthesis: none
   }
@@ -160,7 +160,7 @@ body * {
    display: flex;   
    z-index: 1;
    color: rgb(36, 41, 46) !important;
-  font-size: 1.15em !important ;
+  font-size: 1.05em !important ;
   font-weight: 400 !important ;
   text-decoration: none !important ;
   text-rendering: optimizeLegibility !important;
