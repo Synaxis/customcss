@@ -634,12 +634,10 @@ font-weight: normal;
 div.flex.flex-col.pt-4.relative {
   font-size: 2em;
 }
-/* 
-div.flex.flex-col.flex-3 {
-   zoom:196%
-} */
+
 ul.m-0.py-0.px-3 {
   margin: -10px;
-  padding:  0px
+  padding:  0px;
+  width: 18vw;
+  box-shadow: 0;
 }
-
