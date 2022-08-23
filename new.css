@@ -105,6 +105,8 @@ background-color: #f4f4f4;
     list-style-type: none;
     margin-bottom: 2px;
 }
+
+/* 2nd tab preview increase text and content to make it easier; */
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li > a * {
   color: black;
   zoom: 97%;
@@ -119,6 +121,8 @@ background-color: #f4f4f4;
   padding: 0;
 }
 
+/* 2nd tab preview increase text and content to make it easier; */
+
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div * {
   background-color: white;
    margin: -2px;
@@ -127,12 +131,14 @@ background-color: #f4f4f4;
   font-size: 0.9em;
 }
 
+
+/* 2nd tab preview increase text and content to make it easier; */
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li {
   background-color: #f1f1f1;
   
   
 }
-
+/* 2nd tab preview increase text and content to make it easier; */
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li > * {
   background-color: silver;
   margin-bottom: 10px;
@@ -146,7 +152,7 @@ background-color: #f4f4f4;
   letter-spacing: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* 2nd tab preview increase text and content to make it easier; */
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li > *:hover {
   zoom: 110%;
   font-weight: 600;
@@ -163,28 +169,29 @@ background-color: #f4f4f4;
     outline: 2px */
 }
 
-
+/* line clamp mostly affect 2nd tab preview(increased from 1) */
 .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 4;
 }
-
+/* line clamp mostly affect 2nd tab preview(increased from 1) */
 .line-clamp-2 {
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
 }
 
-  div.flex.flex-col.flex-1.h-full.relative{    
-    box-shadow: rgb(0 0 0 / 35%) 1000px 4px !important;
-    background-color: #f3f3f3;
+/* color of 2nd tab */
+div.flex.flex-col.flex-1.h-full.relative{    
+    box-shadow: rgb(0 0 0 / 25%) 1000px 3px !important;
+    background-color: #f9f9f9;
 }
 
 button, input[type="button"], input[type="submit"] { 
   display: inline-block;
     margin-bottom: 0;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     color: white;
     white-space: nowrap;
@@ -192,6 +199,7 @@ button, input[type="button"], input[type="submit"] {
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
     background-image: none;
     border: 1px solid transparent;
     padding: 6px 12px;
@@ -201,7 +209,6 @@ button, input[type="button"], input[type="submit"] {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
 } 
 
 /* chat header title  */
