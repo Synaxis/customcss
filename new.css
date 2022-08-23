@@ -5,6 +5,22 @@ div.flex.flex-row.items-center.h-8:nth-child(5){
   margin-left: -30px
 }
 
+.inbox2__reply-composer::before {
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: calc(100% - 8px);
+    z-index: -1;
+    background-color: white;
+    background: white;
+    font-size: 1em;
+}
+.inbox__conversation-sidebar__shopify__hoverable:hover {
+    background-color: #f9f9f9;
+}
+
 /* make img smaller lol */
 .inbox2__renderable-part img {
     max-width: 400px;
@@ -134,8 +150,7 @@ background-color: #f4f4f4;
 
 /* 2nd tab preview increase text and content to make it easier; */
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li {
-  background-color: #f1f1f1;
-  
+  background-color: #f1f1f1;  
   
 }
 /* 2nd tab preview increase text and content to make it easier; */
@@ -409,7 +424,14 @@ font-weight: normal;
   
   div.flex.flex-col.overflow-y-auto.pr-3.pb-12 {
    font-size: 1em;
+   
   }
+
+    div.flex.flex-col.overflow-y-auto.pr-3.pb-12:hover {
+   background-color: white;
+   
+  }
+  
   
  
   
@@ -529,7 +551,12 @@ font-weight: normal;
     box-shadow: 0 4px 8px 0rgba(62,67,108,.1);
     font-size: 1.15em;    
     word-break: break-word;
-    border-radius: 1.5vw;
+    border-radius: 1vw;
+    font-weight: normal;
+    line-height: 21px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     border-style: ridge;
     width: 45vw;
     height: auto;
@@ -592,3 +619,4 @@ ul.m-0.py-0.px-3 {
   margin: -10px;
   padding:  0px
 }
+
