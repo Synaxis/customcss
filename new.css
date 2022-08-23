@@ -45,7 +45,6 @@ div.flex.flex-row.items-center.h-8:nth-child(5){
 div.flex.flex-row.items-center.h-8 > p:nth-child(3){
   background-color: oldlace;
   margin-right: 24px;
-  width: 500%;
   
 }
 
@@ -87,7 +86,6 @@ background-color: #f4f4f4;
 }
 
 .inbox-2__conversation-page__body {
-    width: 89vw !important;
     max-width: 100% !important;
     margin-left: unset !important;
     margin-right: unset !important;
@@ -243,7 +241,7 @@ button, input[type="button"], input[type="submit"] {
     right: 0;
     bottom: 0;
     text-shadow: 0;
-    width: 31,5%;
+    width: 25,5%;
     max-width: 440px;
     transform: var(--conversation-details-sidebar-transform);
     transition: transform 250ms ease-in-out;
@@ -317,8 +315,6 @@ font-weight: normal;
 
      /* this is the chat "box" properties*/
   .inbox-2__conversation-page__body {
-
-  width: 80vw !important;
     max-width: 100% !important;
     margin-left: unset !important;
     margin-right: unset !important;
@@ -638,6 +634,5 @@ div.flex.flex-col.pt-4.relative {
 ul.m-0.py-0.px-3 {
   margin: -10px;
   padding:  0px;
-  width: 18vw;
   box-shadow: 0;
 }
