@@ -9,7 +9,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5){
 .inbox2__renderable-part img {
     max-width: 400px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 4px;
     border: 1px solid transparent;
     transition: box-shadow .1s ease;
     margin: 1px 0;
@@ -18,7 +18,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5){
 .inbox2__renderable-part img:hover {
     max-width: 140%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 4px;
     border: 1px solid transparent;
     transition: box-shadow .1s ease;
     
@@ -115,11 +115,9 @@ background-color: #f4f4f4;
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div * {
   background-color: white;
    margin: -2px;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 10px;
   font-size: 0.9em;
-  zoom: 99%;
-  border: 10px;
 }
 
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li {
@@ -132,6 +130,7 @@ background-color: #f4f4f4;
   background-color: silver;
   margin-bottom: 10px;
   border: 2px;
+  border-radius: 20px;
   font-size: 1.1em;
   letter-spacing: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -157,13 +156,13 @@ background-color: #f4f4f4;
 .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
 }
 
 .line-clamp-2 {
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 2
+    -webkit-line-clamp: 3;
 }
 
   div.flex.flex-col.flex-1.h-full.relative{    
@@ -219,7 +218,6 @@ button, input[type="button"], input[type="submit"] {
 
 /* CHAT */ 
 div div p {
-    background-color: white;   
        -webkit-transition: none !important;
   -moz-transition: none !important;
   -o-transition: none !important;
@@ -240,7 +238,6 @@ div div p {
 }
   
   .bg-blue-light-ib2 {
-   background-color: white;
    box-shadow: -1px 0 8px -2px rgb(34 39 64 / 15%);
    margin: 0;
   font-size: 1em !important;
@@ -292,6 +289,7 @@ font-weight: normal;
    width: 100%;  
    display: flex;   
    z-index: 1;
+   
    color: rgb(36, 41, 46) !important;
   font-size: 1.05em !important ;
   text-decoration: none !important ;
@@ -310,7 +308,7 @@ font-weight: normal;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
    min-height: 62px;
-   padding: 0 25px 10px 24px;
+   padding: 5px 20px 10px 20px;
   }
   
   div.flex.justify-between.px-4.pb-4.items-center.text-gray-ib2.dark:text-dm-gray.text-sm.inbox2__icon-no-margin {
