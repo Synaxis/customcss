@@ -359,13 +359,31 @@ font-weight: normal;
     font-weight: 500;
   }
 
-  .inbox2__inbox-list-sidebar {
-   width: 150px;
-  }
+  
+/* this is the 1st tab as well*/
+.inbox2__inbox-list-sidebar {
+   width: 16vw;
+  font-size: 0.9em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-shadow: 0;
+  letter-spacing: 0;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
   
   .inbox2__left-nav.o__expanded {
-   width: 150px;
-  }
+    width: 16vw;
+  font-size: 0.9em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-shadow: 0;
+  letter-spacing: 0;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
   
   .pr-3 {
    font-size: 1.4em;
