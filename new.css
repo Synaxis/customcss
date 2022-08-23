@@ -285,10 +285,14 @@ color: black;
    background-color: white;
    text-decoration: none;
   }
+
+  .transition-colors {
+    transition-property:none;
+}
   
   /* CHAT */ 
   .text-black {
-    color: rgb(36, 41, 46);
+    color: black;
   }
   
   /* CHAT */ 
