@@ -107,6 +107,13 @@ background-color: #f4f4f4;
 }
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li > a * {
   color: black;
+  zoom: 97%;
+  font-size: 0.95em;
+  font-weight: normal;
+  text-shadow: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 14px;
+  letter-spacing: 0;
   margin-bottom: 0px;
   border: 0px;
   padding: 0;
@@ -129,7 +136,11 @@ background-color: #f4f4f4;
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.overflow-y-auto.pb-17 > ul > div > div > li > * {
   background-color: silver;
   margin-bottom: 10px;
+  margin-top: 14px;
+  margin-left: 4px;
+  margin-right: 4px;
   border: 2px;
+  padding: 3px;
   border-radius: 20px;
   font-size: 1.1em;
   letter-spacing: 0;
