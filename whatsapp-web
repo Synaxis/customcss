@@ -1,18 +1,30 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
-  text-decoration: none;
-  line-height: 16px;
-  letter-spacing: 0;
-  user-select: text;
-}
-
-
 ::-webkit-scrollbar {
     width: 10px!important;
     height: 6px!important;
 }
 
-header._1G3Wr {
-  display: none;
+
+#app > div > div > div > header {
+display: none;
+
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: normal;
+    text-shadow: none;
+     font-size: 1em;
+    letter-spacing: 0;
+    line-height: ;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  user-select: text;
+    line-height: 21px;
+    text-rendering: optimizeLegibility;
+}
+
+
+#main > div > div > div  > div > div > div > span * {
+ color: white;
 }
