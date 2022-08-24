@@ -33,8 +33,9 @@
 
 div.flex.flex-row.items-center.h-8:nth-child(5){
   background-color: oldlace;
-  font-size: 0.8em;
-  margin-left: -30px
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-left: -250px
 }
 
 
