@@ -1,9 +1,43 @@
+ h1  {
+    font-size: 1.7em;
+    line-height: calc(1ex / 0.42);
+    
+    margin: calc(1ex / 0.42) 0;
+}
+
+ h2 {
+    font-size: 1.6em;
+    line-height: calc(1ex / 0.42);
+    margin: calc(1ex / 0.42) 0;
+}
+
+ h3 {
+    font-size: 1.5em;
+    line-height: calc(1ex / 0.38);
+    margin: calc(1ex / 0.38) 0;
+}
+
+ h4 {
+    font-size: 1.4em;
+    line-height: calc(1ex / 0.37);
+    margin: calc(1ex / 0.37) 0;
+}
+
+ p {
+    font-size: 0.9em;
+    line-height: calc(1ex / 0.32);
+    margin: calc(1ex / 0.32) 0;
+}
+
+
 
 div.flex.flex-row.items-center.h-8:nth-child(5){
   background-color: oldlace;
   font-size: 0.8em;
   margin-left: -30px
 }
+
+
 
 .text-white {
   color: black;
@@ -264,7 +298,7 @@ button, input[type="button"], input[type="submit"] {
 
 /* chat header title  */
 .inbox-2__conversation-header {
-    margin-bottom: -0.2vh;
+    margin-bottom: -1.2vh;
     width: 100%;
     font-size: 1em;
     text-transform: capitalize;
@@ -294,7 +328,6 @@ div div p {
   transition: none !important;
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   letter-spacing: 0px;
-  line-height: 18px;  
   z-index: 1;
   margin: 0.2%;
   margin-left: 0px;
@@ -332,14 +365,17 @@ color: black;
     color: black;
   }
   
-  /* CHAT */ 
+  /* CHAT(customer) */ 
   .bg-gray-lightest {
   color: black !important;
   font-size: 1em !important ;
   text-decoration: none !important ;
    background-color: white;
    box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
-   padding: 1.2px
+   margin-left: -5px;
+   padding: 2px;
+   border-radius: 0px;
+   
   }
 
 
@@ -365,28 +401,24 @@ font-weight: normal;
    -webkit-box-flex: 0;
    width: 100%;  
    display: flex;   
-   z-index: 1;
-   
-   color: rgb(36, 41, 46) !important;
-  font-size: 1.05em !important ;
-  text-decoration: none !important ;
-
-   background-color: #f9f9f9;
+   z-index: 1;   
+   color: black;
+  font-size: 1em !important ;
+  text-decoration: none !important;
+   background-color: #f1f1f1;
    box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
-   margin-bottom: -25px;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   -webkit-transform: translateZ(0);
-   transform: translateZ(0);
-   -webkit-box-ordinal-group: 4;
-   -ms-flex-order: 3;
-   order: 3;
+   margin-bottom: -25px;   
+   font-family: Arial, Helvetica, sans-serif;
    position: relative;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
-   min-height: 62px;
-   padding: 5px 20px 10px 20px;
-  }
+   min-height: 50px;
+  /*padding: 0 25px 10px 24px;*/	
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 12px;
+}
   
   div.flex.justify-between.px-4.pb-4.items-center.text-gray-ib2.dark:text-dm-gray.text-sm.inbox2__icon-no-margin {
    border-radius: 0;
@@ -532,7 +564,7 @@ font-weight: normal;
   }
   
   ::-webkit-scrollbar {
-   width: 0.39rem;
+   width: 0.5rem;
    background: silver;
   }
   
