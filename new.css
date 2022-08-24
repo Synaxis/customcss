@@ -10,6 +10,9 @@ div.flex.flex-row.items-center.h-8:nth-child(5){
   background-color: white;
   font-weight: normal;
 }
+.text-white {
+    color: black !important;
+}
 
 strong {
   font-weight:bold;
@@ -571,11 +574,6 @@ font-weight: normal;
   div.flex-1 {
    font-size: 1em;
   }
-
-  .text-white {
-    color: white;
-}
-
 
 
 .pt-2 {
