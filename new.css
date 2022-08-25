@@ -5,6 +5,18 @@
     margin: calc(1ex / 0.42) 0;
 }
 
+.intercom-lightweight-app-launcher-icon-open {
+   display: none;
+}
+
+.intercom-lightweight-app-launcher {
+  display: none;
+}
+
+.intercom-lightweight-app {
+  display: none;
+}
+
  h2 {
     font-size: 1.6em;
     line-height: calc(1ex / 0.42);
