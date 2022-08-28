@@ -20,6 +20,19 @@
 
 }
 
+main__content-outlet {
+    box-shadow: 0 0 0 1pxrgba(0,0,0,.05),0 4px 24px 2pxrgba(0,0,0,.1);
+    background: #fff;
+    transition: all .3s cubic-bezier(.165,.84,.44,1);
+    position: absolute;
+    left: 11px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3000;
+    border-radius: 8px 0 0 8px;
+}
+
 #ember610 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div.flex-auto.flex.flex-row.u__relative.h-full > div.flex-auto.flex.flex-col.main__content-well.min-w-0.min-h-0 > div > div > div > div > div.flex-auto.flex.flex-col.overflow-auto.main__content-outlet > div.u__padb__20.u__padl__30.u__padr__30.u__padt__20 {
   display: none;
 }
