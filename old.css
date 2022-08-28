@@ -1,0 +1,31 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-shadow: 0;
+  letter-spacing: 0;
+
+}
+
+.settings__saved-replies__replies {
+    position: relative;
+    min-width: 350px;
+    margin-left: -60px;
+    font-size: 3.5em;
+    zoom: 30%;
+    overflow: scroll;
+}
+
+.left-nav {
+  display: none;
+
+}
+
+#ember610 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div.flex-auto.flex.flex-row.u__relative.h-full > div.flex-auto.flex.flex-col.main__content-well.min-w-0.min-h-0 > div > div > div > div > div.flex-auto.flex.flex-col.overflow-auto.main__content-outlet > div.u__padb__20.u__padl__30.u__padr__30.u__padt__20 {
+  display: none;
+}
+
+
+
+#ember610 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div.flex-auto.flex.flex-row.u__relative.h-full > div.flex-auto.flex.flex-col.main__content-well.min-w-0.min-h-0 > div > div > div > div > div.flex-auto.flex.flex-col.overflow-auto.main__content-outlet > div.flex.flex-col.flex-1.u__padl__30.u__padr__30.settings__saved-replies__content > div.bg-gray-lightest.relative.p-8{
+  display: none;
+} 
