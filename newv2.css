@@ -5,6 +5,25 @@
     margin: calc(1ex / 0.42) 0;
 }
 
+body > div > div > div > div > div > div > div  {
+  zoom: 90%;
+  background-color: blue;
+}
+
+/* fundo detras do texto do chat geral */
+
+body > div > div > div > div > div > div > div > div > div  {
+  background-color: red;
+}
+
+/* fundo do texto do chat geral */
+body > div > div > div > div > div > div > div > div > div > div > div > div > div > div  {
+  background-color: #fafafa;
+  zoom: 96%;
+  font-family: sans-serif;
+  color: black;
+  box-shadow: none;
+}
 
 .intercom-lightweight-app-launcher-icon-open {
    display: none;
