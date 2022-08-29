@@ -293,6 +293,44 @@ div.flex.flex-col.flex-1.h-full.relative{
     border-radius: 6px;
 }
 
+button {
+    background-color: #f1f1f1;
+    background-image: none;
+    zoom: 100%;
+    padding: 0;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color
+}
+
+fieldset {
+    margin: 2px;
+    padding: 2px;
+}
+
+.btn {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    border-color: rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    padding: 6px 12px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    transition: box-shadow linear 40ms;
+    vertical-align: bottom;
+    white-space: nowrap
+}
+
 button,  input[type="button"], input[type="submit"] { 
   cursor: pointer;
     border-color: #464d5c;
