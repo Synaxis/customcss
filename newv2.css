@@ -413,7 +413,8 @@ div div p {
   -o-transition: none !important;
   transition: none !important;
   font-family: sans-serif;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.01rem;
+  line-height: 1rem;
   z-index: 1;
   margin: 0.2%;
   margin-left: 0px;
