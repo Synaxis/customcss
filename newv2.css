@@ -11,6 +11,7 @@ html, header, title, h1, h2, h3, h4, div, p, em, h5, h6, ul, li  * {
 
 body > div > div > div > div > div > div > div  {
   background-color: blue;
+  margin-bottom: -3px
 }
 
 /* fundo detras do texto do chat geral */
