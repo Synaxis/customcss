@@ -439,7 +439,7 @@ color: black;
   font-size: 0.9rem !important ;
   text-decoration: none !important ;
     background-color: #fafafa;
-   box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
+   box-shadow: -1px 0 5px -2px rgb(34 39 64 / 8%);
    margin-left: -5px;
    padding: 2px;
    border-radius: 0px;   
@@ -474,7 +474,7 @@ font-weight: normal;
   font-size: 1rem !important ;
   text-decoration: none !important;
    background-color: #f1f1f1;
-   box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
+   box-shadow: -1px 0 6px -2px rgb(34 39 64 / 8%);
    margin-bottom: -25px;   
    font-family: Arial, Helvetica, sans-serif;
    position: relative;
@@ -602,7 +602,7 @@ font-weight: normal;
 
   
   div.flex.flex-col.flex-1.h-full.relative {
-   box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 4px;
+   box-shadow: rgba(0, 0, 0, 0.35) 1px 3px 2px;
   }  
 
   
@@ -704,7 +704,7 @@ font-weight: normal;
 }
   /* the box of the chat composer*/
 .inbox2__composer__container {
-    box-shadow: 0 4px 8px 0rgba(62,67,108,.1);
+    box-shadow: 0 2px 4px 0rgba(62,67,108,.005);
     font-size: 1.15em;    
     word-break: break-word;
     border-radius: 1vw;
