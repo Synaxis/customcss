@@ -335,20 +335,20 @@ button,  input[type="button"], input[type="submit"] {
   cursor: pointer;
     border-color: #464d5c;
     align-items: center;
-    margin-left: 0vw;
-    margin-top: 0.8vh;
+    margin-left: -5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 1px 0px, rgba(25, 30, 32, 0.05) 0px 0px 0px 1px;
     justify-content: center;
     flex-direction: column;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     background-color: #2540df;
     color: black;
-    border: solid black 1px;    
+    border: solid silver 1px;    
     border-radius: 4px;
-    height: 20px;
+    height: 25px;
     text-align: center;
     text-decoration: none;
     width: 5vw;    
-    font-size: 0.7em;
+    font-size: 1em;
     display: flex;
 }
 
