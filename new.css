@@ -9,6 +9,14 @@
    display: none;
 }
 
+.banner.o__floating.o__error {
+    color: #fff;
+    width: 29vw;
+    height: 5vh;
+    background-color: #d0d0d0;
+}
+
+
 
 
 .intercom-lightweight-app-launcher {
