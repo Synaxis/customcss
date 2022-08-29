@@ -174,8 +174,7 @@ background-color: #f4f4f4;
     margin-left: unset !important;
     margin-right: unset !important;
     font-size: 1em;
-    line-height: 0px;
-    /* letter-spacing: 0px; */
+    line-height: 1.4vh;
     overflow: hidden !important;
     box-shadow: rgb(0 0 0 / 25%) 0px 4px 20px !important;
 }
