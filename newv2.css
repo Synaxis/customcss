@@ -5,6 +5,10 @@ h1  {
     margin: calc(1ex / 0.42) 0;
 }
 
+html, header, title, h1, h2, h3, h4, div, p, em, h5, h6, ul, li  * {
+  box-shadow: none;
+}
+
 body > div > div > div > div > div > div > div  {
   background-color: blue;
 }
@@ -12,7 +16,15 @@ body > div > div > div > div > div > div > div  {
 /* fundo detras do texto do chat geral */
 
 body > div > div > div > div > div > div > div > div > div  {
-  background-color: red;
+  background-color: #fafafa;
+  box-shadow: none;
+  padding: 0px;
+  font-family: sans-serif;
+  color: black;
+  line-height: 24px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  font-size: 13px;
 }
 
 /* fundo do texto do chat geral */
