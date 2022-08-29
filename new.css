@@ -15,6 +15,11 @@
   display: none;
 }
 
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.inbox2__conversation-page.flex.flex-row.flex-1.relative > div.flex.flex-col.inbox2__conversation-stream > div:nth-child(1) > div {
+  height: 2vh;
+  background-color: #f1f1f1;
+}
+
 .intercom-lightweight-app {
   display: none;
 }
