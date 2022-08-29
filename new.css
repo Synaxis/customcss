@@ -345,7 +345,7 @@ button,  input[type="button"], input[type="submit"] {
     justify-content: center;
     flex-direction: column;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    background-color: #2540df;
+    background-color: white;
     color: black;
     border: solid silver 1px;    
     border-radius: 4px;
