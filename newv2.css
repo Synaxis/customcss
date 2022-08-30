@@ -4,6 +4,10 @@ h1 {
     margin: calc(1ex / 0.42) 0;
 }
 
+.flex-col.gap-2 {
+  margin-top: 0px
+}
+
 /* fundo do texto do chat geral */
 body > div > div > div > div > div > div > div > div > div > div > div > div > div > div  {
   background-color: #fafafa !important;
@@ -165,6 +169,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
     margin-left: unset !important;
     margin-right: unset !important;
     font-size: 1em;
+    margin-top: 3px;
     line-height: 1.4vh;
     overflow: hidden !important;
     box-shadow: rgb(0 0 0 / 25%) 0px 4px 20px !important;
@@ -370,7 +375,7 @@ input[type="submit"] {
     justify-content: center;
     flex-direction: column;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    background-color: #2540df;
+    background-color: #fafafa;
     color: black;
     border: solid silver 1px;
     border-radius: 4px;
