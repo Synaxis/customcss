@@ -10,7 +10,6 @@ html, header, title, h1, h2, h3, h4, div, p, em, h5, h6, ul, li  * {
 }
 
 body > div > div > div > div > div > div > div  {
-  background-color: blue;
   margin-bottom: -3px
 }
 
@@ -415,31 +414,30 @@ button,  input[type="button"], input[type="submit"] {
 
 /* CHAT */ 
 div div p {
-       -webkit-transition: none !important;
-        display: block !important;
+ -webkit-transition: none !important;
+    display: block !important;
     margin-block-start: 1em !important;
     margin-block-end: 1em !important;
     margin-inline-start: 0px !important;
     margin-inline-end: 0px !important;
-    
-  -moz-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important;
-  font-family: sans-serif !important;
-  letter-spacing: 0.01rem !important;
-  line-height: 1rem !important;
-  z-index: 1 !important;
-  margin: 0.2% !important;
-  margin-left: 0px !important;
-  width: 40vw !important;
-  color: black !important;
-  text-shadow: 0 !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    font-family: sans-serif !important;
+    letter-spacing: 0.1px !important;
+    line-height: 1rem !important;
+    z-index: 1 !important;
+    margin: 2px !important;
+    margin-left: 0px !important;
+    width: 40vw !important;
+    color: black !important;
+    text-shadow: 0 !important;
     background-color: #fafafa !important;
-  text-indent: none !important;
-  text-decoration: none !important;
-  text-align: left; 
-  font-size: 1rem !important;
-  direction: ltr;    
+    text-indent: none !important;
+    text-decoration: none !important;
+    text-align: left !important;
+    font-size: 16px !important;
+    direction: ltr !important;
 }
   
   .bg-blue-light-ib2 {
@@ -721,8 +719,9 @@ font-weight: normal;
 
 
 .text-sm {
-    font-size: 10px !important;
+    font-size: 12px !important;
     text-decoration: none !important;
+    line-height: 12px;
 }
 
 .ml-2 {
