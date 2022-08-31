@@ -25,3 +25,21 @@ header {
   height: 9vh;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+
+.js-Carousel {
+  position: relative;
+  display: inline;
+  transition: margin-left 0.2s ease;
+
+}
+
+
+.js-Carousel > ul > li {
+  position: relative;
+  display: inline;
+  zoom: 30%;
+  margin-left: 2vw;
+  transition: margin-left 0.2s ease;
+
+}
