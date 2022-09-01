@@ -79,7 +79,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5) {
     margin-left: -250px;
 }
 .text-white {
-    color: black;
+    color: #1d1d1d;
     background-color: #fafafa;
     font-weight: normal;
 }
@@ -176,7 +176,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
 }
 .display-text {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: #1d1d1d;
     display: block;
     font-weight: normal;
 }
@@ -184,7 +184,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
     -webkit-font-smoothing: none;
 }
 .inbox__conversation-composer__wrapper .embercom-prosemirror-composer-placeholder {
-    color: black;
+    color: #1d1d1d;
     -webkit-font-smoothing: unset;
     -moz-osx-font-smoothing: unset;
 }
@@ -209,7 +209,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
     > li
     > a
     * {
-    color: black;
+    color: #1d1d1d;
     zoom: 97%;
     font-size: 0.95em;
     font-weight: normal;
@@ -327,7 +327,7 @@ div.flex.flex-col.flex-1.h-full.relative {
 .filter-block {
     /* background-color: #f1f1f1; */
     border: 1px solid #f1f1f1;
-    color: black;
+    color: #1d1d1d;
     border-radius: 6px;
 }
 button {
@@ -376,7 +376,7 @@ input[type="submit"] {
     flex-direction: column;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     background-color: #fafafa;
-    color: black;
+    color: #1d1d1d;
     border: solid silver 1px;
     border-radius: 4px;
     height: 25px;
@@ -456,7 +456,7 @@ div div p {
     transition-property: none;
 } /* CHAT */
 .text-black {
-    color: black;
+    color: #1d1d1d;
 } /* CHAT(customer) */
 .bg-gray-lightest {
     color: black !important;
@@ -493,7 +493,7 @@ div.inbox2__reply-composer.flex.flex-row.gap-2.px-6 {
     width: 100%;
     display: flex;
     z-index: 1;
-    color: black;
+    color: #1d1d1d;
     font-size: 1em !important ;
     text-decoration: none !important;
     background-color: #f1f1f1;
@@ -521,7 +521,7 @@ h1 {
     width: 14vw;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: #1d1d1d;
     text-shadow: 0;
     letter-spacing: 0;
     text-decoration: none;
@@ -532,7 +532,7 @@ h1 {
     width: 16vw;
     font-size: 0.9em;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: #1d1d1d;
     text-shadow: 0;
     letter-spacing: 0;
     text-decoration: none;
@@ -666,7 +666,7 @@ div.flex-1 {
     border-radius: 2px;
     font-weight: normal;
     background-color: #fafafa;
-    color: black;
+    color: #1d1d1d;
     font-family: Arial, Helvetica, sans-serif;
     border-style: ridge;
     width: 45vw;
