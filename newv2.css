@@ -458,13 +458,20 @@ div div p {
 } /* CHAT(customer) */
 .bg-gray-lightest {
     color: black !important;
-    font-size: 1em !important ;
+    font-size: 1em !important;
+    line-height: 18px;
+    text-shadow: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    letter-spacing: 0;
+    word-spacing: 0.1px;
     text-decoration: none !important ;
-    background-color: #fafafa;
-    box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
-    margin-left: -5px;
-    padding: 2px;
-    border-radius: 0px;
+    background-color: #f6f6f6;
+    box-shadow: -1px 0 8px -2px rgb(34 39 64 / 15%);
+    margin-left: -4vw;
+    padding: 1px;
+    border-radius: 8px;
 } /* details on last tab*/
 .px-1 {
     padding: 1px;
