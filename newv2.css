@@ -415,12 +415,13 @@ div div p {
     font-family: Arial;
     letter-spacing: 0.1px;
     line-height: 18px;
-    word-spacing: 0.2px;
+    word-spacing: 0.1px;
     z-index: 1;
     font-weight: 200;
-    margin: 0.2%;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 0px;
     text-rendering: optimizeLegibility;
-    margin-left: 0px;
     width: 40vw;
     color: #4c4c4c;
     text-shadow: 0;
@@ -444,6 +445,9 @@ div div p {
     background-color: #fafafa;
     text-decoration: none;
 }
+
+
+
 .transition-colors {
     transition-property: none;
 } /* CHAT */
@@ -646,11 +650,10 @@ div.flex-1 {
 } /* the box of the chat composer*/
 .inbox2__composer__container {
     box-shadow: 0 4px 8px 0rgba (62, 67, 108, 0.1);
-    font-size: 1.15em;
+    font-size: 1em;
     word-break: break-word;
-    border-radius: 1vw;
+    border-radius: 2px;
     font-weight: normal;
-    line-height: 21px;
     background-color: #fafafa;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
