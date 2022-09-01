@@ -442,7 +442,6 @@ div div p {
     border: 1px !important;
     text-shadow: 0 !important;
     border-radius: 6px;
-    height: 23vh;
     text-rendering: optimizeLegibility !important;
     color: black !important;
     font-family: Arial, Helvetica, sans-serif !important;
@@ -701,6 +700,13 @@ div.flex.flex-col.conversation__inbox__current-context {
 }
 .inbox2__logo {
     display: none;
+}
+.inbox2__break-words {
+    word-wrap:normal;
+    -ms-word-break:normal;
+    word-break:normal;
+    -webkit-hyphens:auto;
+    hyphens:auto;
 }
 .conversation__text .intercom-interblocks-ordered-list:last-child,
 .conversation__text .intercom-interblocks-paragraph:last-child,
