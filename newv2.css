@@ -277,9 +277,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
     zoom: 110%;
     font-weight: 600;
 }
-.conversations_inbox {
-    /* margin: 2px;     padding: 2px;     position: absolute;     left: 2px;     right: 2px;     top: 2px;     bottom: 2px;     outline: 2px */
-} /* line clamp mostly affect 2nd tab preview(increased from 1) */
+ /* line clamp mostly affect 2nd tab preview(increased from 1) */
 .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
@@ -305,10 +303,6 @@ button {
     background-image: none;
     zoom: 100%;
     padding: 0;
-}
-button:focus {
-    outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color;
 }
 fieldset {
     margin: 2px;
@@ -416,8 +410,6 @@ div div p {
     text-decoration: none;
 }
 
-
-
 .transition-colors {
     transition-property: none;
 } /* CHAT */
@@ -446,7 +438,9 @@ div div p {
     margin-right: unset !important;
     overflow: hidden !important;
     box-shadow: rgb(0 0 0 / 25%) 0px 4px 20px !important;
-} /* Composer */
+} 
+
+/* Composer */
 div.inbox2__reply-composer.flex.flex-row.gap-2.px-6 {
     -webkit-box-flex: 0;
     width: 100%;
@@ -457,13 +451,13 @@ div.inbox2__reply-composer.flex.flex-row.gap-2.px-6 {
     text-decoration: none !important;
     background-color: #f1f1f1;
     box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
-    margin-bottom: -25px;
+    margin-bottom: -3vh;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    min-height: 50px; /*padding: 0 25px 10px 24px;*/
-    padding-right: 10px;
+    min-height: 3vh; /*padding: 0 25px 10px 24px;*/
+    padding-right: 1vw;
     padding-left: 10px;
     padding-top: 0px;
     padding-bottom: 12px;
@@ -471,11 +465,9 @@ div.inbox2__reply-composer.flex.flex-row.gap-2.px-6 {
 div.flex.justify-between.px-4.pb-4.items-center.text-gray-ib2.dark:text-dm-gray.text-sm.inbox2__icon-no-margin {
     border-radius: 0;
 }
-h1 {
-    font-size: 1.15em;
-    margin-bottom: 10px;
-    font-weight: 500;
-} /* this is the 1st tab as well*/
+ 
+ 
+/* this is the 1st tab as well*/
 .inbox2__inbox-list-sidebar {
     width: 14vw;
     font-size: 1em;
@@ -567,7 +559,7 @@ div.flex.flex-col.flex-1.h-full.relative {
 .inbox2__conversation-list-sidebar {
     width: 20%;
     text-decoration: none;
-    margin-left: -26px;
+    margin-left: -2vw;
 }
 ::-webkit-scrollbar-thumb {
     background: #919191;
