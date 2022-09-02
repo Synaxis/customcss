@@ -1,3 +1,4 @@
+
 h1 {
     font-size: 1.7em;
     line-height: calc(1ex / 0.42);
@@ -79,7 +80,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5) {
     margin-left: -250px;
 }
 .text-white {
-    color: #1d1d1d;
+    color: black;
     background-color: #fafafa;
     font-weight: normal;
 }
@@ -176,7 +177,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
 }
 .display-text {
     font-family: Arial, Helvetica, sans-serif;
-    color: #1d1d1d;
+    color: black;
     display: block;
     font-weight: normal;
 }
@@ -184,7 +185,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
     -webkit-font-smoothing: none;
 }
 .inbox__conversation-composer__wrapper .embercom-prosemirror-composer-placeholder {
-    color: #1d1d1d;
+    color: black;
     -webkit-font-smoothing: unset;
     -moz-osx-font-smoothing: unset;
 }
@@ -209,7 +210,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
     > li
     > a
     * {
-    color: #1d1d1d;
+    color: black;
     zoom: 97%;
     font-size: 0.95em;
     font-weight: normal;
@@ -327,7 +328,7 @@ div.flex.flex-col.flex-1.h-full.relative {
 .filter-block {
     /* background-color: #f1f1f1; */
     border: 1px solid #f1f1f1;
-    color: #1d1d1d;
+    color: black;
     border-radius: 6px;
 }
 button {
@@ -376,7 +377,7 @@ input[type="submit"] {
     flex-direction: column;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     background-color: #fafafa;
-    color: #1d1d1d;
+    color: black;
     border: solid silver 1px;
     border-radius: 4px;
     height: 25px;
@@ -420,14 +421,12 @@ div div p {
     font-weight: 200;
     margin-right: 1px;
     margin-left: 1px;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
     padding: 0px;
     text-rendering: optimizeLegibility;
     width: 40vw;
     color: #4c4c4c;
     text-shadow: 0;
-    background-color: #00000000 !important;
+    background-color: #fafafa !important;
     text-indent: none;
     text-decoration: none;
     text-align: left;
@@ -435,18 +434,17 @@ div div p {
     direction: ltr;
 }
 .bg-blue-light-ib2 {
-        box-shadow: -1px 0 10px -2px rgb(34 39 64 / 10%) !important;
-    margin: 0px !important;
+    box-shadow: -1px 0 8px -2px rgb(34 39 64 / 15%);
+    margin: 1px;
     font-size: 1em !important;
-    padding: 0px !important;
-    border: 1px !important;
-    text-shadow: 0 !important;
-    border-radius: 6px;
-    text-rendering: optimizeLegibility !important;
-    color: black !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    background-color: #00000000 !important;
-    text-decoration: none !important;
+    padding: 2px;
+    border: 1px;
+    text-shadow: 0;
+    text-rendering: optimizeLegibility;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    text-decoration: none;
 }
 
 
@@ -455,36 +453,24 @@ div div p {
     transition-property: none;
 } /* CHAT */
 .text-black {
-    color: #1d1d1d;
+    color: black;
 } /* CHAT(customer) */
 .bg-gray-lightest {
     color: black !important;
-    font-size: 1em !important;
-    line-height: 18px;
-    text-shadow: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-weight: normal;
-    letter-spacing: 0;
-    word-spacing: 0.1px;
+    font-size: 1em !important ;
     text-decoration: none !important ;
-    background-color: #00000000;
-    box-shadow: -1px 0 8px -2px rgb(34 39 64 / 15%);
-    margin-left: -3.2vw;
-    padding: 1px;
-    border-radius: 1vw;
-} 
-
-/* details on last tab*/
+    background-color: #fafafa;
+    box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
+    margin-left: -5px;
+    padding: 2px;
+    border-radius: 0px;
+} /* details on last tab*/
 .px-1 {
     padding: 1px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    box-shadow: none;
     font-weight: normal;
-} 
-
-/* this is the chat "box" properties*/
+} /* this is the chat "box" properties*/
 .inbox-2__conversation-page__body {
     max-width: 100% !important;
     margin-left: unset !important;
@@ -497,7 +483,7 @@ div.inbox2__reply-composer.flex.flex-row.gap-2.px-6 {
     width: 100%;
     display: flex;
     z-index: 1;
-    color: #1d1d1d;
+    color: black;
     font-size: 1em !important ;
     text-decoration: none !important;
     background-color: #f1f1f1;
@@ -525,7 +511,7 @@ h1 {
     width: 14vw;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
-    color: #1d1d1d;
+    color: black;
     text-shadow: 0;
     letter-spacing: 0;
     text-decoration: none;
@@ -536,7 +522,7 @@ h1 {
     width: 16vw;
     font-size: 0.9em;
     font-family: Arial, Helvetica, sans-serif;
-    color: #1d1d1d;
+    color: black;
     text-shadow: 0;
     letter-spacing: 0;
     text-decoration: none;
@@ -627,8 +613,8 @@ div.flex.flex-row.items-center.h-8 {
     margin-left: -7px;
 }
 .px-6 {
-    padding-left: 1.3vw;
-    padding-right: 0vw;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 .bg-white {
     background-color: #fafafa !important;
@@ -670,7 +656,7 @@ div.flex-1 {
     border-radius: 2px;
     font-weight: normal;
     background-color: #fafafa;
-    color: #1d1d1d;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     border-style: ridge;
     width: 45vw;
@@ -705,13 +691,6 @@ div.flex.flex-col.conversation__inbox__current-context {
 }
 .inbox2__logo {
     display: none;
-}
-.inbox2__break-words {
-    word-wrap:normal;
-    -ms-word-break:normal;
-    word-break:normal;
-    -webkit-hyphens:auto;
-    hyphens:auto;
 }
 .conversation__text .intercom-interblocks-ordered-list:last-child,
 .conversation__text .intercom-interblocks-paragraph:last-child,
