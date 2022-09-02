@@ -1,7 +1,7 @@
 
 h1 {
     font-size: 1.7em;
-    line-height: calc(1ex / 0.42);
+    line-height: normal;
     margin: calc(1ex / 0.42) 0;
 }
 
@@ -25,22 +25,22 @@ body > div > div > div > div > div > div > div > div > div > div > div > div > d
 }
 h2 {
     font-size: 1.6em;
-    line-height: calc(1ex / 0.42);
+    line-height: normal;
     margin: calc(1ex / 0.42) 0;
 }
 h3 {
     font-size: 1.5em;
-    line-height: calc(1ex / 0.38);
+    line-height: normal;
     margin: calc(1ex / 0.38) 0;
 }
 h4 {
     font-size: 1.4em;
-    line-height: calc(1ex / 0.37);
+    line-height: normal;
     margin: calc(1ex / 0.37) 0;
 }
 p {
     font-size: 0.9em;
-    line-height: calc(1ex / 0.32);
+    line-height: normal;
     margin: calc(1ex / 0.32) 0;
 }
 #ember4
@@ -121,7 +121,7 @@ a:active {
     background-color: #f9f9f9;
 } /* make img smaller lol */
 .inbox2__renderable-part img {
-    max-width: 400px;
+    max-width: 50%;
     height: auto;
     border-radius: 4px;
     border: 1px solid transparent;
@@ -129,7 +129,7 @@ a:active {
     margin: 1px 0;
 }
 .inbox2__renderable-part img:hover {
-    max-width: 140%;
+    max-width: 80%;
     height: auto;
     border-radius: 4px;
     border: 1px solid transparent;
@@ -170,8 +170,8 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
     margin-left: unset !important;
     margin-right: unset !important;
     font-size: 1em;
-    margin-top: 3px;
-    line-height: 1.4vh;
+    margin-top: 0.5vh;
+    line-height: normal;
     overflow: hidden !important;
     box-shadow: rgb(0 0 0 / 25%) 0px 4px 20px !important;
 }
@@ -216,7 +216,7 @@ div.flex.flex-row.items-center.h-8:nth-child(5):hover {
     font-weight: normal;
     text-shadow: 0;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 14px;
+    line-height: normal;
     letter-spacing: 0;
     background-color: #fafafa;
     margin-bottom: 0px;
@@ -347,7 +347,7 @@ fieldset {
 }
 .btn {
     font-size: 14px;
-    line-height: 20px;
+    line-height: normal;
     font-weight: 500;
     border-color: rgba(0, 0, 0, 0.2);
     border-radius: 6px;
@@ -380,10 +380,10 @@ input[type="submit"] {
     color: black;
     border: solid silver 1px;
     border-radius: 4px;
-    height: 25px;
+    height: 3.8vh;
     text-align: center;
     text-decoration: none;
-    width: 5vw;
+    width: 4vw;
     font-size: 1em;
     display: flex;
 } /* chat header title  */
@@ -415,7 +415,7 @@ div div p {
     transition: none !important;
     font-family: Arial;
     letter-spacing: 0.1px;
-    line-height: 18px;
+    line-height: normal;
     word-spacing: 0.1px;
     z-index: 1;
     font-weight: 200;
@@ -585,7 +585,7 @@ div.flex.flex-col.flex-1.h-full.relative {
     width: 22px;
     height: 22px;
     border-radius: 16px;
-    line-height: 32px;
+    line-height: normal;
     font-size: 13px;
     text-align: center;
     text-transform: uppercase;
@@ -653,7 +653,7 @@ div.flex-1 {
     box-shadow: 0 4px 8px 0rgba (62, 67, 108, 0.1);
     font-size: 1em;
     word-break: break-word;
-    border-radius: 2px;
+    border-radius: 0.1vw;
     font-weight: normal;
     background-color: #fafafa;
     color: black;
@@ -673,7 +673,7 @@ div.flex.flex-col.conversation__inbox__current-context {
     -webkit-hyphens: none;
     hyphens: none;
     font-size: 1em;
-    line-height: 21px;
+    line-height: normal;
 }
 .conversation__text .intercom-interblocks,
 .conversation__text .intercom-interblocks-ordered-list,
