@@ -105,10 +105,10 @@ div * {
       color: black !important;
   }
   strong {
-      font-weight: bold;
+      font-weight: 600;
   }
   b {
-      font-weight: bold;
+      font-weight: 600;
   }
   i {
       font-style: italic;
@@ -367,11 +367,11 @@ div * {
       color: #222;
       height: 50%;
       letter-spacing: 0.1px;
-      line-height: 2.4vh;
+      line-height: 3.2vh;
       word-spacing: 0.1px;
       z-index: 1;
       font-weight: 400;
-      
+      margin-top: 2vh;
       margin-right: 1px;
       margin-left: 1px;
       padding: 0px;
@@ -381,7 +381,7 @@ div * {
       text-indent: none;
       text-decoration: none;
       text-align: left;
-      font-size: 16px;
+      font-size: 1rem;
       direction: ltr;
   }
   .bg-blue-light-ib2 {
@@ -493,8 +493,7 @@ div * {
   }
   div.flex.flex-col.gap-4 {
       display: flex;
-      position: relative;
-      flex-direction: row;
+      flex-direction: column;
       align-items: flex-start;
       color: rgb(36, 41, 46);
       padding-left: 0.1px;
