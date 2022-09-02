@@ -2,7 +2,30 @@
 .flex-col.gap-2 {
     margin-top: 0px
   }
+/* preview last conversation  */
+  #ember6 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div.inbox2__conversation-page.flex.flex-row.flex-1.relative > div.flex.flex-row.inbox2__conversation-details-sidebar.border-l.border-gray-light.dark\:border-dm-gray-darker > div:nth-child(1) > div > div > div > div {
+    zoom:45%;
+    width:50vw;
+    font-size: 1em;
+  }
   
+
+/* preview last conversation  */
+  #ember23412 > div > div.flex.flex-row.inbox2__renderable-part.inbox2__break-words.p-4 > div > div > div:nth-child(6) > p {
+    font-size: 2em;
+  }
+/* preview last conversation  */
+  #ember23412 > div > div.flex.flex-row.inbox2__renderable-part.inbox2__break-words.p-4 > div > div > div:nth-child(2) > p {
+        font-size: 2em;
+
+  }
+  /* preview last conversation  */
+
+  #ember23412 > div > div.flex.flex-row.inbox2__renderable-part.inbox2__break-words.p-4 > div > div > div:nth-child(12) > p {
+            font-size: 2em;
+
+  }
+
   /* fundo do texto do chat geral */
   body > div > div > div > div > div > div > div > div > div > div > div > div > div > div  {
     background-color: #f7f7f7 !important;
