@@ -12,8 +12,8 @@
   /* 3tab chat "box" properties*/
   .inbox-2__conversation-page__body {
       max-width: 120% !important;
-      margin-left: -1vw !important;
       margin-right: unset !important;
+      margin-left: -0.2vw;
       width: 49vw;
       padding-left: 0;
       box-shadow: rgb(0 0 0 / 15%) 0px 4px 40px !important;
@@ -468,9 +468,10 @@
       font-family: Arial, Helvetica, sans-serif;
   }
   .inbox2__conversation-list-sidebar {
-      width: 20%;
+      width: 19vw;
       text-decoration: none;
-      margin-left: -2vw;
+      margin-left: -7.95vw;
+      padding-right: 0px;
   }
   ::-webkit-scrollbar-thumb {
       background: #919191;
