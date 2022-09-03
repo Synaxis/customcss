@@ -473,14 +473,8 @@
       width: 0.6rem;
       background: #f7f7f7;
   }
-  div.flex.flex-row.items-center.h-8 {
-      font-size: 0.9em;
-      margin-left: -7px;
-  }
-  .px-6 {
-      padding-left: 14px;
-      padding-right: 14px;
-  }
+ 
+ 
   .bg-white {
       background-color: #f7f7f7 !important;
   } /* second bar preview msg*/
@@ -492,26 +486,26 @@
       text-decoration: none;
   } /* indicator of menus and preview chat text*/
  
-  div.flex-1 {
-      font-size: 1em;
-  }
-  .pt-2 {
-      padding-top: 4px;
-  }
+ 
+  
   .text-sm {
-      font-size: 10px !important;
+      font-size: 0.7rem !important;
       text-decoration: none !important;
   }
   .ml-2 {
       margin-left: 5px;
-      font-size: 1.1em;
+      font-size: 0.7rem !important;
   }
   .inbox2__composer .embercom-prosemirror-composer-placeholder {
-      opacity: 0.5;
+      opacity: none;
       display: none;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-  } /* the box of the chat composer*/
+  } 
+  
+  
+  
+  /* the box of the chat composer*/
   .inbox2__composer__container {
       box-shadow: 0 4px 8px 0rgba (62, 67, 108, 0.1);
       font-size: 1rem;
@@ -547,11 +541,9 @@
       display: none;
   }
   
-  div.flex.flex-col.pt-4.relative {
-      font-size: 2em;
-  }
-  ul.m-0.py-0.px-3 {
+  
+  /* ul.m-0.py-0.px-3 {
       margin: 0px;
       padding: 0px;
       box-shadow: none;
-  }
+  } */
