@@ -1,4 +1,11 @@
+  /* 1st div*/
 
+.inbox2__inbox-list-sidebar.o__open {
+    width: 15vw;
+          box-shadow: rgb(0 0 0 / 10%) 0px 2px 10px !important;
+          border-radius: 1vw;
+
+}
 
 
 
