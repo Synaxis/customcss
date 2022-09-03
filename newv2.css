@@ -6,6 +6,14 @@ div * {
 }
 
 
+.px-1 {
+      padding: 1px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1em;
+      font-weight: normal;
+  }
+
+
 /* margin to titulo do chat geral */
 .flex-col.gap-2 {
     margin-top: 0px
@@ -375,7 +383,7 @@ div * {
       margin-left: 1px;
       padding: 0px;
       text-rendering: optimizeLegibility;
-      width: 40vw;
+      width: 45vw;
       background-color: #f7f7f7 !important;
       text-indent: none;
       text-decoration: none;
@@ -383,6 +391,7 @@ div * {
       font-size: 1rem;
       direction: ltr;
   }
+
   .bg-blue-light-ib2 {
       box-shadow: -1px 0 8px -2px rgb(34 39 64 / 15%);
       font-size: 1em !important;
@@ -421,9 +430,10 @@ div * {
       font-weight: 400;
       margin-top: 2.4vh;
       margin-right: 1px;
-      margin-left: -4px;
+      margin-left: -5px;
       padding: 0px;
-      text-rendering: optimizeLegibility;
+      border-radius: 0;
+        text-rendering: optimizeLegibility;
       background-color: #f7f7f7 !important;
       text-indent: none;
       text-decoration: none;
@@ -436,8 +446,9 @@ div * {
   /* this is the chat "box" properties*/
   .inbox-2__conversation-page__body {
       max-width: 100% !important;
-      margin-left: unset !important;
+      margin-left: -1vw !important;
       margin-right: unset !important;
+      padding-left: 0;
       overflow: hidden !important;
       box-shadow: rgb(0 0 0 / 25%) 0px 4px 20px !important;
   } 
@@ -504,7 +515,7 @@ div * {
       display: none;
   }
   div.flex.flex-col.gap-4 {
-      display: flex;
+            
       flex-direction: column;
       align-items: flex-start;
       color: rgb(36, 41, 46);
@@ -999,3 +1010,16 @@ div * {
   [hidden] {
     display: none;
   }
+
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div > div > div.flex.flex-row.w-full.h-full.overflow-hidden > div.flex.conversations-table-right-panel.o__open > div.conversation-preview-panel.focus\:outline-none.border-l.border-gray-light.dark\:border-dm-gray-darker.z-10 > div {
+  width: 100vw;
+  background-color: #fafafa;
+}
+
+.conversation-preview-panel {
+    max-width: 150%;
+    min-width: 150%;
+    margin-left: -10px;
+    zoom: 60%;
+    font: 1.2em;
+}
