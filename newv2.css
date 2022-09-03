@@ -71,11 +71,7 @@ div * {
 
   }
 
-  /* fundo do texto do chat geral */
-  body > div > div > div > div > div > div > div > div > div > div > div > div > div > div  {
-    background-color: #f7f7f7 !important;
-    box-shadow: none;
-  }
+
   .intercom-lightweight-app-launcher-icon-open {
       display: none;
   }
@@ -86,15 +82,7 @@ div * {
       display: none;
   }
 
-  p {
-      line-height: normal;
-      margin-top: 0vw;
-      margin-bottom: 0.1vw;
-      margin-right: 0.1vw;
-      margin-left: 0.1vw;
-      padding: 0px;
-      max-height: 10vh;
-  }
+  
   
   /* cli email last div */
   
@@ -106,7 +94,6 @@ div * {
   }
   .text-white {
       color: black;
-      background-color: #f7f7f7;
       font-weight: normal;
   }
   .text-white {
@@ -132,7 +119,9 @@ div * {
 
   .inbox__conversation-sidebar__shopify__hoverable:hover {
       background-color: #f9f9f9;
-  } /* make img smaller lol */
+  } 
+  
+  /* make img smaller lol */
   .inbox2__renderable-part img {
       zoom: 50%;
       margin-top: 10vh;
