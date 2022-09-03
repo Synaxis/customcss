@@ -1,9 +1,19 @@
 div * {
   font-family: Arial, Helvetica, sans-serif;
- 
-    
-
 }
+
+
+
+  /* 3tab chat "box" properties*/
+  .inbox-2__conversation-page__body {
+      max-width: 120% !important;
+      margin-left: -1vw !important;
+      margin-right: unset !important;
+      width: 49vw;
+      padding-left: 0;
+      box-shadow: rgb(0 0 0 / 15%) 0px 4px 40px !important;
+  } 
+  
 
 
 .px-1 {
@@ -162,15 +172,7 @@ div * {
   #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div.text-center.font-medium.p-3.bg-yellow-light.text-yellow-dark.rounded-tl-2xl.flow-root {
       display: none;
   }
-  .inbox-2__conversation-page__body {
-      max-width: 100% !important;
-      margin-left: unset !important;
-      margin-right: unset !important;
-      font-size: 1em;
-      margin-top: 0.2vh;
-      overflow: hidden !important;
-      box-shadow: rgb(0 0 0 / 25%) 0px 4px 20px !important;
-  }
+ 
   .display-text {
       font-family: Arial, Helvetica, sans-serif;
       color: black;
@@ -429,67 +431,7 @@ div * {
       direction: ltr;
   }
   
-  
-  /* this is the chat "box" properties*/
-  .inbox-2__conversation-page__body {
-      max-width: 100% !important;
-      margin-left: -1vw !important;
-      margin-right: unset !important;
-      padding-left: 0;
-      overflow: hidden !important;
-      box-shadow: rgb(0 0 0 / 25%) 0px 4px 20px !important;
-  } 
-  
-  /* Composer */
-  div.inbox2__reply-composer.flex.flex-row.gap-2.px-6 {
-      -webkit-box-flex: 0;
-      width: 100%;
-      display: flex;
-      z-index: 1;
-      color: black;
-      font-size: 1em !important ;
-      text-decoration: none !important;
-      background-color: #f1f1f1;
-      box-shadow: -1px 0 10px -2px rgb(34 39 64 / 15%);
-      margin-bottom: -3vh;
-      font-family: Arial, Helvetica, sans-serif;
-      position: relative;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      min-height: 3vh; /*padding: 0 25px 10px 24px;*/
-      padding-right: 1vw;
-      padding-left: 10px;
-      padding-top: 0px;
-      padding-bottom: 12px;
-  }
-  div.flex.justify-between.px-4.pb-4.items-center.text-gray-ib2.dark:text-dm-gray.text-sm.inbox2__icon-no-margin {
-      border-radius: 0;
-  }
-   
-   
-  /* this is the 1st tab as well*/
-  .inbox2__inbox-list-sidebar {
-      width: 14vw;
-      font-size: 1em;
-      font-family: Arial, Helvetica, sans-serif;
-      color: black;
-      text-shadow: 0;
-      letter-spacing: 0;
-      text-decoration: none;
-      margin: 0px;
-      padding: 0px;
-  }
-  .inbox2__left-nav.o__expanded {
-      width: 16vw;
-      font-size: 0.9em;
-      font-family: Arial, Helvetica, sans-serif;
-      color: black;
-      text-shadow: 0;
-      letter-spacing: 0;
-      text-decoration: none;
-      margin: 0px;
-      padding: 0px;
-  }
+ 
   .pr-3 {
       font-size: 1.4em;
   }
