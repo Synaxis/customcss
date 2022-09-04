@@ -1,3 +1,4 @@
+
   /* 1st div*/
 
 .inbox2__inbox-list-sidebar.o__open {
@@ -403,15 +404,15 @@
   .truncate {
     color: black;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 1px 0px;
-      font-size: 1.2em;
+      font-size: 0.85em;
     padding: 0;
-    margin-top: ;
+ 
       }
   div.flex.flex-row.items-center.justify-between.mt-3.h-8 {
       display: none;
   }
   div.flex.flex-col.gap-4 {
-            
+            margin-right: -15vw;
       flex-direction: column;
       align-items: flex-start;
       color: rgb(36, 41, 46);
