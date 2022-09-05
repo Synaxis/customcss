@@ -1,12 +1,39 @@
 
-  /* 1st div*/
+/*focus on unasigned*/
+div > a > div.flex.flex-row.flex-grow.items-center.duration-100.truncate.text-sm.leading-4 > span.inline-flex.items-center.gap-1.text-gray.dark\:text-dm-white {
+  font-weight: bolder;
+  color: black;
+  font-size: 1.3em;
+  background-color: oldlace;  
+}
 
+
+  /* 1st div*/
 .inbox2__inbox-list-sidebar.o__open {
     width: 11vw;
           box-shadow: rgb(0 0 0 / 10%) 0px 2px 10px !important;
           border-radius: 1vw;
 
 }
+
+svg, button, btn, input[button] {
+  color: black;
+  background-color: white;
+  
+  border-radius: 1vw;
+  
+}
+
+svg, button, btn, input[button]:hover {
+  color: black;
+  background-color: #f1f1f1;
+  font-weight: bold;
+  zoom: 105%;
+  
+  border-radius: 1vw;
+  
+}
+
 
 
 
