@@ -194,6 +194,7 @@ svg, button, btn, input[button]:hover {
       list-style-type: none;
       margin-bottom: 2px;
   } /* 2nd tab preview increase text and content to make it easier; */
+
   #ember4
       > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col
       > div
@@ -211,17 +212,18 @@ svg, button, btn, input[button]:hover {
       > li
       > a
       * {
-      color: black;
-      zoom: 97%;
-      font-size: 0.95em;
-      font-weight: normal;
-      text-shadow: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      letter-spacing: 0;
-      background-color: #f7f7f7;
-      margin-bottom: 0px;
-      border: 0px;
-      padding: 0;
+       color: black !important;
+    zoom: 92% !important;
+    font-size: 0.97em !important;
+    font-weight: normal !important;
+    text-shadow: 0 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    letter-spacing: 0 !important;
+    background-color: #fcfcfc !important;
+    border-radius: 0.1px;
+    margin-bottom: -2px !important;
+    padding-bottom: 2px;
+    padding: 0px !important;
   } /* 2nd tab preview increase text and content to make it easier; */
   #ember4
       > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col
@@ -238,7 +240,7 @@ svg, button, btn, input[button]:hover {
       > div
       > div
       * {
-      background-color: #f7f7f7;
+      background-color: #fcfcfc;
       margin: -2px;
       border-radius: 10px;
       padding: 10px;
@@ -374,7 +376,7 @@ svg, button, btn, input[button]:hover {
       padding: 0px;
       text-rendering: optimizeLegibility;
       width: auto;
-      background-color: #f7f7f7 !important;
+      background-color: #fcfcfc !important;
       text-indent: none;
       text-decoration: none;
       text-align: left;
@@ -393,7 +395,7 @@ svg, button, btn, input[button]:hover {
       text-rendering: optimizeLegibility;
       color: black;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #f7f7f7;
+      background-color: #fcfcfc;
       text-decoration: none;
   }
   
@@ -422,7 +424,7 @@ svg, button, btn, input[button]:hover {
       padding: 0px;
       border-radius: 0;
         text-rendering: optimizeLegibility;
-      background-color: #f7f7f7 !important;
+      background-color: #fcfcfc !important;
       text-indent: none;
       text-decoration: none;
       text-align: left;
@@ -474,7 +476,7 @@ svg, button, btn, input[button]:hover {
       display: none;
   }
   div.rounded-l-3xl.rounded-br-3xl.relative.inbox2__renderable-part.py-3.px-4.bg-blue-light-ib2.dark:bg-dm-blue-dark.text-blue-darkest.dark:text-dm-white {
-      background-color: #f7f7f7;
+      background-color: #fcfcfc;
   }
   div.rounded-l-3xl.rounded-r-3xl.relative.inbox2__renderable-part.py-3.px-4.bg-blue-light-ib2.dark:bg-dm-blue-dark.text-blue-darkest.dark:text-dm-white {
       margin: 0;
@@ -521,17 +523,17 @@ svg, button, btn, input[button]:hover {
   }
   ::-webkit-scrollbar {
       width: 0.6rem;
-      background: #f7f7f7;
+      background: #fcfcfc;
   }
  
  
   .bg-white {
-      background-color: #f7f7f7 !important;
+      background-color: #fcfcfc !important;
   } /* second bar preview msg*/
   .text-sm {
       font-size: 15px;
       text-shadow: 0;
-      background-color: #f7f7f7;
+      background-color: #fcfcfc;
       font-family: Arial, Helvetica, sans-serif;
       text-decoration: none;
   } /* indicator of menus and preview chat text*/
@@ -553,6 +555,14 @@ svg, button, btn, input[button]:hover {
       -moz-osx-font-smoothing: grayscale;
   } 
   
+  #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div.flex.flex-row.flex-grow.h-0 > div.inbox2__conversation-page.flex.flex-row.flex-1.relative > div.flex.flex-col.inbox2__conversation-stream > div:nth-child(1) > div.h-8.flex.flex-col.mt-4.mb-3.px-6.gap-2.inbox-2__conversation-header > div > div.font-brand.font-medium.flex.flex-col.flex-1.text-lg.u__one-truncated-line > div  {
+    margin-bottom: 8px;
+  }
+
+  #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div.flex.flex-row.flex-grow.h-0 > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker > div > div.flex.flex-row.items-center.justify-between.gap-2.min-h-16.border-b.border-gray-lightest.dark\:border-dm-gray-darker.sticky.top-0.py-4.px-6.mb-2.z-10 > div {
+    margin-left: 1vw;
+    
+  }
   
   
   /* the box of the chat composer*/
@@ -562,7 +572,7 @@ svg, button, btn, input[button]:hover {
       word-break: break-word;
       border-radius: 0.1vw;
       font-weight: normal;
-      background-color: #f7f7f7;
+      background-color: #fcfcfc;
       color: black;
       font-family: Arial, Helvetica, sans-serif;
       border-style: ridge;
