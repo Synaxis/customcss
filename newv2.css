@@ -7,6 +7,11 @@ div > a > div.flex.flex-row.flex-grow.items-center.duration-100.truncate.text-sm
   background-color: oldlace;  
 }
 
+.px-6 {
+ padding-left: 1.4%;
+ padding-right: 2%;
+ 
+}
 
 
   /* 1st div*/
@@ -585,12 +590,3 @@ svg, button, btn, input[button]:hover {
   .inbox2__logo {
       display: none;
   }
-  
-  
-  /* ul.m-0.py-0.px-3 {
-      margin: 0px;
-      padding: 0px;
-      box-shadow: none;
-  } */div.bg-gray-lightest.dark:bg-dm-black-dark.border-r.border-gray-light.dark:border-dm-gray-darker.flex.flex-col.h-full.max-h-full.inbox2__inbox-list-sidebar.z-20.absolute.left-0.bottom-0.top-0.o__open.pl-3.pb-4 {
-  
-}
