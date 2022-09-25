@@ -16,12 +16,21 @@ div > a > div.flex.flex-row.flex-grow.items-center.duration-100.truncate.text-sm
   width: 47vw;
 }
 
+
+
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div.flex.flex-row.flex-grow.h-0 > div.inbox2__conversation-page.flex.flex-row.flex-1.relative > div.flex.flex-col.inbox2__conversation-stream > div.inbox-2__conversation-page__body.flex.flex-col.h-full   {
 background-color: blue;
 width: 60vw;
-zoom: 90%;
+margin-left: 0;
+padding: 0;
+border: 0;
+zoom: 80%;
+
 }
 
+p, h1, h2, h3, h4, h5, b, em {
+  all: initial;
+}
 
   /* 1st div*/
 .inbox2__inbox-list-sidebar.o__open {
@@ -445,7 +454,7 @@ svg, button, btn, input[button]:hover {
       word-spacing: 0.1px;
       font-weight: 400;
       margin-top: 1vh;
-          
+    
       padding: 0px;
       text-rendering: optimizeLegibility;
       width: auto;
@@ -651,7 +660,8 @@ svg, button, btn, input[button]:hover {
       color: black;
       font-family: Arial, Helvetica, sans-serif;
       border-style: ridge;
-      width: auto;
+      width: 50vw;
+      max-width: 60vw;
       height: auto;
       margin-bottom: 1vh;
       text-align:unset;
