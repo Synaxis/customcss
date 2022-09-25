@@ -582,11 +582,11 @@ svg, button, btn, input[button]:hover {
   }
   ::-webkit-scrollbar-thumb {
       background: #919191;
-      border-radius: 0.4rem;
+      border-radius: 2px;
   }
   ::-webkit-scrollbar {
-      width: 0.6rem;
-      background: #fcfcfc;
+      width: 12px;
+      background: #ccced1;
   }
  
  
