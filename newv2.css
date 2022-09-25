@@ -16,12 +16,15 @@ div > a > div.flex.flex-row.flex-grow.items-center.duration-100.truncate.text-sm
 
   /* 1st div*/
 .inbox2__inbox-list-sidebar.o__open {
-    width: 11vw;
+    width: 7vw;
           box-shadow: rgb(0 0 0 / 10%) 0px 2px 10px !important;
           border-radius: 1vw;
-
+          zoom: 90%;
+  font-size: 1em;
 }
-
+.inbox2__inbox-list-sidebar.o__open:hover {
+zoom: 130%;
+}
 svg, button, btn, input[button] {
   color: black;
   background-color: white;
@@ -573,10 +576,11 @@ svg, button, btn, input[button]:hover {
       font-family: Arial, Helvetica, sans-serif;
   }
   .inbox2__conversation-list-sidebar {
-    width: 20vw !important;
+    width: 19vw !important;
     text-decoration: none !important;
-    margin-left: -8.95vw !important;
+    margin-left: -14vw !important;
     margin-top: -2vh;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     padding-right: 0px !important;
   }
   ::-webkit-scrollbar-thumb {
