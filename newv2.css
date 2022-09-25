@@ -322,7 +322,8 @@ svg, button, btn, input[button]:hover {
       > div
       > div
       > li {
-      background-color: #f1f1f1;
+      background-color: #f7f8ff;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   } /* 2nd tab preview increase text and content to make it easier; */
   #ember4
       > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col
@@ -573,10 +574,11 @@ svg, button, btn, input[button]:hover {
       font-family: Arial, Helvetica, sans-serif;
   }
   .inbox2__conversation-list-sidebar {
-      width: 17vw;
-      text-decoration: none;
-      margin-left: -8.95vw;
-      padding-right: 0px;
+    width: 21vw !important;
+    text-decoration: none !important;
+    margin-left: -8.95vw !important;
+    margin-top: -2vh;
+    padding-right: 0px !important;
   }
   ::-webkit-scrollbar-thumb {
       background: #919191;
