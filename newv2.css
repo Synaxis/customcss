@@ -209,7 +209,7 @@ svg, button, btn, input[button]:hover {
       > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker
       > div
       > div.overflow-y-auto.pb-17 {  
-      width: 109%;
+      width: 108%;
       zoom: 96%;
       font-size: 16px;
       margin-left: -16px;
@@ -371,7 +371,7 @@ svg, button, btn, input[button]:hover {
       > div
       > li
       > *:hover {
-      zoom: 110%;
+      zoom: 105%;
       font-weight: 600;
   }
    /* line clamp mostly affect 2nd tab preview(increased from 1) */
