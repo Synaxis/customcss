@@ -437,7 +437,6 @@ svg, button, btn, input[button]:hover {
       margin-bottom: -1.2vh;
       width: 100%;
       font-size: 1em;
-      text-transform: capitalize;
       text-decoration: none;
       margin-left: auto;
       margin-right: auto;
@@ -555,7 +554,6 @@ svg, button, btn, input[button]:hover {
     font-weight: 500;
     color: #272727;
     margin-bottom: 2px;
-    text-transform: capitalize;
     font-family: arial, sans-serif;
     
 }
