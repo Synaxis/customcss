@@ -7,20 +7,26 @@ div > a > div.flex.flex-row.flex-grow.items-center.duration-100.truncate.text-sm
   background-color: oldlace;  
 }
 
+#ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div.flex.flex-row.flex-grow.h-0 > div.inbox2__conversation-page.flex.flex-row.flex-1.relative > div.flex.flex-row.inbox2__conversation-details-sidebar.border-l.border-gray-light.dark\:border-dm-gray-darker > div.flex.flex-col.flex-1.relative.overflow-hidden {
+  padding-left: 0;
+
+}
+
 .px-6 {
  padding-left: 4.4%;
  padding-right: 2%;
  
 }
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div.flex.flex-row.flex-grow.h-0 > div.inbox2__conversation-page.flex.flex-row.flex-1.relative > div.flex.flex-col.inbox2__conversation-stream > div.inbox-2__conversation-page__body.flex.flex-col.h-full > div.flex.flex-grow.flex-1.flex-col.overflow-y-auto.dark\:bg-dm-black.pb-8.pt-2.px-6 {
-  width: 47vw;
+  width: 68.5vw;
 }
 
 
 
 #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div.flex.flex-row.flex-grow.h-0 > div.inbox2__conversation-page.flex.flex-row.flex-1.relative > div.flex.flex-col.inbox2__conversation-stream > div.inbox-2__conversation-page__body.flex.flex-col.h-full   {
-background-color: blue;
-width: 60vw;
+background-color: #f8f8f8;
+width: 67.5vw;
+box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 margin-left: 0;
 padding: 0;
 border: 0;
