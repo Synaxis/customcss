@@ -480,7 +480,7 @@ div.flex.flex-col.conversation__inbox__current-context {
         right: 0;
         bottom: 0;
         text-shadow: 0;
-        width: 25, 5%;
+        width: 22%;
         max-width: 440px;
         transform: var(--conversation-details-sidebar-transform);
         transition: transform 250ms ease-in-out;
