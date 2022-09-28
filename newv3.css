@@ -15,7 +15,6 @@ div > a > div.flex.flex-row.flex-grow.items-center.duration-100.truncate.text-sm
     margin-left: 0px;
     border: normal;
     padding: 0px;
-
     margin-right: 1px;
   }
   
@@ -71,7 +70,7 @@ div.flex.flex-col.conversation__inbox__current-context {
   
   /*recua margem e p/ left*/
   .px-6 {
-   padding-left: 4.4%;
+   padding-left: 0.9%;
    padding-right: 2%;
    
   }
