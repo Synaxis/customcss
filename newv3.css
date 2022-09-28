@@ -498,7 +498,7 @@ div.flex.flex-col.conversation__inbox__current-context {
         word-spacing: 0.1px;
         font-weight: 400;
         margin-top: 1vh;
-      
+      line-height: 18pxpx;
         padding: 0px;
         text-rendering: optimizeLegibility;
         width: auto;
@@ -506,7 +506,7 @@ div.flex.flex-col.conversation__inbox__current-context {
         text-indent: none;
         text-decoration: none;
         text-align: left;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         direction: ltr;
     }
   
