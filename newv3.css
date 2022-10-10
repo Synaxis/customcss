@@ -8,6 +8,25 @@ div > a > div.flex.flex-row.flex-grow.items-center.duration-100.truncate.text-sm
   }
 
 
+  #ember4
+        > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col
+        > div
+        > div
+        > div
+        > div
+        > div.flex.flex-col.flex-grow
+        > div
+        > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker
+        > div
+        > div.overflow-y-auto.pb-17 {  
+        width: 90%;
+        zoom: 96%;
+        font-size: 16px;
+        margin-left: 20px;
+        padding-left: 10px;
+        }
+  
+
   /* aumenta visao chat 3a tab */
   #ember4 > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col > div > div > div > div > div.flex.flex-col.flex-grow > div.flex.flex-row.flex-grow.h-0 > div.inbox2__conversation-page.flex.flex-row.flex-1.relative > div.flex.flex-col.inbox2__conversation-stream > div.inbox-2__conversation-page__body.flex.flex-col.h-full > div.flex.flex-grow.flex-1.flex-col.overflow-y-auto.dark\:bg-dm-black.pb-8.pt-2.px-6 {
     width: 68.5vw;
@@ -27,7 +46,7 @@ div > a > div.flex.flex-row.flex-grow.items-center.duration-100.truncate.text-sm
   margin-left: 0;
   padding: 0;
   border: 0;
-  zoom: 80%;
+  zoom: 90%;
   
   }
   
@@ -266,23 +285,7 @@ div.flex.flex-col.conversation__inbox__current-context {
         margin-bottom: 2px;
     } /* 2nd tab preview increase text and content to make it easier; */
   
-  #ember4
-        > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col
-        > div
-        > div
-        > div
-        > div
-        > div.flex.flex-col.flex-grow
-        > div
-        > div.flex.flex-col.inbox2__conversation-list-sidebar.border-r.dark\:border-dm-gray-darker
-        > div
-        > div.overflow-y-auto.pb-17 {  
-        width: 108%;
-        zoom: 96%;
-        font-size: 16px;
-        margin-left: -16px;
-        }
-  
+
     #ember4
         > div.app__wrapper.test__app-wrapper.flex-none.flex.flex-col
         > div
