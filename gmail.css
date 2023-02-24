@@ -1,0 +1,44 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  
+}
+
+tr {
+  padding: 3px;
+}
+
+div.aeN.WR.a6o.anZ.nH.oy8Mbf {
+  zoom: 80%;
+}
+
+div > div > div > div > div > div > div > div > div > div > div> div > div > div {
+  zoom: 98%;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-weight: normal;
+}
+
+header {
+  height: 6vh;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #fff;
+}
+
+span.ams.bkH {
+  background-color: #daf5ef;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+span.ams.bkG {
+    background-color: #adf0b3;
+    font-weight: 600;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
