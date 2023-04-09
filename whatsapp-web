@@ -1,125 +1,94 @@
-::-webkit-scrollbar {
-    width: 10px!important;
-    height: 6px!important;
-}
-html, body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-weight: 400;
-    text-shadow: none;
-     font-size: 17px;
-    letter-spacing: 0;
-    line-height: 16px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-  user-select: text;
-    
-    text-rendering: optimizeLegibility;
-}
+/* Set default styles for all elements */
+html, body, * {
 
-#app > div > div > div > header {
-display: none;
-
-}
-
-#main > div > div > div > div > div > div > div > div > div > div  {
-
-background-color:white;
-margin-top: 2px;
-margin-bottom: 2px;
-border-radius: 2px;
-line-height: 1px;
-color: black;
-font-family: Arial, Helvetica, sans-serif;
-zoom: 96%;
-
-}
-
-
-#main > div > div > div > div > div > div > div > div > div > div > div  {
-
-background-color:white;
-margin-top: 2px;
-margin-bottom: 2px;
-padding: 0px;
-border-radius: 2px;
-line-height: 1px;
-color: black;
-user-select: text;
-font-family: Arial, Helvetica, sans-serif;
-zoom: 96%;
-
-}
-
-#main > div > div > div > div > div > div > div > div > div   {
-
-background-color: white;
-margin-top: 2px;
-margin-bottom: 2px;
-padding: 0px;
-border-radius: 2px;
-line-height: 1px;
-color: black;
-user-select: text;
-font-family: Arial, Helvetica, sans-serif;
-zoom: 96%;
-
-}
-
-#main > div > div > div > div > div > div > div > div    {
-
-zoom: 96%;
-
-}
-
-#main > div > div > div > div > div      {
-margin-bottom: 10px;
-
-}
-
-#main > div > div > div       {
-background-color: white;
-
-zoom: 95%;
-font-size: 1.2em;
-
-}
-
-
-
-
-#main > div > div > div > div > div > div > div > div > div > div   {
-
-background-color:white;
-margin-top: 0px;
-margin-bottom: 0px;
-border-radius: 4px;
-line-height: 1px;
-color: black;
-user-select: text;
-font-family: Arial, Helvetica, sans-serif;
-zoom: 96%;
-
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+ line-height: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -ms-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  letter-spacing: normal
 }
 
 * {
-    font-family: Arial,  sans-serif;
-    color: black;
-    font-weight: 300;
-    text-shadow: none;
-     font-size: 17px;
-    letter-spacing: 0;
-    line-height: 17px;
-
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-  user-select: text;
-    text-rendering: optimizeLegibility;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+ line-height: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -ms-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  letter-spacing: normal
 }
 
 
-#main > div > div > div  > div > div > div > span * {
- color: white;
+/* Hide header */
+header {
+    zoom: 85%;
+    
+}
+
+/* Style main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Style content sections */
+section {
+    margin: 20px 0;
+    padding: 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Style text inside content sections */
+section * {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0 10px;
+    font-weight: 600;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Set font size for mobile devices */
+@media (max-width: 768px) {
+    html, body {
+        font-size: 15px;
+    }
 }
