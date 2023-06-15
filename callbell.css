@@ -1,39 +1,95 @@
-span {
-  font-size: 1.0rem;
-  font-family: Arial, sans-serif;
-  color: default;
+* {
+  font-family: Arial, sans-serif; /* Corrigindo o nome da fonte */
+  text-shadow: none;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  font-weight: normal; /* 'default' não é uma propriedade válida para font-weight */
+}
+
+.main-content {
+  margin: 0 auto;
+  background: #f3f3f3;
+   text-shadow: none;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  color: #333;
+}
+
+body {
+  line-height: 1.6;
+  color: #333; 
+  background-color: #fff;
+  font-size: 1rem;
   letter-spacing: normal;
   font-weight: normal;
 }
 
-#main-sidebar {
-  width: 4vw;
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  font-weight: normal;
+  margin-top: 1em; /* Adiciona espaço acima de títulos */
+}
+a {
+  color: #0645ad;
+  text-decoration: none;
 }
 
-#main-sidebar > div > ul > li {
-  width: 4vw;
-
+a:hover {
+  color: #0b0080;
+  text-decoration: underline;
 }
 
-* > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.w-3\/4.flex-col.relative.flex-grow.ml-2.mr-4.my-4.border.bg-gray-100.dark\:bg-dark-800.dark\:border-dark-600.border-gray-200.rounded-lg > div > div.relative > div.chat-container_messages.text-sm.p-4 > div.absolute.bottom-0.right-0.mr-3.mb-8 > div {
-border-radius: 20px;
-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
-}
-/* Remove text shadows */
-* {
-    text-shadow: none !important;
-}
-
-
-body .chat-container_sidebar > div {
-
-  width: 20vw;
-  margin-left: -10px
-
+p {
+  margin-bottom: 1rem;
+  text-align: justify; /* Alinha o texto justificado */
+   text-shadow: none;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  text-justify: inter-word; /* Espaça as palavras uniformemente */
 }
 
-body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar {
-  width: 10vw;
-  margin-left: -10px
+ul, ol {
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+  width: 100%;
+ 
+  margin-bottom: 10px;
+}
+
+input[type="submit"], button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 12px; /* Aumentando um pouco o padding para coincidir com os outros inputs */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #45a049;
 }
