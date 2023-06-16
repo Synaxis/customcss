@@ -10,6 +10,11 @@
     text-indent: none;
     direction: ltr;
 }
+
+div.mt-10 > span {
+box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
 div.absolute:nth-child(1) {
   display: none;
 }
