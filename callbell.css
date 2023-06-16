@@ -3,7 +3,39 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px; /* Diminuí o tamanho da fonte */
+}
+div.absolute:nth-child(1) {
+  display: none;
+}
+
+div.mt-1 {
+padding: 1rem;
+}
+
+.message-id-1002988295 > span:nth-child(1) > span:nth-child(1) > span {
+  color: black;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+span {
+  font-family: Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-shadow: none;
+  text-rendering: optimizeLegibility;
+}
+
+.chat-deleted-message-primary, .chat-fallback-message-primary, .chat-interactive-list-message-primary, .chat-note-actor-message-primary, .chat-template-message-primary, .chat-text-message-primary {
+  background-color: #43b899;
+  background-color: var(--color-green-500);
+  --tw-text-opacity: 1;
+  color: rgba(255,255,255,var(--tw-text-opacity));
+  --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
 }
 
 body {
@@ -34,13 +66,6 @@ a:hover {
 ul, ol {
   padding-left: 20px;
   margin-bottom: 1rem;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
 }
 
 table {
