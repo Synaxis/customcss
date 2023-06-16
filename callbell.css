@@ -7,11 +7,13 @@
     transition: normal;
     line-height: normal;
     text-indent: none;
-    direction: ltr;
   font-feature-settings: normal;
 font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+font-variant: normal;
+
 font-variation-settings: normal;
 }
+
 
 div.mt-10 > span {
 box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
@@ -21,9 +23,11 @@ div.absolute:nth-child(1) {
   display: none;
 }
 
+/* usefull later
 div.mt-1 {
-padding: 1rem;
 }
+
+ */ 
 
 .message-id-1002988295 > span:nth-child(1) > span:nth-child(1) > span {
   color: black;
@@ -38,26 +42,8 @@ span {
   font-size: 1.1rem;
   font-weight: 500;
   letter-spacing: normal;
-  line-height: 19px;
   text-shadow: none;
   text-rendering: optimizeLegibility;
-}
-
-.chat-deleted-message-primary, .chat-fallback-message-primary, .chat-interactive-list-message-primary, .chat-note-actor-message-primary, .chat-template-message-primary, .chat-text-message-primary {
-  background-color: #43b899;
-  background-color: var(--color-green-500);
-  --tw-text-opacity: 1;
-  color: rgba(255,255,255,var(--tw-text-opacity));
-  --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
-}
-
-body {
-  line-height: 1.5;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 1.2em;
-  margin-bottom: 0.6em;
 }
 
 p {
@@ -98,4 +84,12 @@ th {
 
 tr:nth-child(even) {
   background-color: #f4f4f4;
+}
+
+div.flex.h-screen.overflow-y-hidden > div {
+  background-color: WhiteSmoke;
+}
+
+div.flex.h-screen.overflow-y-hidden {
+  background-color: WhiteSmoke;
 }
