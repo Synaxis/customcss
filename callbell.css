@@ -3,6 +3,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+      letter-spacing: normal;
+    word-spacing: normal;
+    transition: normal;
+    line-height: normal;
+    text-indent: none;
+    direction: ltr;
 }
 div.absolute:nth-child(1) {
   display: none;
@@ -54,9 +60,8 @@ p {
 }
 
 a {
-  color: #0645ad;
+  color: blue;
   text-decoration: none;
-  transition: color 0.3s ease-in-out;
 }
 
 a:hover {
