@@ -1,26 +1,20 @@
 * {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-      letter-spacing: normal;
-    word-spacing: normal;
-    transition: normal;
-    line-height: normal;
-    text-indent: none;
-  font-feature-settings: normal;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+letter-spacing: normal;
+word-spacing: normal;
+transition: normal;
+line-height: normal;
+text-indent: none;
+font-feature-settings: normal;
 font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 font-variant: normal;
-
 font-variation-settings: normal;
 }
 
-
 div.mt-10 > span {
 box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-}
-
-div.absolute:nth-child(1) {
-  display: none;
 }
 
 /* usefull later
@@ -59,23 +53,6 @@ a {
 
 a:hover {
   color: #0b0080;
-}
-
-ul, ol {
-  padding-left: 20px;
-  margin-bottom: 1rem;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1rem;
-}
-
-th, td {
-  padding: 1rem;
-  border: 1px solid #ddd;
-  text-align: left;
 }
 
 th {
