@@ -1,7 +1,18 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
-  
+  text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+letter-spacing: normal;
+word-spacing: normal;
+transition: normal;
+line-height: normal;
+text-indent: none;
+font-feature-settings: normal;
+font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+font-variant: normal;
+font-variation-settings: normal;
 }
 
 tr {
