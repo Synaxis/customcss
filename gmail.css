@@ -14,8 +14,8 @@ font-variation-settings: normal;
 font-size: 1.05rem;
 }
 
-b {
-font-weight: 400;
+b, bold, span, strong {
+font-weight: 500;
 
 }
 
