@@ -11,20 +11,38 @@ font-feature-settings: normal;
 font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 font-variant: normal;
 font-variation-settings: normal;
+
 }
 
 div.mt-10 > span {
 box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
-
-/* usefull later
-div.mt-1 {
-}
-
- */ 
+ 
 
 .message-id-1002988295 > span:nth-child(1) > span:nth-child(1) > span {
   color: black;
+}
+body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.w-3\/4.flex-col.relative.flex-grow.ml-2.mr-4.my-4.border.bg-gray-100.dark\:bg-dark-800.dark\:border-dark-600.border-gray-200.rounded-lg > div > div.relative > div.chat-container_messages.text-sm.p-4 > div.grouped-conversation.mb-10.is-first > div.chat-container_messages_row.px-10.mt-1.flex.message-id-1098023349.grouped-thread > span > span.chat-text-message_content {
+text-shadow: none;
+-webkit-transition: none !important;
+-moz-transition: none !important;
+transition: none !important;
+font-family: arial, sans-serif;
+ color: #424242 !important;
+letter-spacing: 0.1px;
+word-spacing: 0.1px;
+font-weight: 400;
+margin-top: 1vh;
+user-select: text;    
+padding: 0px;
+text-rendering: optimizeLegibility;
+width: auto;
+background-color: #fcfcfc !important;
+text-indent: none;
+text-decoration: none;
+text-align: left;
+font-size: 1rem;
+direction: ltr;
 }
 
 .font-bold {
