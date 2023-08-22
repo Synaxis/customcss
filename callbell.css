@@ -121,3 +121,30 @@ div.flex.flex-col.text-white.w-full.text-sm {
    box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 
 }
+
+ /* span of our text */
+span.chat-text-message-primary {
+  text-shadow: none;
+-webkit-transition: none !important;
+-moz-transition: none !important;
+transition: none !important;
+font-family: arial, sans-serif;
+ color: white !important;
+letter-spacing: 0.1px;
+word-spacing: 0.1px;
+font-weight: 400;
+user-select: text;    
+padding: 4px;
+text-rendering: optimizeLegibility;
+width: auto;
+text-indent: none;
+text-decoration: none;
+text-align: left;
+font-size: 1rem;
+direction: ltr;
+  
+}
+
+span.chat-text-message_content {
+  
+}
