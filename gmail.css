@@ -42,3 +42,20 @@ span.ams.bkG {
     font-weight: 500;
  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
+
+div.gb_id.gb_cd.gb_od {
+  zoom: 90%;
+  margin-top: -5px;
+  background-color: #f4f4f4;
+}
+
+div.T-I.T-I-KE.L3 {
+    background-color: lightgrey;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+div.T-I.T-I-KE.L3:hover {
+    zoom: 105%;
+
+}
