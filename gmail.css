@@ -11,12 +11,10 @@ font-feature-settings: normal;
 font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 font-variant: normal;
 font-variation-settings: normal;
-font-size: 1.1rem;
 }
 
 b, bold, strong {
 font-weight: 500;
-color: black;
 
 }
 tr {
@@ -41,6 +39,6 @@ span.ams.bkH {
 
 span.ams.bkG {
     background-color: #adf0b3;
-    font-weight: 600;
+    font-weight: 500;
  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
