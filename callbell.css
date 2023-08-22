@@ -65,7 +65,7 @@ p {
 }
 
 a {
-  color: blue;
+  color: #4355ED;
   text-decoration: none;
 }
 
@@ -86,7 +86,8 @@ div.flex.h-screen.overflow-y-hidden > div {
 }
 
 div.flex.h-screen.overflow-y-hidden {
-  background-color: WhiteSmoke;
+  background-color: #F1F1F1;
+  margin-left: -30px;
 }
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li > a > div.flex.items-center.whitespace-nowrap.truncate.py-1.flex-grow > div.flex-col.truncate.flex-grow > div > div {
@@ -110,4 +111,12 @@ body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-con
  box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 border-radius: 1.5vw;
 background-color: white;
+}
+
+div.flex.flex-col.text-white.w-full.text-sm {
+  zoom: 100%;
+  width: 3vw;
+  margin: 0px;
+  border: 0px;
+  background-color: blue;
 }
