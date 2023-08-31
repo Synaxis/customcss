@@ -8,31 +8,11 @@ transition: normal;
 line-height: normal;
 text-indent: none;
 font-feature-settings: normal;
-font-family: 'Roboto', Arial, "Lucida Grande", sans-serif;
 font-variant: normal;
 font-variation-settings: normal;
 
 }
 
-.videocontrols {
-  writing-mode: horizontal-tb;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  overflow: hidden;
-
-  direction: ltr;
-  /* Prevent selection from interacting weirdly with the page,
-   * see bug 1766093. Our text selection story with shadow dom should be
-   * better, see bug 1590379 */
-  user-select: none;
-  /* Prevent unwanted style inheritance. See bug 554717. */
-  text-align: left;
-  list-style-image: none !important;
-  font: normal normal normal 100%/normal sans-serif !important;
-  text-decoration: none !important;
-  white-space: normal !important;
-}
 
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.w-3\/4.flex-col.relative.flex-grow.ml-2.mr-4.my-4.border.bg-gray-100.dark\:bg-dark-800.dark\:border-dark-600.border-gray-200.rounded-lg > div > div.relative > div.chat-container_messages.text-sm.p-4 > div.absolute.bottom-0.right-0.mr-3.mb-8 > div {
@@ -41,41 +21,13 @@ body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-con
 }
 
 
-body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.w-3\/4.flex-col.relative.flex-grow.ml-2.mr-4.my-4.border.bg-gray-100.dark\:bg-dark-800.dark\:border-dark-600.border-gray-200.rounded-lg > div > div.relative > div.chat-container_messages.text-sm.p-4 > div.grouped-conversation.mb-10.is-first > div.chat-container_messages_row.px-10.mt-1.flex.message-id-1098023349.grouped-thread > span > span.chat-text-message_content {
-text-shadow: none;
--webkit-transition: none !important;
--moz-transition: none !important;
-transition: none !important;
-font-family: arial, sans-serif;
- color: #424242 !important;
-letter-spacing: 0.1px;
-word-spacing: 0.1px;
-font-weight: 400;
-margin-top: 1vh;
-user-select: text;    
-padding: 0px;
-text-rendering: optimizeLegibility;
-width: auto;
-background-color: #fcfcfc !important;
-text-indent: none;
-text-decoration: none;
-text-align: left;
-font-size: 1rem;
-direction: ltr;
-}
+
 
 .font-bold {
   font-weight: 600;
 }
 
-span {
-  font-family: Arial, sans-serif;
-  font-size: 1.1rem;
-  font-weight: 500;
-  letter-spacing: normal;
-  text-shadow: none;
-  text-rendering: optimizeLegibility;
-}
+
 
 p {
   margin-bottom: 1rem;
@@ -146,18 +98,15 @@ span.chat-text-message-primary {
 -webkit-transition: none !important;
 -moz-transition: none !important;
 color: white !important;
-font-weight: 400;
+font-weight: 500;
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 user-select: text;
-padding: 4px;
+padding: 5px;
 text-rendering: optimizeLegibility;
-border-radius: 6px;
+border-radius: 7px;
 direction: ltr;
 font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
-font-size: 14px;
-font-style: normal;
-font-variant: normal;
-letter-spacing: normal;
+font-size: 1rem;
 line-height: 18px;
 text-decoration: rgb(36, 41, 46);
 text-indent: 0px;
@@ -181,12 +130,13 @@ border-top-color: rgb(36, 41, 46);
 font-weight: 400;
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 user-select: text;
-padding: 4px;
+background-color: #FAFAFA;
+padding: 5px;
 text-rendering: optimizeLegibility;
-border-radius: 6px;
+border-radius: 7px;
 direction: ltr;
 font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
-font-size: 14px;
+font-size: 1rem;
 font-style: normal;
 font-variant: normal;
 letter-spacing: normal;
@@ -205,12 +155,16 @@ text-overflow: clip;
 word-wrap: normal;
 }
 
+.chat-container_tags-top-bar {
+  background-color: #F6F6F6;
+}
+
 div.chat-container_messages.text-sm.p-4 {
-  background-color:  #f0f0f0 ;
+  background-color:  #F2F2F2 ;
 }
 
 div.chat-container_tags-top-bar.shadow.rounded-t-lg.bg-white.dark:bg-dark-800.px-4.py-4 {
-  background-color:   #f5f5f5;
+  background-color:   #F2F2F2;
 }
 
 
@@ -221,4 +175,8 @@ div.px-2.p-1.cursor-pointer.text-sm.radius.rounded.inline-block.items-center {
 span:nth-child(1) > span:nth-child(2) {
   font-family: consolas;
   user-select: none;
+}
+
+span span span {
+  font-family: Arial, Helvetica, sans-serif;
 }
