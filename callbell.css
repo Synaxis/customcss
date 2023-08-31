@@ -1,32 +1,24 @@
-* {
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-letter-spacing: normal;
-word-spacing: normal;
-transition: normal;
-line-height: normal;
-text-indent: none;
-font-feature-settings: normal;
-font-variant: normal;
-font-variation-settings: normal;
-
+*{
+ text-rendering:optimizeLegibility !important;
+ -webkit-font-smoothing:antialiased !important;
+ -moz-osx-font-smoothing:grayscale !important;
+ letter-spacing:normal !important;
+ word-spacing:normal !important;
+ transition:normal !important;
+ line-height:normal !important;
+ text-indent:none !important;
+ font-feature-settings:normal !important;
+ font-variant:normal !important;
+ font-variation-settings:normal !important;
 }
-
-
-
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.w-3\/4.flex-col.relative.flex-grow.ml-2.mr-4.my-4.border.bg-gray-100.dark\:bg-dark-800.dark\:border-dark-600.border-gray-200.rounded-lg > div > div.relative > div.chat-container_messages.text-sm.p-4 > div.absolute.bottom-0.right-0.mr-3.mb-8 > div {
   background-color: gray;
   color: white;
 }
 
-
-
-
 .font-bold {
   font-weight: 600;
 }
-
 
 
 p {
@@ -94,66 +86,66 @@ box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0
 }
 
  /* span of our text */
-span.chat-text-message-primary {
--webkit-transition: none !important;
--moz-transition: none !important;
-color: white !important;
-font-weight: 500;
-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-user-select: text;
-padding: 5px;
-text-rendering: optimizeLegibility;
-border-radius: 7px;
-direction: ltr;
-font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
-font-size: 1rem;
-line-height: 18px;
-text-decoration: rgb(36, 41, 46);
-text-indent: 0px;
-text-transform: none;
-word-spacing: 0px; /* Color & Background */
-cursor: auto;
-visibility: visible; /* Effects */
-transition: all 0.15s ease-in 0s;
-outline-offset: 0px;
-resize: none;
-text-shadow: none;
-text-overflow: clip;
-word-wrap: normal;
-}
-
- /* span of customer text */
-span.chat-text-message {
+ span.chat-text-message-primary {
   -webkit-transition: none !important;
--moz-transition: none !important;
-border-top-color: rgb(36, 41, 46);
-font-weight: 400;
-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-user-select: text;
-background-color: #FAFAFA;
-padding: 5px;
-text-rendering: optimizeLegibility;
-border-radius: 7px;
-direction: ltr;
-font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
-font-size: 1rem;
-font-style: normal;
-font-variant: normal;
-letter-spacing: normal;
-line-height: 18px;
-text-decoration: rgb(36, 41, 46);
-text-indent: 0px;
-text-transform: none;
-word-spacing: 0px; /* Color & Background */
-cursor: auto;
-visibility: visible; /* Effects */
-transition: all 0.15s ease-in 0s;
-outline-offset: 0px;
-resize: none;
-text-shadow: none;
-text-overflow: clip;
-word-wrap: normal;
-}
+ -moz-transition: none !important;
+ color: white !important;
+ font-weight: 500 !important;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+ user-select: text !important;
+ padding: 5px !important;
+ text-rendering: optimizeLegibility !important;
+ border-radius: 7px !important;
+ direction: ltr !important;
+ font-family: "Roboto", Arial, "Lucida Grande", sans-serif !important;
+ font-size: 1rem !important;
+ line-height: 18px !important;
+ text-decoration: rgb(36, 41, 46) !important;
+ text-indent: 0px !important;
+ text-transform: none !important;
+ word-spacing: 0px; /* Color & Background */
+  cursor: auto !important;
+ visibility: visible; /* Effects */
+  transition: all 0.15s ease-in 0s !important;
+ outline-offset: 0px !important;
+ resize: none !important;
+ text-shadow: none !important;
+ text-overflow: clip !important;
+ word-wrap: normal !important;
+ }
+  
+   /* span of customer text */
+  span.chat-text-message {
+    -webkit-transition: none !important;
+ -moz-transition: none !important;
+ border-top-color: rgb(36, 41, 46) !important;
+ font-weight: 400 !important;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+ user-select: text !important;
+ background-color: #FAFAFA !important;
+ padding: 5px !important;
+ text-rendering: optimizeLegibility !important;
+ border-radius: 7px !important;
+ direction: ltr !important;
+ font-family: "Roboto", Arial, "Lucida Grande", sans-serif !important;
+ font-size: 1rem !important;
+ font-style: normal !important;
+ font-variant: normal !important;
+ letter-spacing: normal !important;
+ line-height: 18px !important;
+ text-decoration: rgb(36, 41, 46) !important;
+ text-indent: 0px !important;
+ text-transform: none !important;
+ word-spacing: 0px; /* Color & Background */
+  cursor: auto !important;
+ visibility: visible; /* Effects */
+  transition: all 0.15s ease-in 0s !important;
+ outline-offset: 0px !important;
+ resize: none !important;
+ text-shadow: none !important;
+ text-overflow: clip !important;
+ word-wrap: normal !important;
+ }
 
 .chat-container_tags-top-bar {
   background-color: #F6F6F6;
@@ -179,4 +171,9 @@ span:nth-child(1) > span:nth-child(2) {
 
 span span span {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+div.absolute.top-0.left-0.w-full.text-sm.p-3.z-10.bg-green-100.text-green-600.dark:bg-green-500.dark:text-white {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
