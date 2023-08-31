@@ -150,40 +150,66 @@ box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0
 
  /* span of our text */
 span.chat-text-message-primary {
-  
 -webkit-transition: none !important;
 -moz-transition: none !important;
 color: white !important;
 font-weight: 400;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 user-select: text;
-padding: 6px;
+padding: 4px;
 text-rendering: optimizeLegibility;
-width: auto;
-border: 10, solid, black;
+border-radius: 12px;
 direction: ltr;
 font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
 font-size: 14px;
 font-style: normal;
 font-variant: normal;
 letter-spacing: normal;
-line-height: 21px;
+line-height: 18px;
 text-decoration: rgb(36, 41, 46);
-text-align: start;
 text-indent: 0px;
 text-transform: none;
-vertical-align: baseline;
-white-space: normal;
 word-spacing: 0px; /* Color & Background */
 cursor: auto;
 visibility: visible; /* Effects */
 transition: all 0.15s ease-in 0s;
 outline-offset: 0px;
-box-sizing: content-box;
 resize: none;
 text-shadow: none;
 text-overflow: clip;
 word-wrap: normal;
-box-shadow: none;
+}
+
+ /* span of customer text */
+span.chat-text-message {
+  -webkit-transition: none !important;
+-moz-transition: none !important;
+border-top-color: rgb(36, 41, 46);
+font-weight: 400;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+user-select: text;
+padding: 4px;
+text-rendering: optimizeLegibility;
+border-radius: 8px;
+direction: ltr;
+font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+letter-spacing: normal;
+line-height: 18px;
+text-decoration: rgb(36, 41, 46);
+text-indent: 0px;
+text-transform: none;
+word-spacing: 0px; /* Color & Background */
+cursor: auto;
+visibility: visible; /* Effects */
+transition: all 0.15s ease-in 0s;
+outline-offset: 0px;
+resize: none;
+text-shadow: none;
+text-overflow: clip;
+word-wrap: normal;
 }
 
 div.chat-container_messages.text-sm.p-4 {
@@ -197,4 +223,9 @@ div.chat-container_tags-top-bar.shadow.rounded-t-lg.bg-white.dark:bg-dark-800.px
 
 div.px-2.p-1.cursor-pointer.text-sm.radius.rounded.inline-block.items-center {
   display: none;
+}
+
+span:nth-child(1) > span:nth-child(2) {
+  font-family: consolas;
+  user-select: none;
 }
