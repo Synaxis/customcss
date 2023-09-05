@@ -82,6 +82,8 @@ a {
     color: #007bff;
 }
 
+
+
 a:hover {
     text-decoration: underline;
 }
@@ -100,11 +102,13 @@ body > div > div > div > div {
   padding: 0;
 }
 
+/* Almost on top and almost on bottom */
 body > div > div > div {
   margin: 0;
   border: 0;
   padding: 0;
   width: 100dvw;
-  height: 100dvh;
+  height: 99dvh;
+  margin-top: -15px;
   max-width: 9000%;
 }
