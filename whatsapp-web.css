@@ -1,0 +1,92 @@
+/* Set default styles for all elements */
+html, body, * {
+
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+   line-height: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -ms-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    letter-spacing: normal
+  }
+  
+  * {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+   line-height: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -ms-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    letter-spacing: normal
+  }
+  
+  /* Style content sections */
+  section {
+      margin: 20px 0;
+      padding: 0;
+      border-top: 1px solid #ddd;
+  }
+  
+  /* Style text inside content sections */
+  
+  h1, h2, h3, h4, h5, h6 {
+      margin: 20px 0 10px;
+      font-weight: 600;
+  }
+  
+  
+  ul, ol {
+      margin: 10px 0;
+      padding-left: 20px;
+  }
+  
+  li {
+      margin: 5px 0;
+  }
+  
+  a {
+      color: #007bff;
+  }
+  
+  
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  /* Set font size for mobile devices */
+  @media (max-width: 768px) {
+      html, body {
+          font-size: 15px;
+      }
+  }
+  
+  /* Force 100% of content.. */
+  body > div > div > div > div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+  /* Almost on top and almost on bottom */
+  body > div > div > div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100dvw;
+    height: 99dvh;
+    margin-top: -15px;
+    max-width: 9000%;
+  }
+  
