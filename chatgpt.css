@@ -19,9 +19,6 @@ div > div > div > div  > div > div {
   padding-top: 1dvh;
 
 }
-
-
-
 /* like dislike and copy buttons  */
 div.text-gray-400 {
   margin-right: 10px;
@@ -30,13 +27,33 @@ div.text-gray-400 {
 }
 
 
+/* everything inside chat window  */
+div > div > div > div > div > div > div > div > div > div > div > * > *  {
+  color: #F4F4F4;
+  letter-spacing: normal;
+  line-height: normal;
+  word-spacing: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  margin-bottom: 1px;
+  margin-top: .5rem;
+  text-rendering: optimizeLegibility;
+  text-shadow: none;
+  direction: ltr;
+}
+
 /* logo > inside > content  */
 div > div > div > div > div > div > div > div {
   /* background-color: yellow;*/
-  max-width: 75dvw;
+ /* max-width: 85dvw; */
+  max-width: inherit;
+
+  display: normal;
+  width: normal;
   background-color:  #323232;
   padding-bottom: 0.01dvh;
-    border-radius: 15px;
+  border-radius: 15px;
 
   padding-top: 0.01dvh;
 
@@ -82,7 +99,7 @@ div div p {
  -moz-transition: none !important;
  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
  user-select: text !important;
- padding: 6px !important;
+ padding: 2px !important;
  text-rendering: optimizeLegibility !important;
  border-radius: 7px !important;
  direction: ltr !important;
@@ -139,4 +156,8 @@ li ul li {
 div.flex-1.text-ellipsis.max-h-5.overflow-hidden.break-all.relative {
   font-size: 0.9rem;
   letter-spacing: -0.4px;
+}
+
+ul li strong {
+  font-weight: 400;
 }
