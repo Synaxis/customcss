@@ -31,11 +31,6 @@ div.text-gray-400 {
   color: white;
   zoom: 110%;
 }
-div.text-gray-400:hover {
-  margin-right: 10px;
-  color: pink;
-  line-height: 20;
-}
 
 header.sticky {
 transform: normal;
@@ -55,7 +50,6 @@ div > div > div > div > div > div > div > div {
   padding-bottom: 0.01dvh;
     border-radius: 15px;
 
-  border: 0;
   padding-top: 0.01dvh;
 
 }
@@ -65,6 +59,7 @@ div > div > div > div > div > div > div > div > div > div > div :nth-child(1) > 
   word-wrap: wrap;
   padding-top: 0.1dvh;
   font-size: 1.1rem;
+  
 }
 
 
@@ -128,6 +123,8 @@ div.markdown.prose.w-full.break-words.dark {
 
 }
 
+
+
 div p strong {
   color:  #f4f4f4;
 }
@@ -136,5 +133,27 @@ div.flex-shrink-0.flex.flex-col.relative.items-end {
   width: 3px;
   background-color: #444654;;
   border-radius: 15px;
+  
+}
+ul, p, li {
+  font-size: 1.1rem;
+
 }
 
+div ul li {
+  font-size: 1.1rem;
+}
+
+li ul li {
+  font-size: 1.1rem;
+
+}
+
+div.flex-1.text-ellipsis.max-h-5.overflow-hidden.break-all.relative {
+  font-size: 0.9rem;
+  letter-spacing: -0.4px;
+}
+
+div.relative.z-20.flex.min-h-[60px].flex-wrap.items-center.justify-between.gap-3.border-b.border-black/10.bg-white.p-2.text-gray-500.dark:border-gray-900/50.dark:bg-gray-800.dark:text-gray-300 {
+  
+}
