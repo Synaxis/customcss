@@ -16,14 +16,11 @@
 /* parent of logo > inside > content  */
 div > div > div > div  > div > div {
   /* background-color: yellow;*/
-  padding-top: 0.1dvh;
+  padding-top: 1dvh;
 
 }
 
-/* header too high fix  */
-header {
-  height: 3vw;
-}
+
 
 /* like dislike and copy buttons  */
 div.text-gray-400 {
@@ -32,15 +29,6 @@ div.text-gray-400 {
   zoom: 110%;
 }
 
-header.sticky {
-transform: normal;
-height: normal;
-}
-
-.sticky {
-transform: normal;
-height: normal;
-}
 
 /* logo > inside > content  */
 div > div > div > div > div > div > div > div {
@@ -58,7 +46,7 @@ div > div > div > div > div > div > div > div > div > div > div :nth-child(1) > 
   /* background-color: blue; */ 
   word-wrap: wrap;
   padding-top: 0.1dvh;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   
 }
 
@@ -87,11 +75,11 @@ div.relative.p-1.rounded-sm.h-9.w-9.text-white.flex.items-center.justify-center:
 }
 
 div div p {
-  color: white;
+  color: #F4F4F4;
   font-weight: 500;
+  font-size: 1.1rem;
     -webkit-transition: none !important;
  -moz-transition: none !important;
- color: white !important;
  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
  user-select: text !important;
  padding: 6px !important;
@@ -99,7 +87,6 @@ div div p {
  border-radius: 7px !important;
  direction: ltr !important;
  font-family: "Roboto", Arial, "Lucida Grande", sans-serif !important;
- font-size: 1rem !important;
  line-height: 18px !important;
  text-decoration: rgb(36, 41, 46) !important;
  text-indent: 0px !important;
@@ -126,7 +113,7 @@ div.markdown.prose.w-full.break-words.dark {
 
 
 div p strong {
-  color:  #f4f4f4;
+  color:  #F4F4F4;
 }
 
 div.flex-shrink-0.flex.flex-col.relative.items-end {
@@ -136,24 +123,20 @@ div.flex-shrink-0.flex.flex-col.relative.items-end {
   
 }
 ul, p, li {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 
 }
 
 div ul li {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 li ul li {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 
 }
 
 div.flex-1.text-ellipsis.max-h-5.overflow-hidden.break-all.relative {
   font-size: 0.9rem;
   letter-spacing: -0.4px;
-}
-
-div.relative.z-20.flex.min-h-[60px].flex-wrap.items-center.justify-between.gap-3.border-b.border-black/10.bg-white.p-2.text-gray-500.dark:border-gray-900/50.dark:bg-gray-800.dark:text-gray-300 {
-  
 }
