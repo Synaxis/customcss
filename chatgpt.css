@@ -1,14 +1,140 @@
 * {
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-letter-spacing: normal;
-word-spacing: normal;
-transition: normal;
-line-height: normal;
-text-indent: none;
-font-feature-settings: normal;
-font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-font-variant: normal;
-font-variation-settings: normal;
+ text-rendering:optimizeLegibility !important;
+ -webkit-font-smoothing:antialiased !important;
+ -moz-osx-font-smoothing:grayscale !important;
+ letter-spacing:normal !important;
+ word-spacing:normal !important;
+ transition:normal !important;
+ line-height:normal !important;
+ text-indent:none !important;
+ font-feature-settings:normal !important;
+ font-variant:normal !important;
+ font-variation-settings:normal !important;
+   font-family: 'Roboto', Arial, sans-serif;
 }
+
+/* parent of logo > inside > content  */
+div > div > div > div  > div > div {
+  /* background-color: yellow;*/
+  padding-top: 0.1dvh;
+
+}
+
+/* header too high fix  */
+header {
+  height: 3vw;
+}
+
+/* like dislike and copy buttons  */
+div.text-gray-400 {
+  margin-right: 10px;
+  color: white;
+  zoom: 110%;
+}
+div.text-gray-400:hover {
+  margin-right: 10px;
+  color: pink;
+  line-height: 20;
+}
+
+header.sticky {
+transform: normal;
+height: normal;
+}
+
+.sticky {
+transform: normal;
+height: normal;
+}
+
+/* logo > inside > content  */
+div > div > div > div > div > div > div > div {
+  /* background-color: yellow;*/
+  max-width: 75dvw;
+  background-color:  #323232;
+  padding-bottom: 0.01dvh;
+    border-radius: 15px;
+
+  border: 0;
+  padding-top: 0.01dvh;
+
+}
+
+div > div > div > div > div > div > div > div > div > div > div :nth-child(1) > div {
+  /* background-color: blue; */ 
+  word-wrap: wrap;
+  padding-top: 0.1dvh;
+  font-size: 1.1rem;
+}
+
+
+svg.h-6.w-6 {
+    background-color:#f0f00a;
+  border: solid, 1px,  yellow;
+  height: 3dvh;
+}
+
+svg.h-6.w-6:hover {
+            transform: rotateY(360deg); /* 360-degree flip around the Y-axis */    transform-style: preserve-3d;
+transition: transform 0.8s; 
+}
+
+div.relative.p-1.rounded-sm.h-9.w-9.text-white.flex.items-center.justify-center {
+    background-color:#f0f00a;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+div.relative.p-1.rounded-sm.h-9.w-9.text-white.flex.items-center.justify-center:hover {
+    transform: rotateY(360deg); /* 360-degree flip around the Y-axis */
+
+}
+
+div div p {
+  color: white;
+  font-weight: 500;
+    -webkit-transition: none !important;
+ -moz-transition: none !important;
+ color: white !important;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+ user-select: text !important;
+ padding: 6px !important;
+ text-rendering: optimizeLegibility !important;
+ border-radius: 7px !important;
+ direction: ltr !important;
+ font-family: "Roboto", Arial, "Lucida Grande", sans-serif !important;
+ font-size: 1rem !important;
+ line-height: 18px !important;
+ text-decoration: rgb(36, 41, 46) !important;
+ text-indent: 0px !important;
+ text-transform: none !important;
+ word-spacing: 0px; /* Color & Background */
+  cursor: auto !important;
+ visibility: visible; /* Effects */
+  transition: all 0.15s ease-in 0s !important;
+ outline-offset: 0px !important;
+ resize: none !important;
+ text-shadow: none !important;
+ text-overflow: clip !important;
+ word-wrap: normal !important;
+}
+
+div.markdown.prose.w-full.break-words.dark {
+ /*   background-color: black; */
+  padding: 0px;
+  border-radius: 10px;
+  max-width: 80dvw;
+
+}
+
+div p strong {
+  color:  #f4f4f4;
+}
+
+div.flex-shrink-0.flex.flex-col.relative.items-end {
+  width: 3px;
+  background-color: #444654;;
+  border-radius: 15px;
+}
+
