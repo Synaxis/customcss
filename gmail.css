@@ -1,61 +1,11 @@
-* {
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-letter-spacing: normal;
-word-spacing: normal;
-transition: normal;
-line-height: normal;
-text-indent: none;
-font-feature-settings: normal;
-font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-font-variant: normal;
-font-variation-settings: normal;
-}
-
-b, bold, strong {
-font-weight: 500;
-
-}
-tr {
-  padding: 3px;
-}
-header {
-  height: 6vh;
+div div span {
+  font-size: 1.1rem;
+  font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-
+  letter-spacing: normal;
+  word-spacing: normal;
 }
 
-::-webkit-scrollbar {
-    width: 0.8rem;
-    background: #fff;
-}
-
-span.ams.bkH {
-  background-color: #daf5ef;
-   box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
-
-span.ams.bkG {
-    background-color: #adf0b3;
-    font-weight: 500;
- box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
-
-div.gb_id.gb_cd.gb_od {
-  zoom: 90%;
-  margin-top: -5px;
-  background-color: #f4f4f4;
-}
-
-div.T-I.T-I-KE.L3 {
-    background-color: lightgrey;
- box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-
-}
-
-div.T-I.T-I-KE.L3:hover {
-    zoom: 105%;
-
+div div div {
+  font-size: 1rem;
 }
