@@ -1,25 +1,22 @@
 * {
- text-rendering:optimizeLegibility !important;
- -webkit-font-smoothing:antialiased !important;
- -moz-osx-font-smoothing:grayscale !important;
- letter-spacing:normal !important;
- word-spacing:normal !important;
- transition:normal !important;
- line-height:normal !important;
-
-
+text-rendering:optimizeLegibility !important;
+-webkit-font-smoothing:antialiased !important;
+-moz-osx-font-smoothing:grayscale !important;
+letter-spacing:normal !important;
+word-spacing:normal !important;
+transition:normal !important;
+line-height:normal !important;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* parent of logo > inside > content  */
 div > div > div > div  > div > div {
-  /* background-color: ye
-  llow;*/
+  /* background-color: yellow;*/
   padding-top: 0.5dvh;
   padding-left: 10px;
   color: white;
-
 }
+
 /* like dislike and copy buttons  */
 div.text-gray-400 {
   margin-right: 10px;
@@ -43,15 +40,15 @@ div > div > div > div > div > div > div > div > div > div > div > * > *  {
 div > div > div > div > div > div > div > div {
   /* background-color: yellow;*/
  /* max-width: 85dvw; */
-  max-width: inherit;
-display: normal;
-  width: normal;
-  background-color:  #323232;
-  padding-bottom: 0.01dvh;
-  border-radius: 10px;
-  margin-top: -8px;
-  padding-top: 1dvh;
-  margin-right: -10px;
+ max-width: inherit;
+ display: normal;
+ width: normal;
+ background-color:  #323232;
+ padding-bottom: 0.01dvh;
+ border-radius: 10px;
+ margin-top: -8px;
+ padding-top: 1dvh;
+ margin-right: -10px;
 }
 
 div > div > div > div > div > div > div > div > div > div > div :nth-child(1) > div {
@@ -64,13 +61,11 @@ div > div > div > div > div > div > div > div > div > div > div :nth-child(1) > 
 svg.h-6.w-6 {
   background-color:#f0f00a;
   border: solid, 1px,  yellow;
-    margin: 5px;
-    
-
+  margin: 5px;
 }
 
 svg.h-6.w-6:hover {
-            transform: rotateY(360deg); /* 360-degree flip around the Y-axis */    transform-style: preserve-3d;
+transform: rotateY(360deg); /* 360-degree flip around the Y-axis */    transform-style: preserve-3d;
 transition: transform 0.8s; 
 }
 
@@ -97,9 +92,9 @@ div div p {
  text-indent: 0px !important;
  text-transform: none !important;
  word-spacing: 0px; /* Color & Background */
-  cursor: auto !important;
+ cursor: auto !important;
  visibility: visible; /* Effects */
-  transition: all 0.15s ease-in 0s !important;
+ transition: all 0.15s ease-in 0s !important;
  resize: none !important;
  text-shadow: none !important;
  text-overflow: clip !important;
@@ -107,11 +102,10 @@ div div p {
 }
 
 div.markdown.prose.w-full.break-words.dark {
- /*   background-color: black; */
+ /*background-color: black; */
   padding: 0px;
   border-radius: 10px;
   max-width: 80dvw;
-
 }
 
 bold, b, em, strong {
@@ -123,11 +117,10 @@ div.flex-shrink-0.flex.flex-col.relative.items-end {
   width: 3px;
   background-color: #444654;;
   border-radius: 15px;
-  
 }
+
 ul, p, li {
   font-size: 1.2rem;
-
 }
 
 div ul li {
@@ -136,7 +129,6 @@ div ul li {
 
 li ul li {
   font-size: 1.2rem;
-
 }
 
 
