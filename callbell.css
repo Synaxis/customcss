@@ -4,13 +4,16 @@
     height: 20px; /* for horizontal scrollbars */
 }
 
+/* Remove useless notification "assigned to me" */
+div.absolute:nth-child(1) {
+ display: none;
+}
+
 /* Customer ext span border */
 .message-id-1143115732 > span:nth-child(1) {
   border-radius: 4px;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-
 
 /* Customer ext span border */
 .message-id-1143115732 > span:nth-child(1):hover {
@@ -248,6 +251,12 @@ ul.text-md.flex-nowrap.flex-grow.text-gray-400 {
   width: 2vw00;
 }
 
+/* Remove microphone */
+div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
+  display: none;
+}
+
+
 div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
   background-color: white;
   color: black;
@@ -258,16 +267,20 @@ div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
 
 #customButton {
   height: 50px;
-  margin-left: 450px;
-  margin-top: 695px;
+  margin-left: 430px;
+  margin-top: 690px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0px;
   width: 20px;
 }
 
-div.absolute.h-full.right-0.top-0 {
-  box-shadow: rgba(34, 39, 64, 0.25) -7px 0px 17px -5px;
+.chat-main-input > div {
+  position: relative;
+  border: solid 0.5px #5397ff;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
 }
 
 span.chat-text-message_content {
@@ -281,4 +294,22 @@ span.chat-note-actor-message-note {
   height: 7dvh;
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
+}
+
+ /* Menu titles and customer name */
+div.truncate {
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+div.truncate:hover {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  word-spacing: normal;
 }
