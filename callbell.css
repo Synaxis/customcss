@@ -1,3 +1,36 @@
+/* This targets the entire scrollbar */
+::webkit-scrollbar {
+    width: 20px;  /* for vertical scrollbars */
+    height: 20px; /* for horizontal scrollbars */
+}
+
+/* Customer ext span border */
+.message-id-1143115732 > span:nth-child(1) {
+  border-radius: 4px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+/* Customer ext span border */
+.message-id-1143115732 > span:nth-child(1):hover {
+box-shadow: rgba(34, 39, 64, 0.25) -7px 0px 17px -5px;
+color: black;
+}
+
+/* This targets the handle (or thumb) of the scrollbar */
+::webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+/* This targets the track (or background) of the scrollbar */
+::webkit-scrollbar-track {
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+
 *{
  text-rendering:optimizeLegibility !important;
  -webkit-font-smoothing:antialiased !important;
@@ -62,8 +95,24 @@ body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-con
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li {
  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-border-radius: 1vw;
+border-radius: 8px;
+width: 16dvw;
+height: 7dvh;
+
+margin-top: 0.3dvh;
+border:rgba(0, 0, 0, 0.26) solid 0.1px;
 background-color: #fafafa;
+
+}
+
+
+
+body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar  {
+border-radius: 16px;
+width: 16dvw;
+height: 7dvh;
+margin-top: 0.3dvh;
+border:rgba(0, 0, 0, 0.26) solid 0.1px;
 }
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li:hover {
@@ -77,7 +126,7 @@ background-color: white;
 }
 
 div.flex.flex-col.text-white.w-full.text-sm {
-zoom: 100%;
+
 width: 3vw;
 margin: 0px;
 background-color:  #f6f6f6 ;
@@ -114,7 +163,7 @@ box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0
  word-wrap: normal !important;
  }
   
-   /* span of customer text */
+  /* span of customer text */
   span.chat-text-message {
     -webkit-transition: none !important;
  -moz-transition: none !important;
@@ -178,7 +227,7 @@ span.chat-text-message_time {
 
 span span span {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
   letter-spacing: normal;
   word-spacing: normal;
@@ -193,4 +242,43 @@ div.absolute.top-0.left-0.w-full.text-sm.p-3.z-10.bg-green-100.text-green-600.da
 
 div.Toastify__toast.Toastify__toast--default {
   display: none;
+}
+
+ul.text-md.flex-nowrap.flex-grow.text-gray-400 {
+  width: 2vw00;
+}
+
+div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
+  background-color: white;
+  color: black;
+
+  margin-left: -1430px;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
+}
+
+#customButton {
+  height: 50px;
+  margin-left: 450px;
+  margin-top: 695px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  width: 20px;
+}
+
+div.absolute.h-full.right-0.top-0 {
+  box-shadow: rgba(34, 39, 64, 0.25) -7px 0px 17px -5px;
+}
+
+span.chat-text-message_content {
+  border-radius: 7px;
+}
+
+ /* System notification */ 
+span.chat-note-actor-message-note {
+  border-radius: 1px;
+  width: 14dvw;
+  height: 7dvh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
 }
