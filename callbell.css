@@ -1,3 +1,32 @@
+#toggleButton1 {
+margin-top: 35px;
+margin-left: 2px;
+font-size: 1.2rem;
+}
+
+#toggleButton2 {
+margin-top: -10px;
+margin-left: 60px;
+font-size: 1rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+/* Our text */
+span.chat-text-message_content span {
+  font-size: 1.2rem;
+  letter-spacing: normal;
+  word-spacing: normal;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  text-rendering: optimizeLegibility;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
 /* This targets the entire scrollbar */
 ::webkit-scrollbar {
     width: 20px;  /* for vertical scrollbars */
@@ -230,7 +259,7 @@ span.chat-text-message_time {
 
 span span span {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: normal;
   word-spacing: normal;
@@ -283,18 +312,15 @@ div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
   background-color: white;
 }
 
-span.chat-text-message_content {
-  border-radius: 7px;
-}
-
  /* System notification */ 
 span.chat-note-actor-message-note {
   border-radius: 1px;
-  width: 14dvw;
-  height: 7dvh;
+
   font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
   color: gray;
 }
+
 
  /* Menu titles and customer name */
 div.truncate {
@@ -306,10 +332,34 @@ div.truncate {
   word-spacing: normal;
 }
 
+ /* Date of chat */
+div.grouped-conversation:nth-child(2) > div:nth-child(1) {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  
+  margin-top: -30px;
+  margin-bottom: -40px;
+
+  width: 10dvw;
+  border-radius: 5px;
+  background-color:  white;
+
+}
+
 div.truncate:hover {
   font-weight: 600;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: normal;
   word-spacing: normal;
+}
+
+div.font-bold {
+  font-size: 1rem;
+  user-select: none;
+}
+
+div.text-xs.uppercase.font-semibold.mx-auto.mt-10.text-gray-600.dark:text-dark-400.text-center {
+  background-color: ;
 }
