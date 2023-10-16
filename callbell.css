@@ -4,23 +4,33 @@ margin-left: 2px;
 font-size: 1.2rem;
 }
 
+.text-green-600 {
+  color: black;
+  text-rendering: optimizeLegibility;
+  font-size: 13px;
+  margin-top: -5px;
+  padding: 8px;
+  padding-left: 12px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+}
+
 #toggleButton2 {
 margin-top: -10px;
 margin-left: 60px;
 font-size: 1rem;
 }
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600&display=swap');
 
 /* Our text */
 span.chat-text-message_content span {
   font-size: 1.2rem;
-  letter-spacing: normal;
+  letter-spacing: -0.1px;
   word-spacing: normal;
   margin-top: -10px;
   margin-bottom: -10px;
   text-rendering: optimizeLegibility;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa';
     font-weight: 500;
 }
 
@@ -33,10 +43,10 @@ span.chat-text-message_content span {
     height: 20px; /* for horizontal scrollbars */
 }
 
-/* Remove useless notification "assigned to me" */
+/* Remove useless notification "assigned to me"  issue breaks shortcut preview
 div.absolute:nth-child(1) {
  display: none;
-}
+}*/
 
 /* Customer ext span border */
 .message-id-1143115732 > span:nth-child(1) {
