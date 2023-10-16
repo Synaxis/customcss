@@ -8,6 +8,10 @@ div.truncate {
   user-select: text;
 }
 
+.text-gray-500 {
+  color:rgb(36, 41, 46);
+}
+
 div.truncate:hover {
   text-decoration: none;
 }
