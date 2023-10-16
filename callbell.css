@@ -9,9 +9,9 @@ font-size: 1.2rem;
  padding-left: 10px;
   padding-right: 10px;
   font-family: 'Comfortaa';
+  line-height: 18px !important;
   letter-spacing: -0.1px;
   color: black;
-  line-height: normal;
 }
 
 
@@ -250,17 +250,16 @@ box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0
   /* span of customer text */
   span.chat-text-message {
     -webkit-transition: none !important;
- -moz-transition: none !important;
- border-top-color: rgb(36, 41, 46) !important;
+ border-top-color: rgb(36, 41, 46) !important; 
  font-weight: 400 !important;
  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
  user-select: text !important;
  background-color: #FAFAFA !important;
- padding: 6px !important;
  text-rendering: optimizeLegibility !important;
  border-radius: 7px !important;
  direction: ltr !important;
  font-family: "Roboto", Arial, "Lucida Grande", sans-serif !important;
+  padding: 5px 12px 4px;
  font-size: 1rem !important;
  font-style: normal !important;
  font-variant: normal !important;
