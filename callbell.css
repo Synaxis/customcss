@@ -382,8 +382,9 @@ div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
 div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
   background-color: white;
   color: black;
+  z-index: 999;
   border: 1px solid black;
-  margin-left: -1220px;
+  margin-left: -1120px;
   margin-top: -10px;
   box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 }
