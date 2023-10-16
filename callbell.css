@@ -4,6 +4,17 @@ margin-left: 2px;
 font-size: 1.2rem;
 }
 
+#customButton {
+  height: 50px;
+  margin-left: 465px;
+  margin-top: 732px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  width: 20px;
+}
+
+
 /* Chat window box */
 .my-4 {
   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px;
@@ -310,15 +321,6 @@ div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
   box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 }
 
-#customButton {
-  height: 50px;
-  margin-left: 430px;
-  margin-top: 690px;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0px;
-  width: 20px;
-}
 
 .chat-main-input > div {
   position: relative;
