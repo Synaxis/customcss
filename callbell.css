@@ -4,6 +4,29 @@ margin-left: 2px;
 font-size: 1.2rem;
 }
 
+div.truncate {
+  user-select: text;
+}
+
+div.truncate:hover {
+  text-decoration: none;
+}
+
+/* padding of customer chat name header */
+.chat-container_tags-top-bar {
+  padding-top: 6px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  background-color: #8080ff
+}
+
+body .gravatar-container img {
+  width: 95%;
+  height: 95%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 /* padding of input text we type */
 .px-6 {
  padding-left: 10px;
@@ -128,10 +151,7 @@ color: black;
  font-variant:normal !important;
  font-variation-settings:normal !important;
 }
-body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.w-3\/4.flex-col.relative.flex-grow.ml-2.mr-4.my-4.border.bg-gray-100.dark\:bg-dark-800.dark\:border-dark-600.border-gray-200.rounded-lg > div > div.relative > div.chat-container_messages.text-sm.p-4 > div.absolute.bottom-0.right-0.mr-3.mb-8 > div {
-  background-color: gray;
-  color: white;
-}
+
 
 .font-bold {
   font-weight: 600;
@@ -166,8 +186,9 @@ div.flex.h-screen.overflow-y-hidden > div {
 }
 
 div.flex.h-screen.overflow-y-hidden {
-  background-color: #F1F1F1;
-  margin-left: -30px;
+  /* background-color: #F1F1F1; */
+  margin-left: -0.9dvw;
+  background-color: inherit;
 }
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li > a > div.flex.items-center.whitespace-nowrap.truncate.py-1.flex-grow > div.flex-col.truncate.flex-grow > div > div {
@@ -278,9 +299,7 @@ box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0
  word-wrap: normal !important;
  }
 
-.chat-container_tags-top-bar {
-  background-color: #F6F6F6;
-}
+
 
 div.chat-container_messages.text-sm.p-4 {
   background-color:  #F2F2F2 ;
