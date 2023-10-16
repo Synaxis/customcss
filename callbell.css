@@ -99,15 +99,20 @@ font-size: 1rem;
 /* Our text */
 span.chat-text-message_content span {
   font-size: 1.2rem;
-  letter-spacing: -0.1px;
-  word-spacing: normal;
-  margin-top: -10px;
+  letter-spacing: -0.4px;
+  word-spacing: -1px;
+  margin-top: 4px;
   margin-bottom: -10px;
   text-rendering: optimizeLegibility;
-    font-family: 'Comfortaa';
-    font-weight: 500;
+  font-family: 'Comfortaa';
+  font-weight: 500;
 }
 
+body .chat-container_messages_row > span {
+  max-width: 55%;
+  color: black;
+  background-color: white;
+}
 
 
 
@@ -336,7 +341,7 @@ span.chat-text-message_time {
 }
 
 span span span {
-  font-family: Arial, Helvetica, sans-serif;
+  padding: px;
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: normal;
