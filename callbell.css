@@ -4,6 +4,12 @@ margin-left: 2px;
 font-size: 1.2rem;
 }
 
+.opacity-25 > * {
+  opacity: 1 !important;
+  background-color: gainsboro !important;
+  color: black !important;
+}
+
 div.truncate {
   user-select: text;
 }
@@ -206,24 +212,29 @@ div.flex.h-screen.overflow-y-hidden {
 }
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li > a > div.flex.items-center.whitespace-nowrap.truncate.py-1.flex-grow > div.flex-col.truncate.flex-grow > div > div {
-  font-size: 1.1rem;
-  font-family: 'Roboto', Arial, "Lucida Grande", sans-serif;
-  font-weight: 600;
+  font-size: 17px;
+  padding: 0px;
+  margin-top: 10px;
+  color: black;
+  word-spacing: -1px;
+  letter-spacing: -0.4px;
+  font-family: Comfortaa;
+  font-weight: bold;
 }
 
-
-body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li {
+body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li  {
  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-border-radius: 8px;
+border-radius: 6px;
+padding: 10px;
+max-width: 300px;
 width: 16dvw;
-height: 7dvh;
-
+height: 6dvh;
+margin-bottom: 5px;
+border:  solid 0.1px blue;
 margin-top: 0.3dvh;
-border:rgba(0, 0, 0, 0.26) solid 0.1px;
-background-color: #fafafa;
+background-color: #FAFAFA;
 
 }
-
 
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar  {
