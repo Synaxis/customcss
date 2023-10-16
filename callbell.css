@@ -6,8 +6,7 @@ font-size: 1.2rem;
 
 .opacity-25 > * {
   opacity: 1 !important;
-  background-color: gainsboro !important;
-  color: black !important;
+  color: gray !important;
 }
 
 div.truncate {
@@ -383,20 +382,40 @@ div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
 div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
   background-color: white;
   color: black;
-
-  margin-left: -1430px;
+  border: 1px solid black;
+  margin-left: -1220px;
+  margin-top: -10px;
   box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 }
 
+div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1):hover {
+  background-color: #ff9999;
+  color: black;
+  font-weight: bold;
+  border: 1px solid red;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
+}
 
  /* System notification */ 
 span.chat-note-actor-message-note {
-  border-radius: 1px;
-
-  font-family: Arial, Helvetica, sans-serif;
-  user-select: none;
-  color: gray;
+  border-radius: 1px !important;
+  user-select: none !important;
+  color:rgba(60, 64, 67, 0.3) !important;
+  position: relative !important;
+  padding: 4px 4px !important;
+  text-align: center !important;
+  font-size:  10px !important;
+  font-style: normal !important;
+  word-break: break-word !important;
 }
+
+.chat-note-actor-message-note .chat-text-message_content > * {
+    font-size: 18px;
+    font-style: italic;
+    text-transform: lowercase;
+    letter-spacing: -0.4px;
+}
+
 
 
  /* Menu titles and customer name */
