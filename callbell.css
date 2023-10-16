@@ -9,7 +9,10 @@ div.truncate {
 }
 
 .text-gray-500 {
-  color:rgb(36, 41, 46);
+  color: #262626;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: lowercase;
 }
 
 div.truncate:hover {
