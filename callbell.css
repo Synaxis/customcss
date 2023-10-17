@@ -83,6 +83,13 @@ div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
   margin-top: 5px;
   margin-bottom: -25px;
 }
+
+/* remove "assigned to me"*/
+.text-green-600 {
+ display: none;
+}
+
+/* old "assigned to me"
 .text-green-600 {
   color: black;
   text-rendering: optimizeLegibility;
@@ -94,6 +101,7 @@ div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
   font-weight: 400;
   letter-spacing: -0.1px;
 }
+*/
 
 #toggleButton2 {
 margin-top: -10px;
