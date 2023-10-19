@@ -1,36 +1,41 @@
 /* Set default styles for all elements */
 html, body, * {
+font-family: Arial, sans-serif;
+   line-height: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -ms-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    letter-spacing: normal
+  }
+  div > div {
+    font-size: 19px;
+  }
 
-    font-family: Arial, sans-serif;
-    font-size: 1rem;
-   line-height: normal;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -ms-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    letter-spacing: normal
+  p, span {
+    font-size: 19px;
   }
-  
-  * {
-    font-family: Arial, sans-serif;
-    font-size: 1rem;
-   line-height: normal;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -ms-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    letter-spacing: normal
-  }
+
+
+selectable-text copyable-text {
+  user-select: text !important;
+}
+
+.selectable-tex {
+ user-select: text;
+ text-decoration: none;
+}
+
+a {
+  all: unset;
+  color: blue;
+  user-select: text;
+  pointer-events: none;
+  cursor: text;
+}
   
   /* Style content sections */
   section {
@@ -56,14 +61,6 @@ html, body, * {
       margin: 5px 0;
   }
   
-  a {
-      color: #007bff;
-  }
-  
-  
-  a:hover {
-      text-decoration: underline;
-  }
   
   /* Set font size for mobile devices */
   @media (max-width: 768px) {
@@ -89,4 +86,3 @@ html, body, * {
     margin-top: -15px;
     max-width: 9000%;
   }
-  
