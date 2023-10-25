@@ -2,7 +2,44 @@
   letter-spacing: normal;
   word-spacing: normal;
   font-feature-settings: "kern";
-  
+}
+
+/* input chat  */ 
+.chat-main-input > div {
+  position: relative;
+  border: solid 0.4px #5397ff;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 4px 8px;
+  padding: 3px 0px 2px 4px;
+  /* disable for now  
+
+  margin-left: 40px;
+  min-width: 45dvw; 
+  max-width: 85dvw;
+  height: auto;
+ width: auto;     */  
+
+  background-color: white;
+  text-align: center; /* Center the text inside the input box */
+}
+
+
+/* important background properties of html */ 
+div.flex.h-screen.overflow-y-hidden {
+  /* background-color: #F1F1F1; */
+  margin-left: -1dvw;
+  margin-right: -14px;
+  background-color: inherit;
+}
+
+body .chat-container_conversations {
+  padding-left: 1px;
+}
+
+
+/* remove favorites tab */
+.leading-5:nth-child(2)  {
+  display: none;
 }
 
 #toggleButton1 {
@@ -16,10 +53,7 @@ form.w-full {
  font-family: Arial, sans-serif;
 }
 
-/* remove funnel */
-.items-center > div > div > div:nth-child(2) {
-  display: none;
-}
+
 .opacity-25 > * {
   opacity: 1 !important;
   color: gray !important;
@@ -71,6 +105,7 @@ div.truncate:hover {
 .px-6 {
  padding-left: 10px;
   padding-right: 10px;
+  font-size: 1.2rem;
   /* font-family: 'Comfortaa'; */
   font-family: Roboto, sans-serif;
   line-height: 18px !important;
@@ -79,15 +114,7 @@ div.truncate:hover {
 }
 
 
- /* Box of our input div */
-.chat-main-input > div {
-  position: relative;
-  border: solid 0.5px #5397ff;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.20) 0px 4px 8px;
-  padding: 5px;
-  background-color: white;
-}
+
 
 #customButton {
   height: 50px;
@@ -107,7 +134,7 @@ div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
 /* Chat window box */
 .my-4 {
   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px;
-  margin-top: 5px;
+  margin-top: 4px;
   margin-bottom: -25px;
 }
 
@@ -135,12 +162,12 @@ margin-top: -10px;
 margin-left: 60px;
 font-size: 1rem;
 }
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600&display=swap');
 
 /* Our text */
 span.chat-text-message_content span {
   font-size: 22px;
   margin-top: 4px;
+  line-height: 2dvh;
   font-family: 'Roboto', Arial, "Lucida Grande", sans-serif;
   text-rendering: optimizeLegibility;
   /* font-family: 'Comfortaa'; 
@@ -156,8 +183,9 @@ body .chat-container_messages_row > span {
    background-color: white; */
 
 }
-
-
+.px-10 {
+  padding: 5px;
+}
 
 /* This targets the entire scrollbar */
 ::webkit-scrollbar {
@@ -194,7 +222,6 @@ color: black;
     border-radius: 10px;
 }
 
-
 *{
  text-rendering:optimizeLegibility !important;
  -webkit-font-smoothing:antialiased !important;
@@ -209,11 +236,9 @@ color: black;
  font-variation-settings:normal !important;
 }
 
-
 .font-bold {
   font-weight: 600;
 }
-
 
 p {
   margin-bottom: 1rem;
@@ -240,13 +265,9 @@ tr:nth-child(even) {
 
 div.flex.h-screen.overflow-y-hidden > div {
   background-color: WhiteSmoke;
+  
 }
 
-div.flex.h-screen.overflow-y-hidden {
-  /* background-color: #F1F1F1; */
-  margin-left: -0.9dvw;
-  background-color: inherit;
-}
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li > a > div.flex.items-center.whitespace-nowrap.truncate.py-1.flex-grow > div.flex-col.truncate.flex-grow > div > div {
   font-size: 17px;
@@ -255,7 +276,7 @@ body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-con
   color: black;
   word-spacing: -1px;
   letter-spacing: -0.4px;
-  font-family: Comfortaa;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -267,8 +288,8 @@ max-width: 300px;
 width: 16dvw;
 height: 6dvh;
 margin-bottom: 5px;
-border:  solid 0.1px blue;
 margin-top: 0.3dvh;
+border: solid 0.01px #8a8a8a;
 background-color: #FAFAFA;
 
 }
@@ -487,8 +508,4 @@ div.truncate:hover {
 div.font-bold {
   font-size: 1rem;
   user-select: none;
-}
-
-div.chat-container_messages_row.px-10.mt-1.flex.flex-wrap.message-id-1182560453.grouped-thread {
-  
 }
