@@ -4,12 +4,19 @@
   font-feature-settings: "kern";
 }
 
+
 .search-input > input {
   background-color: white;
   border: solid #f6f6f6 0.1px;
   border-radius: 6px;
   padding-left: 2rem;
   font-size: 12px;
+}
+
+.text-xs {
+  font-size: 14px;
+  margin-top: 2px;
+ letter-spacing: -0.4px;
 }
 
 /* input chat  */ 
@@ -520,4 +527,9 @@ div.truncate:hover {
 div.font-bold {
   font-size: 1rem;
   user-select: none;
+}
+
+div.flex.w-full.py-4.border-b.border-gray-200 {
+  height: 5dvh;
+  box-shadow: none;
 }
