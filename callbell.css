@@ -180,12 +180,8 @@ font-size: 1rem;
 
 /* Our text */
 span.chat-text-message_content span {
-  font-size: 21px;
-  margin-top: 3px;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-left: 2px;
-  padding-bottom: 2px;
+  font-size: 20px;
+  padding-bottom: 11px;
   line-height: 2dvh;
   font-family: 'Roboto', Arial, "Lucida Grande", sans-serif;
   text-rendering: optimizeLegibility;
@@ -197,7 +193,7 @@ span.chat-text-message_content span {
 }
 
 body .chat-container_messages_row > span {
-  max-width: 55%;
+  max-width: 75%;
   /*color: black;
    background-color: white; */
 
@@ -532,4 +528,8 @@ div.font-bold {
 div.flex.w-full.py-4.border-b.border-gray-200 {
   height: 5dvh;
   box-shadow: none;
+}
+
+div.flex.w-full.py-4.border-b.border-gray-200.dark:border-dark-600 {
+  
 }
