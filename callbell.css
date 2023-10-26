@@ -481,18 +481,18 @@ div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
   background-color: white;
   color: black;
   z-index: 999;
-  border: 1px solid black;
+  border-radius: 5px;
+  border: solid #8a8a8a 0.1px;
   margin-left: -1120px;
   margin-top: -10px;
-  box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 }
 
 div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1):hover {
   background-color: #ff9999;
   color: black;
   font-weight: bold;
-  border: 1px solid red;
-  box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
+  border: 1px solid #ff9999;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 4px 6px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 }
 
  /* System notification */ 
