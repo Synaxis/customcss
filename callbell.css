@@ -325,6 +325,7 @@ div.flex.flex-col.text-white.w-full.text-sm {
 width: 2vw;
 margin: 0px;
 z-index: 9;
+box-shadow: none;
 background-color:  #f6f6f6 ;
 border: 0px;
 }
@@ -332,6 +333,7 @@ border: 0px;
 div.flex.flex-col.text-white.w-full.text-sm > * {
 width: 2vw;
 z-index: 9;
+box-shadow: none;
 
 font-size: 10px;
 margin: 0px;
@@ -341,6 +343,8 @@ border: 0px;
 
 nav.main-sidebar.flex.h-screen {
   z-index: 0;
+  box-shadow: none;
+
 }
 
 
@@ -350,9 +354,18 @@ div.flex.h-screen.overflow-y-hidden {
   margin-left: -40px;
   margin-right: -14px;
   z-index: 9999900;
+  box-shadow: none;
+
   background-color: inherit;
 }
 
+:root {
+--display-font: Arial, sans-serif;
+}
+
+html {
+  line-height: normal;
+}
 
  /* span of our text */
  span.chat-text-message-primary {
