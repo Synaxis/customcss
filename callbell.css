@@ -39,14 +39,6 @@
 }
 
 
-/* important background properties of html */ 
-div.flex.h-screen.overflow-y-hidden {
-  /* background-color: #F1F1F1; */
-  margin-left: -1dvw;
-  margin-right: -14px;
-  background-color: inherit;
-}
-
 body .chat-container_conversations {
   padding-left: 1px;
 }
@@ -328,14 +320,39 @@ border-radius: 1.5vw;
 background-color: white;
 }
 
+/* First mini bar */
 div.flex.flex-col.text-white.w-full.text-sm {
+width: 2vw;
+margin: 0px;
+z-index: 9;
+background-color:  #f6f6f6 ;
+border: 0px;
+}
+/* First mini bar */
+div.flex.flex-col.text-white.w-full.text-sm > * {
+width: 2vw;
+z-index: 9;
 
-width: 3vw;
+font-size: 10px;
 margin: 0px;
 background-color:  #f6f6f6 ;
 border: 0px;
-box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 }
+
+nav.main-sidebar.flex.h-screen {
+  z-index: 0;
+}
+
+
+/* important background properties of html */ 
+div.flex.h-screen.overflow-y-hidden {
+  /* background-color: #F1F1F1; */
+  margin-left: -40px;
+  margin-right: -14px;
+  z-index: 9999900;
+  background-color: inherit;
+}
+
 
  /* span of our text */
  span.chat-text-message-primary {
@@ -530,6 +547,3 @@ div.flex.w-full.py-4.border-b.border-gray-200 {
   box-shadow: none;
 }
 
-div.flex.w-full.py-4.border-b.border-gray-200.dark:border-dark-600 {
-  
-}
