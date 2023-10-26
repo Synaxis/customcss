@@ -4,6 +4,14 @@
   font-feature-settings: "kern";
 }
 
+.search-input > input {
+  background-color: white;
+  border: solid #f6f6f6 0.1px;
+  border-radius: 6px;
+  padding-left: 2rem;
+  font-size: 12px;
+}
+
 /* input chat  */ 
 .chat-main-input > div {
   position: relative;
@@ -105,10 +113,10 @@ div.truncate:hover {
 .px-6 {
  padding-left: 10px;
   padding-right: 10px;
-  font-size: 1.2rem;
+  font-size: 17px;
   /* font-family: 'Comfortaa'; */
   font-family: Roboto, sans-serif;
-  line-height: 18px !important;
+  line-height: 17px !important;
   letter-spacing: -0.1px;
   color: black;
 }
@@ -165,8 +173,12 @@ font-size: 1rem;
 
 /* Our text */
 span.chat-text-message_content span {
-  font-size: 22px;
-  margin-top: 4px;
+  font-size: 21px;
+  margin-top: 3px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
   line-height: 2dvh;
   font-family: 'Roboto', Arial, "Lucida Grande", sans-serif;
   text-rendering: optimizeLegibility;
