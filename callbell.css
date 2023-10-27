@@ -22,10 +22,11 @@
 /* input chat  */ 
 .chat-main-input > div {
   position: relative;
-  border: solid 0.4px #5397ff;
+  border: solid 0.3px #5397ff;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.20) 0px 4px 8px;
-  padding: 3px 0px 2px 4px;
+  padding-top: 2px;
+  padding-right: 2px;
   /* disable for now  
 
   margin-left: 40px;
