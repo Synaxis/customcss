@@ -1,0 +1,536 @@
+* {
+  letter-spacing: normal;
+  word-spacing: normal;
+  white-space: normal;
+  font-feature-settings: "kern";
+}
+
+
+.search-input > input {
+  background-color: white;
+  border: solid #f6f6f6 0.1px;
+  border-radius: 6px;
+  padding-left: 2rem;
+  font-size: 12px;
+}
+
+.text-xs {
+  font-size: 14px;
+  margin-top: 2px;
+ letter-spacing: -0.4px;
+}
+
+/* input chat  */ 
+.chat-main-input > div {
+  position: relative;
+  border: solid 0.3px #5397ff;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 4px 8px;
+  padding-top: 2px;
+  padding-right: 2px;
+  /* disable for now  
+
+  margin-left: 40px;
+  min-width: 45dvw; 
+  max-width: 85dvw;
+  height: auto;
+ width: auto;     */  
+
+  background-color: white;
+  text-align: center; /* Center the text inside the input box */
+}
+
+
+body .chat-container_conversations {
+  padding-left: 1px;
+}
+
+
+/* remove favorites tab */
+.leading-5:nth-child(2)  {
+  display: none;
+}
+
+#toggleButton1 {
+margin-top: 35px;
+margin-left: 2px;
+font-size: 1.2rem;
+}
+
+form.w-full {
+ font-size: 16px;
+ font-family: Arial, sans-serif;
+}
+
+
+.opacity-25 > * {
+  opacity: 1 !important;
+  color: gray !important;
+}
+
+div.truncate {
+  user-select: text;
+}
+
+.text-gray-500 {
+  color: #262626;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+/* user name box */
+body .gravatar-container {
+  width: 30px;
+  height: 30px;
+  min-width: 30px; 
+}
+
+/* user img */
+body .gravatar-container img {
+  width: 95%;
+  height: 95%;
+    border-radius: 3px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+div.truncate:hover {
+  text-decoration: none;
+}
+
+/* padding of customer chat name header */
+.chat-container_tags-top-bar {
+  padding-top: 6px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  height: 3dvw;
+  margin-top: -0.5dvh;
+  background-color: white
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;400;700&display=swap');
+
+/* padding of input text we type */
+.px-6 {
+ padding-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
+  /* font-family: 'Comfortaa'; */
+  font-family: Roboto, sans-serif;
+  line-height: 17px !important;
+  letter-spacing: -0.1px;
+  color: black;
+}
+
+
+
+#customButton {
+  height: 50px;
+  margin-left: 465px;
+  margin-top: 732px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  width: 20px;
+}
+
+div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
+  display: inline;
+}
+
+
+/* Chat window box */
+.my-4 {
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px;
+  margin-top: 4px;
+  margin-bottom: -25px;
+}
+
+/* remove "assigned to me"*/
+.text-green-600 {
+ display: none;
+}
+
+/* old "assigned to me"
+.text-green-600 {
+  color: black;
+  text-rendering: optimizeLegibility;
+  font-size: 13px;
+  margin-top: -5px;
+  background-color: #f2f2f2;
+  padding: 8px;
+  padding-left: 12px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+}
+*/
+
+#toggleButton2 {
+margin-top: -10px;
+margin-left: 60px;
+font-size: 1rem;
+}
+
+/* Our text */
+span.chat-text-message_content span {
+  font-size: 20px;
+  padding-bottom: 11px;
+  line-height: 18px;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.1px;
+  font-weight: 500;
+}
+
+/* span of our text */
+ span.chat-text-message-primary {
+  -webkit-transition: none !important;
+ -moz-transition: none !important;
+ font-weight: 500 !important;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 1px 2px 1px !important;
+ user-select: text !important;
+ padding: 5px !important;
+ text-rendering: optimizeLegibility !important;
+   font-family: 'Comfortaa'; 
+  color: #f8f8f8 !important;
+ border-radius: 7px !important;
+ direction: ltr !important;
+ font-size: 1rem !important;
+ line-height: 18px !important;
+ text-transform: none !important;
+cursor: auto !important;
+ visibility: visible; /* Effects */
+ text-shadow: none !important;
+ word-wrap: normal !important;
+ }
+
+body .chat-container_messages_row > span {
+  max-width: 75%;
+  /*color: black;
+   background-color: white; */
+
+}
+.px-10 {
+  padding: 5px;
+}
+
+/* This targets the entire scrollbar */
+::webkit-scrollbar {
+    width: 20px;  /* for vertical scrollbars */
+    height: 20px; /* for horizontal scrollbars */
+}
+
+/* Remove useless notification "assigned to me"  issue breaks shortcut preview
+div.absolute:nth-child(1) {
+ display: none;
+}*/
+
+/* Customer ext span border */
+.message-id-1143115732 > span:nth-child(1) {
+  border-radius: 4px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Customer ext span border */
+.message-id-1143115732 > span:nth-child(1):hover {
+box-shadow: rgba(34, 39, 64, 0.25) -7px 0px 17px -5px;
+color: black;
+}
+
+/* This targets the handle (or thumb) of the scrollbar */
+::webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+/* This targets the track (or background) of the scrollbar */
+::webkit-scrollbar-track {
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+
+.font-bold {
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+a {
+  color: #4355ED;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0b0080;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+div.flex.h-screen.overflow-y-hidden > div {
+  background-color: WhiteSmoke;
+  
+}
+
+
+body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li > a > div.flex.items-center.whitespace-nowrap.truncate.py-1.flex-grow > div.flex-col.truncate.flex-grow > div > div {
+  font-size: 17px;
+  padding: 0px;
+  margin-top: 10px;
+  color: black;
+  word-spacing: -1px;
+  letter-spacing: -0.4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li  {
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+border-radius: 6px;
+padding: 10px;
+max-width: 300px;
+width: 16dvw;
+height: 6dvh;
+margin-bottom: 5px;
+margin-top: 0.3dvh;
+border: solid 0.01px #8a8a8a;
+background-color: #FAFAFA;
+}
+
+
+body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar  {
+border-radius: 16px;
+width: 16dvw;
+height: 7dvh;
+margin-top: 0.3dvh;
+border:rgba(0, 0, 0, 0.26) solid 0.1px;
+}
+
+body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li:hover {
+ zoom: 102%;
+ margin: 4px;
+ color: black;
+ font-weight: 600;
+ box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
+border-radius: 1.5vw;
+background-color: white;
+}
+
+/* First mini bar */
+div.flex.flex-col.text-white.w-full.text-sm {
+width: 2vw;
+margin: 0px;
+z-index: 9;
+box-shadow: none;
+background-color:  #f6f6f6 ;
+border: 0px;
+}
+/* First mini bar */
+div.flex.flex-col.text-white.w-full.text-sm > * {
+width: 2vw;
+z-index: 9;
+box-shadow: none;
+
+font-size: 10px;
+margin: 0px;
+background-color:  #f6f6f6 ;
+border: 0px;
+}
+
+nav.main-sidebar.flex.h-screen {
+  z-index: 0;
+  box-shadow: none;
+
+}
+
+/* important background properties of html */ 
+div.flex.h-screen.overflow-y-hidden {
+  /* background-color: #F1F1F1; */
+  margin-left: -40px;
+  margin-right: -14px;
+  z-index: 9999900;
+  box-shadow: none;
+
+  background-color: inherit;
+}
+
+:root {
+--display-font: Arial, sans-serif;
+}
+
+ 
+  
+  /* span of customer text */
+  span.chat-text-message {
+    -webkit-transition: none !important;
+ border-top-color: rgb(36, 41, 46) !important; 
+ font-weight: 400 !important;
+ box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.10) 0px 1px 2px 1px !important;
+ user-select: text !important;
+ background-color: #FAFAFA !important;
+ text-rendering: optimizeLegibility !important;
+ border-radius: 4px !important;
+ direction: ltr !important;
+  padding: 5px 8px 4px;
+ font-size: 1rem !important;
+ font-style: normal !important;
+ font-variant: normal !important;
+ letter-spacing: normal !important;
+ line-height: 18px !important;
+ text-decoration: rgb(36, 41, 46) !important;
+ text-indent: 0px !important;
+ text-transform: none !important;
+ word-spacing: 0px;
+  cursor: auto !important;
+ visibility: visible; /* Effects */
+  transition: all 0.15s ease-in 0s !important;
+ outline-offset: 0px !important;
+ resize: none !important;
+ text-shadow: none !important;
+ text-overflow: clip !important;
+ word-wrap: normal !important;
+ }
+
+div.chat-container_tags-top-bar.shadow.rounded-t-lg.bg-white.dark:bg-dark-800.px-4.py-4 {
+  background-color:   #F2F2F2;
+}
+
+
+div.px-2.p-1.cursor-pointer.text-sm.radius.rounded.inline-block.items-center {
+  display: none;
+}
+
+span.flex > span {
+  font-size: 16px;
+  margin-left: -1px;
+  user-select: none;
+}
+
+span.chat-text-message_time {
+  font-family: consolas;
+  user-select: none;
+  font-size: 10px;
+}
+
+span span span {
+  padding: px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-shadow: none;
+  text-rendering: optimizeLegibility;
+}
+
+div.absolute.top-0.left-0.w-full.text-sm.p-3.z-10.bg-green-100.text-green-600.dark:bg-green-500.dark:text-white {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+div.Toastify__toast.Toastify__toast--default {
+  display: none;
+}
+
+ul.text-md.flex-nowrap.flex-grow.text-gray-400 {
+  width: 2vw00;
+}
+
+/* Remove microphone */
+div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
+  display: none;
+}
+
+
+div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
+  background-color: white;
+  color: black;
+  z-index: 999;
+  border-radius: 5px;
+  border: solid #8a8a8a 0.1px;
+  margin-left: -1120px;
+  margin-top: -10px;
+}
+
+div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1):hover {
+  background-color: #ff9999;
+  color: black;
+  font-weight: bold;
+  border: 1px solid #ff9999;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 4px 6px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
+}
+
+ /* System notification */ 
+span.chat-note-actor-message-note {
+  border-radius: 1px !important;
+  user-select: none !important;
+  color:rgba(60, 64, 67, 0.3) !important;
+  position: relative !important;
+  padding: 4px 4px !important;
+  text-align: center !important;
+  font-size:  10px !important;
+  font-style: normal !important;
+  word-break: break-word !important;
+}
+
+.chat-note-actor-message-note .chat-text-message_content > * {
+    font-size: 18px;
+    font-style: italic;
+    text-transform: lowercase;
+    letter-spacing: -0.4px;
+}
+
+
+
+ /* Menu titles and customer name */
+div.truncate {
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+ /* Date of chat */
+div.grouped-conversation:nth-child(2) > div:nth-child(1) {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  
+  margin-top: -30px;
+  margin-bottom: -40px;
+
+  width: 10dvw;
+  border-radius: 5px;
+  background-color:  white;
+
+}
+
+div.truncate:hover {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+div.font-bold {
+  font-size: 1rem;
+  user-select: none;
+}
+
+div.flex.w-full.py-4.border-b.border-gray-200 {
+  height: 5dvh;
+  box-shadow: none;
+}
+
