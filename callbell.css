@@ -122,8 +122,6 @@ div.truncate:hover {
 }
 
 
-
-
 #customButton {
   height: 50px;
   margin-left: 465px;
@@ -175,7 +173,7 @@ font-size: 1rem;
 span.chat-text-message_content span {
   font-size: 20px;
   padding-bottom: 11px;
-  line-height: 2dvh;
+  line-height: 16px;
   font-family: 'Roboto', Arial, "Lucida Grande", sans-serif;
   text-rendering: optimizeLegibility;
   /* font-family: 'Comfortaa'; 
@@ -230,19 +228,6 @@ color: black;
     border-radius: 10px;
 }
 
-*{
- text-rendering:optimizeLegibility !important;
- -webkit-font-smoothing:antialiased !important;
- -moz-osx-font-smoothing:grayscale !important;
- letter-spacing:normal !important;
- word-spacing:normal !important;
- transition:normal !important;
- line-height:normal !important;
- text-indent:none !important;
- font-feature-settings:normal !important;
- font-variant:normal !important;
- font-variation-settings:normal !important;
-}
 
 .font-bold {
   font-weight: 600;
@@ -299,7 +284,6 @@ margin-bottom: 5px;
 margin-top: 0.3dvh;
 border: solid 0.01px #8a8a8a;
 background-color: #FAFAFA;
-
 }
 
 
@@ -348,7 +332,6 @@ nav.main-sidebar.flex.h-screen {
 
 }
 
-
 /* important background properties of html */ 
 div.flex.h-screen.overflow-y-hidden {
   /* background-color: #F1F1F1; */
@@ -364,36 +347,26 @@ div.flex.h-screen.overflow-y-hidden {
 --display-font: Arial, sans-serif;
 }
 
-html {
-  line-height: normal;
-}
-
  /* span of our text */
  span.chat-text-message-primary {
   -webkit-transition: none !important;
  -moz-transition: none !important;
  color: white !important;
  font-weight: 500 !important;
- box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 1px 2px 1px !important;
  user-select: text !important;
- padding: 6px !important;
+ padding: 5px !important;
  text-rendering: optimizeLegibility !important;
  border-radius: 7px !important;
  direction: ltr !important;
  font-family: "Roboto", Arial, "Lucida Grande", sans-serif !important;
  font-size: 1rem !important;
- line-height: 18px !important;
+ line-height: 17px !important;
  text-decoration: rgb(36, 41, 46) !important;
- text-indent: 0px !important;
  text-transform: none !important;
- word-spacing: 0px; /* Color & Background */
-  cursor: auto !important;
+cursor: auto !important;
  visibility: visible; /* Effects */
-  transition: all 0.15s ease-in 0s !important;
- outline-offset: 0px !important;
- resize: none !important;
  text-shadow: none !important;
- text-overflow: clip !important;
  word-wrap: normal !important;
  }
   
@@ -413,7 +386,7 @@ html {
  font-style: normal !important;
  font-variant: normal !important;
  letter-spacing: normal !important;
- line-height: 18px !important;
+ line-height: 17px !important;
  text-decoration: rgb(36, 41, 46) !important;
  text-indent: 0px !important;
  text-transform: none !important;
@@ -533,14 +506,11 @@ div.grouped-conversation:nth-child(2) > div:nth-child(1) {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  
   margin-top: -30px;
   margin-bottom: -40px;
-
   width: 10dvw;
   border-radius: 5px;
   background-color:  white;
-
 }
 
 div.truncate:hover {
@@ -560,4 +530,3 @@ div.flex.w-full.py-4.border-b.border-gray-200 {
   height: 5dvh;
   box-shadow: none;
 }
-
