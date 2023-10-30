@@ -108,6 +108,7 @@ div.truncate:hover {
   background-color: white
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;400;700&display=swap');
 
 /* padding of input text we type */
 .px-6 {
@@ -120,6 +121,7 @@ div.truncate:hover {
   letter-spacing: -0.1px;
   color: black;
 }
+
 
 
 #customButton {
@@ -173,15 +175,33 @@ font-size: 1rem;
 span.chat-text-message_content span {
   font-size: 20px;
   padding-bottom: 11px;
-  line-height: 16px;
-  font-family: 'Roboto', Arial, "Lucida Grande", sans-serif;
+  line-height: 18px;
   text-rendering: optimizeLegibility;
-  /* font-family: 'Comfortaa'; 
-  margin-bottom: -10px;
-  letter-spacing: -0.5px;
-  word-spacing: -1px;  */
+  letter-spacing: -0.1px;
   font-weight: 500;
 }
+
+/* span of our text */
+ span.chat-text-message-primary {
+  -webkit-transition: none !important;
+ -moz-transition: none !important;
+ font-weight: 500 !important;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 1px 2px 1px !important;
+ user-select: text !important;
+ padding: 5px !important;
+ text-rendering: optimizeLegibility !important;
+   font-family: 'Comfortaa'; 
+  color: #f8f8f8 !important;
+ border-radius: 7px !important;
+ direction: ltr !important;
+ font-size: 1rem !important;
+ line-height: 17px !important;
+ text-transform: none !important;
+cursor: auto !important;
+ visibility: visible; /* Effects */
+ text-shadow: none !important;
+ word-wrap: normal !important;
+ }
 
 body .chat-container_messages_row > span {
   max-width: 75%;
@@ -347,28 +367,7 @@ div.flex.h-screen.overflow-y-hidden {
 --display-font: Arial, sans-serif;
 }
 
- /* span of our text */
- span.chat-text-message-primary {
-  -webkit-transition: none !important;
- -moz-transition: none !important;
- color: white !important;
- font-weight: 500 !important;
- box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 1px 2px 1px !important;
- user-select: text !important;
- padding: 5px !important;
- text-rendering: optimizeLegibility !important;
- border-radius: 7px !important;
- direction: ltr !important;
- font-family: "Roboto", Arial, "Lucida Grande", sans-serif !important;
- font-size: 1rem !important;
- line-height: 17px !important;
- text-decoration: rgb(36, 41, 46) !important;
- text-transform: none !important;
-cursor: auto !important;
- visibility: visible; /* Effects */
- text-shadow: none !important;
- word-wrap: normal !important;
- }
+ 
   
   /* span of customer text */
   span.chat-text-message {
@@ -506,11 +505,14 @@ div.grouped-conversation:nth-child(2) > div:nth-child(1) {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
+  
   margin-top: -30px;
   margin-bottom: -40px;
+
   width: 10dvw;
   border-radius: 5px;
   background-color:  white;
+
 }
 
 div.truncate:hover {
@@ -530,3 +532,4 @@ div.flex.w-full.py-4.border-b.border-gray-200 {
   height: 5dvh;
   box-shadow: none;
 }
+
