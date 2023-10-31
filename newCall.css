@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
 *, p , span, b, bold{
   letter-spacing: normal;
   word-spacing: normal;
@@ -139,31 +141,59 @@ textarea::placeholder {
  letter-spacing: -0.4px;
 }
 
+/* Define CSS variables at the root level for easy adjustments */
+:root {
+  --input-height: auto; /* Adjust the height of the chat input */
+  --input-border-color: #5397ff;
+  --input-border-radius: 4px;
+  --input-box-shadow: rgba(0, 0, 0, 0.20) 0px 4px 8px;
+  --input-padding: 0 2px; /* top/bottom, left/right */
+  --input-margin-bottom: -5px;
+}
 
+/* Main chat input styling */
 div.chat-main-input.flex.absolute.left-8.bottom-8.right-8 {
-  height: 14dvh;
-  border: solid 0.3px #5397ff;
+  height: var(--input-height);
+  border: solid 0.3px var(--input-border-color);
+  margin-bottom: -5px;
+  border-bottom-width: 5px;
+  width: 1100px;
+  padding-top: -15px;
+  margin-top: 0px;
+  border-top-width: 1px;
+  border-style: solid;
+  text-align: right;
+  position: absolute; /* Keep your absolute positioning */
+  left: 50%;
+  transform: translate(-50%);
+  /* Rest of your styles */
+  
 }
-/* input chat  */ 
+
+/* Styling for child divs of the chat input */
 .chat-main-input > div {
-  height: 14dvh;
-  margin-bottom: 100px;
+  height: var(--input-height);
+  margin-bottom: var(--input-margin-bottom);
   position: relative;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.20) 0px 4px 8px;
-  padding-top: 0px;
-  padding-right: 2px;  
-  /* disable for now  
+  border-radius: var(--input-border-radius);
+  box-shadow: var(--input-box-shadow);
+  padding: var(--input-padding);
+  text-align: center; /* Center text inside the input box */
 
-  margin-left: 40px;
-  min-width: 45dvw; 
-  max-width: 85dvw;
-  height: auto;
- width: auto;     */  
+  /* Responsive Design */
+  /* You can adjust these breakpoints and properties as needed */
+  @media (max-width: 600px) {
+    padding: 4px;
+    border-radius: 2px;
+  }
 
-  text-align: center; /* Center the text inside the input box */
+  /* Add more media queries as needed for different screen sizes */
 }
 
+/* Additional styles and modifications can be added here */
+
+
+/* Additional styles and modifications can be added here */
 
 body .chat-container_conversations {
   padding-left: 1px;
@@ -233,8 +263,6 @@ div.truncate:hover {
   margin-top: -2px;
   background-color: #f8f8f8;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;400;700&display=swap');
 
 /* padding of input text we type */
 .px-6 {
@@ -639,5 +667,17 @@ svg * {
   color: black;
 }
 
+div.py-4.border-b.border-gray-200.dark:border-dark-600 {
+  margin-top: 0px;
+  border-top-width: 0px;
+  width: 0px;
+  font-family: Montserrat;
+}
 
-
+div.chat-container_messages_row.px-10.mt-10.flex.flex-wrap.message-id-1180282471 {
+  width: -px;
+  padding-top: 0px;
+  border-top-width: 0px;
+  padding-right: 0px;
+  border-right-width: 0px;
+}
