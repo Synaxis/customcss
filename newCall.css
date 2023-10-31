@@ -54,11 +54,14 @@ div {
 /* stuff we type */
 .placeholder-gray-300 {
   color: black;
-  font-size: 1.2dvw;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-size: 1.1dvw;
   padding-top: 3px;
   padding-bottom: 20px;
   padding-left: 3px;
   margin: 2px;
+  line-height: 2.5dvh;
   min-height: 3dvh;
   margin-top: -2px;
   font-family: Arial, sans-serif !important;
@@ -598,3 +601,6 @@ div.flex.flex-row.py-4.px-6.w-full.justify-around {
   color: black;
 }
 
+textarea.placeholder-gray-300.dark:placeholder-dark-400.w-full.flex-grow.focus:outline-none.resize-none.overflow-x-hidden.bg-white.dark:bg-dark-800.dark:text-dark-100 {
+  
+}
