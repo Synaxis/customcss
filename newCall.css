@@ -212,26 +212,45 @@ cursor: auto !important;
  word-wrap: normal !important;
  }
 
+
+   
+/* span of customer text */
+span.chat-text-message {
+font-weight: 500 !important;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 1px 2px 1px !important;
+
+ user-select: text !important;
+ padding: 5px !important;
+text-rendering: optimizeLegibility !important;
+
+  font-family: 'Comfortaa'; 
+  color: #f8f8f8 !important;
+  background-color: #343541;
+ border-radius: 7px !important;
+ direction: ltr !important;
+ font-size: 1rem !important;
+ line-height: 18px !important;
+ text-transform: none !important;
+cursor: auto !important;
+ text-shadow: none !important;
+ word-wrap: normal !important;
+}
+
 body .chat-container_messages_row > span {
   max-width: 75%;
   /*color: black;
    background-color: white; */
-
 }
+
 .px-10 {
   padding: 5px;
 }
 
-/* This targets the entire scrollbar */
+/* targets entire scrollbar */
 ::webkit-scrollbar {
-    width: 20px;  /* for vertical scrollbars */
-    height: 20px; /* for horizontal scrollbars */
+  width: 20px;  /* vertical scroll */
+  height: 20px; /* horizontal scroll*/
 }
-
-/* Remove useless notification "assigned to me"  issue breaks shortcut preview
-div.absolute:nth-child(1) {
- display: none;
-}*/
 
 /* Customer ext span border */
 .message-id-1143115732 > span:nth-child(1) {
@@ -256,7 +275,6 @@ color: black;
     background-color: lightgrey;
     border-radius: 10px;
 }
-
 
 .font-bold {
   font-weight: 600;
@@ -287,7 +305,6 @@ tr:nth-child(even) {
 
 div.flex.h-screen.overflow-y-hidden > div {
   background-color: #1a1a1a;
-  
 }
 
 
@@ -376,37 +393,7 @@ div.flex.h-screen.overflow-y-hidden {
 }
 
  
-  
-  /* span of customer text */
-  span.chat-text-message {
-    -webkit-transition: none !important;
- border-top-color: rgb(36, 41, 46) !important; 
- font-weight: 400 !important;
- box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.10) 0px 1px 2px 1px !important;
- user-select: text !important;
- background-color: #FAFAFA !important;
- text-rendering: optimizeLegibility !important;
- border-radius: 4px !important;
- direction: ltr !important;
-  padding: 5px 8px 4px;
- font-size: 1rem !important;
- font-style: normal !important;
- font-variant: normal !important;
- letter-spacing: normal !important;
- line-height: 18px !important;
- text-decoration: rgb(36, 41, 46) !important;
- text-indent: 0px !important;
- text-transform: none !important;
- word-spacing: 0px;
-  cursor: auto !important;
- visibility: visible; /* Effects */
-  transition: all 0.15s ease-in 0s !important;
- outline-offset: 0px !important;
- resize: none !important;
- text-shadow: none !important;
- text-overflow: clip !important;
- word-wrap: normal !important;
- }
+
 
 div.chat-container_tags-top-bar.shadow.rounded-t-lg.bg-white.dark:bg-dark-800.px-4.py-4 {
   background-color:   #F2F2F2;
