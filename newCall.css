@@ -9,9 +9,8 @@ div.truncate {
   color: black;
   font-weight: 500;
    height: auto;
-   width: 6dvw;
-   line-height: 10px;
-  font-size: 16px;
+  line-height: 1.2dvh;
+  font-size: 0.8dvw;
   font-family: Arial, sans-serif !important;
   letter-spacing: normal;
   word-spacing: normal;
