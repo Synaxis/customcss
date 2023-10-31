@@ -1,8 +1,8 @@
-* {
+*, p , span, b, bold{
   letter-spacing: normal;
   word-spacing: normal;
   font-feature-settings: "kern";
-}
+  }
 
 
 .search-input > input {
@@ -25,6 +25,7 @@
   border: solid 0.3px #5397ff;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.20) 0px 4px 8px;
+  background-color: #343541;
   padding-top: 2px;
   padding-right: 2px;
   /* disable for now  
@@ -35,7 +36,6 @@
   height: auto;
  width: auto;     */  
 
-  background-color: white;
   text-align: center; /* Center the text inside the input box */
 }
 
@@ -72,9 +72,11 @@ div.truncate {
 }
 
 .text-gray-500 {
-  color: #262626;
+  color: white;
   font-size: 12px;
   font-weight: 400;
+    background-color: #343541;
+
   text-transform: lowercase;
 }
 
@@ -104,8 +106,9 @@ div.truncate:hover {
   padding-bottom: 5px;
   border-radius: 3px;
   height: 3dvw;
+  color: white;
   margin-top: -0.5dvh;
-  background-color: white
+  background-color: #343541;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;400;700&display=swap');
@@ -119,7 +122,9 @@ div.truncate:hover {
   font-family: Roboto, sans-serif;
   line-height: 17px !important;
   letter-spacing: -0.1px;
-  color: black;
+  color: white;
+    background-color: #343541;
+
 }
 
 
@@ -128,7 +133,7 @@ div.truncate:hover {
   height: 50px;
   margin-left: 465px;
   margin-top: 732px;
-  color: black;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0px;
   width: 20px;
@@ -174,8 +179,10 @@ font-size: 1rem;
 /* Our text */
 span.chat-text-message_content span {
   font-size: 20px;
-  padding-bottom: 11px;
-  line-height: 18px;
+  padding-bottom: 1px;
+  line-height: 3dvh;
+  background-color: #343541;
+  color: white;
   text-rendering: optimizeLegibility;
   letter-spacing: -0.1px;
   font-weight: 500;
@@ -192,6 +199,8 @@ span.chat-text-message_content span {
  text-rendering: optimizeLegibility !important;
    font-family: 'Comfortaa'; 
   color: #f8f8f8 !important;
+    background-color: #343541;
+
  border-radius: 7px !important;
  direction: ltr !important;
  font-size: 1rem !important;
@@ -269,15 +278,15 @@ a:hover {
 }
 
 th {
-  background-color: #f4f4f4;
+  background-color: #343541;
 }
 
 tr:nth-child(even) {
-  background-color: #f4f4f4;
+  background-color: #343541;
 }
 
 div.flex.h-screen.overflow-y-hidden > div {
-  background-color: WhiteSmoke;
+  background-color: #1a1a1a;
   
 }
 
@@ -289,7 +298,6 @@ body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-con
   color: black;
   word-spacing: -1px;
   letter-spacing: -0.4px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -318,7 +326,7 @@ border:rgba(0, 0, 0, 0.26) solid 0.1px;
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li:hover {
  zoom: 102%;
  margin: 4px;
- color: black;
+ color: white;
  font-weight: 600;
  box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 border-radius: 1.5vw;
@@ -452,7 +460,7 @@ div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
 
 div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
   background-color: white;
-  color: black;
+  color: white;
   z-index: 999;
   border-radius: 5px;
   border: solid #8a8a8a 0.1px;
@@ -462,7 +470,7 @@ div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1) {
 
 div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1):hover {
   background-color: #ff9999;
-  color: black;
+  color: white;
   font-weight: bold;
   border: 1px solid #ff9999;
   box-shadow: rgba(0, 0, 0, 0.26) 0px 4px 6px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
@@ -494,6 +502,7 @@ span.chat-note-actor-message-note {
 div.truncate {
   color: black;
   font-weight: 500;
+
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: normal;
