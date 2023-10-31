@@ -236,12 +236,18 @@ div.flex.h-screen.overflow-y-hidden > div {
 span.chat-text-message_content span {
   font-size: 20px;
   padding-bottom: 1px;
+  box-sizing: border-box;
   line-height: 3dvh;
   color: black;
-  
+  background-color: blue !important;
   text-rendering: optimizeLegibility;
-  letter-spacing: -0.1px;
+  letter-spacing: normal;
   font-weight: 500;
+}
+
+div.font-bold {
+  margin-bottom: 2px;
+  padding: 0px;
 }
 
 /* span of our text */
