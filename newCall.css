@@ -9,6 +9,13 @@
     display: none;
   }
 
+  body .chat-container_messages {
+  overflow: hidden;
+    overflow-y: hidden;
+  overflow-y: auto;
+  height: calc(100dvh - 150px);
+}
+
 /* remove funnel */
    div.mx-1:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
     display: none;
