@@ -4,6 +4,18 @@
   font-feature-settings: "kern";
   }
 
+/* Menu titles and customer name */
+div.truncate {
+  color: black;
+  font-weight: 500;
+   height: auto;
+   width: 6dvw;
+   line-height: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif !important;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
   /* Body 
 div.font-bold {
   margin-bottom: -5px;
@@ -165,13 +177,13 @@ div.truncate {
   text-transform: lowercase;
 }
 
+
 /* user name box */
 body .gravatar-container {
-  width: 30px;
+  width: 10px;
   height: 30px;
   min-width: 30px; 
 }
-
 /* user img */
 body .gravatar-container img {
   width: 95%;
@@ -187,12 +199,12 @@ div.truncate:hover {
 
 /* padding of customer chat name header */
 .chat-container_tags-top-bar {
-  padding-top: 6px;
+  padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 3px;
-  height: 3dvw;
+  height: 2dvw;
   color: black;
-  margin-top: -0.5dvh;
+  margin-top: -1dvh;
   background-color: #f8f8f8;
 }
 
@@ -475,12 +487,6 @@ div.flex.h-screen.overflow-y-hidden {
 --display-font: Arial, sans-serif;
 }
 
- 
-
-
-div.chat-container_tags-top-bar.shadow.rounded-t-lg.bg-white.dark:bg-dark-800.px-4.py-4 {
-  background-color:   #F2F2F2;
-}
 
 
 div.px-2.p-1.cursor-pointer.text-sm.radius.rounded.inline-block.items-center {
@@ -566,16 +572,7 @@ span.chat-note-actor-message-note {
     letter-spacing: -0.4px;
 }
 
- /* Menu titles and customer name */
-div.truncate {
-  color: black;
-  font-weight: 500;
-
-  font-size: 16px;
-  font-family: Arial, sans-serif !important;
-  letter-spacing: normal;
-  word-spacing: normal;
-}
+ 
 
  /* Date of chat */
 div.grouped-conversation:nth-child(2) > div:nth-child(1) {
