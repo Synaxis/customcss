@@ -124,8 +124,20 @@ textarea::placeholder {
 }
 
 .text-xs {
-  font-size: 14px;
-  margin-top: 2px;
+  font-size: 15px;
+  margin-top: 0px;
+  color: black;
+  user-select: none;
+  font-weight: 400;
+ letter-spacing: -0.4px;
+}
+
+.text-xs:hover {
+  font-size: 17px;
+  margin-top: 0px;
+  color: black;
+  user-select: none;
+  font-weight: 400;
  letter-spacing: -0.4px;
 }
 
@@ -356,8 +368,7 @@ cursor: auto !important;
   padding-top: 7px;
   padding-right: 30px;
   margin-right: 15px;
- }
-
+}
 
    
 /* span of customer text */
@@ -451,12 +462,11 @@ tr:nth-child(even) {
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li > a > div.flex.items-center.whitespace-nowrap.truncate.py-1.flex-grow > div.flex-col.truncate.flex-grow > div > div {
   font-size: 17px;
-  padding: 0px;
-  margin-top: 10px;
+  margin-top: 5px;
   color: black;
   word-spacing: -1px;
   letter-spacing: -0.4px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li  {
@@ -540,10 +550,19 @@ div.px-2.p-1.cursor-pointer.text-sm.radius.rounded.inline-block.items-center {
 }
 
 span.flex > span {
-  font-size: 16px;
-  margin-left: -1px;
+  font-size: 11px;
+  margin-left: -2px;
   user-select: none;
 }
+
+span.flex > span:hover {
+  font-size: 14px;
+  margin-left: -2px;
+  text-transform: normal ;
+  text-decoration: none;
+  user-select: none;
+}
+
 
 span.chat-text-message_time * {
   font-family: consolas;
@@ -696,4 +715,8 @@ span.chat-text-message_content {
   margin-bottom: -1px;
   margin-right: -21px;
   margin-left: 1px;
+}
+
+div.text-xs.uppercase.font-semibold.mx-auto.mt-10.text-gray-600.dark:text-dark-400.text-center {
+  user-select: none;
 }
