@@ -364,6 +364,10 @@ cursor: auto !important;
  visibility: visible; /* Effects */
  text-shadow: none !important;
  word-wrap: normal !important;
+  margin-top: 4px;
+  padding-top: 7px;
+  padding-right: 30px;
+  margin-right: 15px;
  }
 
 
@@ -567,6 +571,7 @@ span span span {
   word-spacing: normal;
   text-shadow: none;
   text-rendering: optimizeLegibility;
+  margin-top: 0px;
 }
 
 div.absolute.top-0.left-0.w-full.text-sm.p-3.z-10.bg-green-100.text-green-600.dark:bg-green-500.dark:text-white {
@@ -680,4 +685,15 @@ div.chat-container_messages_row.px-10.mt-10.flex.flex-wrap.message-id-1180282471
   border-top-width: 0px;
   padding-right: 0px;
   border-right-width: 0px;
+}
+
+span.chat-text-message_content {
+  min-width: 10dvh;
+  max-width: 70dvh;
+  padding-top: 0px;
+  border-top-width: 0px;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  margin-right: -21px;
+  margin-left: 1px;
 }
