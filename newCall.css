@@ -1,23 +1,17 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 
-.chat-note-actor-message-note .chat-text-message_content {
-  margin-left: 1+5rem;
-  margin-right: 1.25rem;
-  margin-top: 10px;
-}
-
-*, p , span, b, bold{
+*, p , span, b, bold {
   letter-spacing: normal;
   word-spacing: normal;
   font-feature-settings: "kern";
-  }
+}
   
-  /* remove tag */
+/* remove tag */
   div.mx-1:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
     display: none;
-  }
+}
 
-  body .chat-container_messages {
+body .chat-container_messages {
   overflow: hidden;
     overflow-y: hidden;
   overflow-y: auto;
@@ -32,7 +26,7 @@
 /* remove search */
   div.mx-1:nth-child(6) > div:nth-child(1) > button:nth-child(1) {
     display: none;
-  }
+}
 
 /* Menu titles and customer name */
 div.truncate {
@@ -45,17 +39,6 @@ div.truncate {
   letter-spacing: normal;
   word-spacing: normal;
 }
-  /* Body 
-div.font-bold {
-  margin-bottom: -5px;
-  margin-top: -5px;
-  margin-left: -5px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 0px;
-  background-color: #f2f2f2;
-}*/
-  /* try to remove owner title chat */
 
 div.font-bold {
 display: none;
@@ -63,7 +46,6 @@ display: none;
 
 button:hover, svg:hover{ 
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-
 }
 
   /* Body */
