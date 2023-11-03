@@ -1,6 +1,6 @@
 /* stuff we type */
 .placeholder-gray-300 {
-  color: black;
+  color: #2b2b2b;
   font-weight: 400;
   font-feature-settings: 'kern';
   direction: ltr;
@@ -39,7 +39,7 @@ textarea::placeholder {
 .text-xs {
   font-size: 15px;
   margin-top: 0px;
-  color: black;
+  color: #2b2b2b;
   user-select: none;
   font-weight: 400;
  letter-spacing: -0.4px;
@@ -48,7 +48,7 @@ textarea::placeholder {
 .text-xs:hover {
   font-size: 17px;
   margin-top: 0px;
-  color: black;
+  color: #2b2b2b;
   user-select: none;
   font-weight: 400;
  letter-spacing: -0.4px;
@@ -141,7 +141,7 @@ div.truncate {
 }
 
 .text-gray-500 {
-  color: black;
+  color: #2b2b2b;
   font-size: 12px;
   font-weight: 400;
   text-transform: lowercase;
@@ -183,15 +183,15 @@ div.truncate:hover {
  padding-left: 10px;
   padding-right: 10px;
   font-family: Arial, sans-serif !important;
-  line-height: 15px !important;
-  color: black;
+  line-height: 10px !important;
+  color: #2b2b2b;
 }
 
 #customButton {
   height: 50px;
   margin-left: 33dvw;
   margin-top: 76.3dvh;
-  color: black;
+  color: #2b2b2b;
   font-size: 18px;
   line-height: 20px;
   font-family: Arial, sans-serif !important;
@@ -247,7 +247,7 @@ span.chat-text-message_content span {
   padding-bottom: 1px;
   box-sizing: border-box;
   line-height: 3dvh;
-  color: black;
+  color: #2b2b2b;
   text-rendering: optimizeLegibility;
   letter-spacing: normal;
   font-weight: 500;
@@ -262,7 +262,7 @@ span.chat-text-message_content span {
  padding: 5px !important;
  text-rendering: optimizeLegibility !important;
  font-family: Arial, sans-serif !important;
- color: black !important;
+ color: #2b2b2b !important;
   background-color: #f8f8f8;
  border-radius: 5px !important;
  direction: ltr !important;
@@ -345,12 +345,6 @@ color: black;
   font-weight: 600;
 }
 
-p {
-  margin-bottom: 1rem;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 a {
   color: #4355ED;
   text-decoration: none;
@@ -385,7 +379,7 @@ padding: 8px;
 max-width: 300px;
 width: 16dvw;
 height: 6dvh;
-margin-bottom: 5px;
+margin-bottom: 8px;
 margin-top: 0.3dvh;
 border: solid 0.01px #8a8a8a;
 background-color: #f8f8f8;
@@ -402,7 +396,7 @@ border:rgba(0, 0, 0, 0.26) solid 0.1px;
 
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li:hover {
  zoom: 102%;
- margin: 4px;
+ margin: 5px;
  color: white;
  font-weight: 600;
  box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
@@ -480,8 +474,7 @@ span.chat-text-message_time * {
 
 span span span {
   font-size: 12px !important;
-  color: black;
-  font-weight: 500;
+  color: #2b2b2b;
   letter-spacing: normal;
   word-spacing: normal;
   text-shadow: none;
@@ -646,13 +639,13 @@ body .chat-container_messages {
 
 /* Menu titles and customer name */
 div.truncate {
-  color: black;
+  color: #2b2b2b;
   font-weight: 500;
    height: auto;
   line-height: 1.2dvh;
   font-size: 0.8dvw;
   font-family: Arial, sans-serif !important;
-  letter-spacing: normal;
+  letter-spacing: -0.1px;
   word-spacing: normal;
 }
 
@@ -662,4 +655,8 @@ display: none;
 
 button:hover, svg:hover{ 
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+textarea.placeholder-gray-300.dark:placeholder-dark-400.w-full.flex-grow.focus:outline-none.resize-none.overflow-x-hidden.bg-white.dark:bg-dark-800.dark:text-dark-100 {
+  
 }
