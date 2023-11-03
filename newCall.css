@@ -246,11 +246,11 @@ span.chat-text-message_content span {
   font-size: 20px;
   padding-bottom: 1px;
   box-sizing: border-box;
-  line-height: 3dvh;
+  line-height: 2.5dvh;
   color: #2b2b2b;
   text-rendering: optimizeLegibility;
   letter-spacing: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 
