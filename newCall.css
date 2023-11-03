@@ -1,110 +1,18 @@
-
-*, p , span, b, bold {
-  letter-spacing: normal;
-  word-spacing: normal;
-  font-feature-settings: "kern";
-}
-  
-/* remove tag */
-  div.mx-1:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
-    display: none;
-}
-
-body .chat-container_messages {
-  overflow: hidden;
-    overflow-y: hidden;
-  overflow-y: auto;
-  height: calc(100dvh - 150px);
-}
-
-/* remove funnel */
-   div.mx-1:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
-    display: none;
-  }
-
-/* remove search */
-  div.mx-1:nth-child(6) > div:nth-child(1) > button:nth-child(1) {
-    display: none;
-}
-
-/* Menu titles and customer name */
-div.truncate {
-  color: black;
-  font-weight: 500;
-   height: auto;
-  line-height: 1.2dvh;
-  font-size: 0.8dvw;
-  font-family: Arial, sans-serif !important;
-  letter-spacing: normal;
-  word-spacing: normal;
-}
-
-div.font-bold {
-display: none;
-}
-
-button:hover, svg:hover{ 
-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-  /* Body */
-body {
-    font-family: Arial, sans-serif !important;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-/* Headings */
-h1, h2, h3, h4 {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-h1 {
-    font-size: 2em; /* 32px */
-    margin-bottom: 0.5em;
-}
-
-h2 {
-    font-size: 1.5em; /* 24px */
-    margin-bottom: 0.75em;
-}
-
-h3 {
-    font-size: 1.17em; /* 18.72px */
-    margin-bottom: 1em;
-}
-
-h4 {
-    font-size: 1em; /* 16px */
-    margin-bottom: 1.25em;
-}
-
-/* Paragraph */
-p {
-    margin-top: 0;
-    margin-bottom: 1em;
-}
-
-/* Div */
-div {
-    box-sizing: border-box;
-}
-
-
 /* stuff we type */
 .placeholder-gray-300 {
   color: black;
-  word-spacing: normal;
-  letter-spacing: normal;
-  font-size: 1.3dvw;
+  font-weight: 400;
+  font-feature-settings: 'kern';
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  word-spacing: -0.1px !important;
+  letter-spacing: normal !important;
+  font-size: 1.2dvw;
   padding-top: 3px;
   padding-bottom: 20px;
   padding-left: 3px;
-  margin: 2px;
-  line-height: 2.5dvh;
+  line-height: 2.6dvh;
+  user-select: text;
   min-height: 3dvh;
   margin-top: -8px;
   font-family: Arial, sans-serif !important;
@@ -113,6 +21,12 @@ div {
 textarea::placeholder {
   color: transparent !important;
 }
+  
+/* remove tag */
+  div.mx-1:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
+    display: none;
+}
+
 
 .search-input > input {
   background-color: white;
@@ -686,7 +600,7 @@ div.py-4.border-b.border-gray-200.dark:border-dark-600 {
   margin-top: 0px;
   border-top-width: 0px;
   width: 0px;
-  font-family: Montserrat;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 div.chat-container_messages_row.px-10.mt-10.flex.flex-wrap.message-id-1180282471 {
@@ -711,4 +625,41 @@ span.chat-text-message_content {
 
 div.text-xs.uppercase.font-semibold.mx-auto.mt-10.text-gray-600.dark:text-dark-400.text-center {
   user-select: none;
+}
+
+body .chat-container_messages {
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-y: auto;
+  height: calc(100dvh - 150px);
+}
+
+/* remove funnel */
+   div.mx-1:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
+    display: none;
+  }
+
+/* remove search */
+  div.mx-1:nth-child(6) > div:nth-child(1) > button:nth-child(1) {
+    display: none;
+}
+
+/* Menu titles and customer name */
+div.truncate {
+  color: black;
+  font-weight: 500;
+   height: auto;
+  line-height: 1.2dvh;
+  font-size: 0.8dvw;
+  font-family: Arial, sans-serif !important;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+div.font-bold {
+display: none;
+}
+
+button:hover, svg:hover{ 
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
