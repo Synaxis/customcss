@@ -24,14 +24,16 @@ selectable-text copyable-text {
   user-select: text !important;
 }
 
+
 .selectable-text {
  user-select: text;
  text-decoration: none;
 }
 
 #app > div > div > div > div > div {
-   background-color: #f8f8f8;
+   background-color: #e7e6e4;
 }
+
 
 a {
   all: unset;
@@ -97,4 +99,3 @@ div.message-out.focusable-list-item > * > div {
   margin-top: 2px;
   margin-bottom: 2px;
 }
-
