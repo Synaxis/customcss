@@ -1,3 +1,4 @@
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 letter-spacing: normal;
@@ -48,11 +49,29 @@ div center img {
 }
 
 div ul li {
-  margin: 8px;
-  padding: 5px;
+  margin-top: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 14px 0px, rgba(0, 0, 0, 0.04) 0px 0px 0px 1px;
+
 }
 
 div div span {
   font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+span.dataBlockLabel {
+  color: red;
+  font-size: 18px;
+  font-weight: 1000;
+}
+
+#appTabList {
+  background-color: black;
+  text-transform: capitalize;
+}
+
+div.modulo_banner {
+  display: none;
 }
