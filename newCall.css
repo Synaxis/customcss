@@ -1,3 +1,125 @@
+.botao_whats {
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0e8800;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btnRegras {
+    padding-right: 3px;
+    padding-top: 12px;
+    padding-left: 3px;
+    margin: 5px;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    background-color: #0d76e7;
+    border: solid black 0.1px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.botao_mei {
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #18b51a;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.botao_calculos {
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #d308de;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.botao_profit {
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #dea508;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.botao_emoji {
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.botao_mt5 {
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: #0845de;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.botao_raros {
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0a92a1;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.botao_profit {
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #4f08de;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.botao_nelogica {
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0885de;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
 /* stuff we type */
 .placeholder-gray-300 {
   color: #2b2b2b;
