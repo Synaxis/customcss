@@ -19,6 +19,47 @@ font-family: Arial, sans-serif;
     font-size: 19px;
   }
 
+#closeButton {
+  border-radius: 3px;
+  padding-top: 3px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 3px;
+  background-color: gray;
+  font-size: 600;
+}
+
+#myResponses {
+  background-color: #e7e6e4;
+  border-radius: 12px;
+}
+
+.botao_whats {
+  font-size: 1dvw;
+  background-color: white;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  font-weight: 200;
+}
+.botao_whats:hover {
+  background-color: white;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+  body > div > div > div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100dvw;
+    height: 99dvh;
+    margin-top: -15px;
+    max-width: 100%;
+  }
+
 
 selectable-text copyable-text {
   user-select: text !important;
@@ -84,17 +125,7 @@ a {
 
 
    
-  /* Almost on top and almost on bottom */
-  body > div > div > div {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    width: 100dvw;
-    height: 99dvh;
-    margin-top: -15px;
-    max-width: 9000%;
-  }
-
+ 
 div.message-out.focusable-list-item > * > div {
   margin-top: 2px;
   margin-bottom: 2px;
