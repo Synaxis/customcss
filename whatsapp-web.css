@@ -55,7 +55,6 @@ font-family: Arial, sans-serif;
     border: 0;
     padding: 0;
     width: 100dvw;
-    height: 99dvh;
     margin-top: -15px;
     max-width: 100%;
   }
@@ -108,14 +107,7 @@ a {
       margin: 5px 0;
   }
   
-  
-  /* Set font size for mobile devices */
-  @media (max-width: 768px) {
-      html, body {
-          font-size: 15px;
-      }
-  }
-  
+
   /* Force 100% of content.. */
   body > div > div > div > div {
     margin: 0;
