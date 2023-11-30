@@ -1,6 +1,9 @@
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  direction: ltr;
 letter-spacing: normal;
 word-spacing: normal;
 }
@@ -100,4 +103,18 @@ div.details {
 
 .vtbegenerated_div {
   margin-top: -10px;
+}
+
+div.vtbegenerated.inlineVtbegenerated {
+  font-size: 1.2dvw;
+  font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  direction: ltr;
+letter-spacing: normal;
+word-spacing: normal;
+color: black;
+font-weight: normal;
+background-color: white;
+
 }
