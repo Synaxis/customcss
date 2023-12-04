@@ -489,9 +489,9 @@ height: 6dvh;
 margin-bottom: 8px;
 margin-top: 0.3dvh;
 margin-left: 1px;
-border-radius: 0px;
+border-radius: 4px;
 border: solid 0.01px #b3b3b3;
-background-color: #ebeefc;
+background-color: #f8f9fa;
 
 }
 
