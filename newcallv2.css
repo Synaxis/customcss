@@ -15,6 +15,16 @@
   --hover-font-color: #2b2b2b;
 }
 
+/* remove New "phone" */
+div.border-b > div:nth-child(3) {
+  display: none;
+}
+
+/* remove "My chats" title */
+a.whitespace-nowrap:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  display: none;
+}
+
 /*Preview of chats (first panel) */
 .chat-container_conversations {
 
