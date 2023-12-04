@@ -404,21 +404,27 @@ cursor: auto !important;
  word-wrap: normal !important;
 }
 
+ /* divs of our messages */
 body .chat-container_messages_row > span {
   margin-bottom: -1px;
   margin-top: -1px;
   max-width: 75%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 5px;
+  padding-left: 5px;
   /*color: black;
 
    background-color: white; */
 }
 
 .px-10 {
-  padding: 1px;
+  padding: 2px;
 }
 
 /* targets entire scrollbar */
 ::webkit-scrollbar {
+  background-color: #eaeef2;
   width: 20px;  /* vertical scroll */
   height: 20px; /* horizontal scroll*/
 }
@@ -437,13 +443,13 @@ color: black;
 
 /* This targets the handle (or thumb) of the scrollbar */
 ::webkit-scrollbar-thumb {
-    background-color: darkgrey;
+    background-color: #eaeef2;
     border-radius: 10px;
 }
 
 /* This targets the track (or background) of the scrollbar */
 ::webkit-scrollbar-track {
-    background-color: lightgrey;
+    background-color: #eaeef2;
     border-radius: 10px;
 }
 
