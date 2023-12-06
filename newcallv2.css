@@ -7,7 +7,7 @@
   --input-padding: 0 2px; /* top/bottom, left/right */
   --input-margin-bottom: -5px;
   --default-font-size: 12px;
-  --default-font-color: black;
+  --default-font-color: #2b2b2b !important;
   --default-font-weight: 400;
   --default-font-family: Arial, sans-serif;
   --hover-font-size: 17px;
@@ -17,7 +17,7 @@
 
 /* remove green colors */
 .bg-green-500 {
-  background-color: #f5f5f5 !important;
+  background-color: #4287f5 !important;
   border-radius: 8px;
 }
 
@@ -180,7 +180,7 @@ body .gravatar-container img {
   padding-bottom: 5px;
   border-radius: 3px;
   height: 2dvw;
-  color: black;
+  color: #2b2b2b !important;
   margin-top: -2px;
   background-color: #f8f8f8;
 }
@@ -370,7 +370,7 @@ font-size: 1rem;
 
 /* important background */
 div.flex.h-screen.overflow-y-hidden > div {
-  background-color: #f4f4f4 !important;
+  background-color: #efefef !important;
 }
 
 /* Our text */
@@ -379,7 +379,7 @@ span.chat-text-message_content span {
   padding-bottom: 1px;
   box-sizing: border-box;
   line-height: 2.5dvh;
-  color: black;
+  color: #2b2b2b;
   text-rendering: optimizeLegibility;
   letter-spacing: normal;
   font-weight: 400;
@@ -393,7 +393,7 @@ span.chat-text-message_content span {
  padding: 5px !important;
  text-rendering: optimizeLegibility !important;
  font-family: Arial, sans-serif !important;
- color: black !important;
+  color: #2b2b2b !important;
   background-color: #f8f8f8;
  border-radius: 5px !important;
  direction: ltr !important;
@@ -434,7 +434,7 @@ cursor: auto !important;
  /* Notes */
 .chat-text-message-note {
   background-color: #FFFACD;
-  color: black;
+  color: #2b2b2b !important;
   font-size: 16px;
   text-transform: capitalize;
   margin-bottom: 2px;
@@ -471,7 +471,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 /* Customer ext span border */
 .message-id-1143115732 > span:nth-child(1):hover {
 box-shadow: rgba(34, 39, 64, 0.25) -7px 0px 17px -5px;
-color: black;
+  color: #2b2b2b !important;
 }
 
 /* This targets the handle (or thumb) of the scrollbar */
@@ -511,7 +511,7 @@ tr:nth-child(even) {
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li > a > div.flex.items-center.whitespace-nowrap.truncate.py-1.flex-grow > div.flex-col.truncate.flex-grow > div > div {
   font-size: 17px;
   margin-top: 5px;
-  color: black;
+  color: #2b2b2b !important;
   word-spacing: -1px;
   letter-spacing: -0.4px;
   font-weight: 600;
@@ -621,7 +621,7 @@ span.chat-text-message_time * {
 
 span span span {
   font-size: 12px !important;
-  color: black;
+  color: #2b2b2b !important;
   letter-spacing: normal;
   word-spacing: normal;
   text-shadow: none;
@@ -728,7 +728,7 @@ div.flex.w-full.py-4.border-b.border-gray-200 {
 }
 
 svg.feather.feather-check-circle {
-  color: black;
+  color: #2b2b2b !important;
 }
 
 svg * {
