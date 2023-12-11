@@ -1,6 +1,6 @@
 /* Define CSS variables at the root level for easy adjustments */
 :root {
-  --input-height: auto; /* Adjust the height of the chat input */
+  --input-height: 90px; /* Adjust the height of the chat input */
   --input-border-color: #5397ff;
   --input-border-radius: 4px;
   --input-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
@@ -14,6 +14,14 @@
   --hover-font-weight: 400;
   --hover-font-color: #2b2b2b;
 }
+
+/* buttons of the input */
+.h-9 {
+  height: 0px;
+  margin-top: -20px;
+  border: none;
+}
+
 
 /* remove green colors */
 .bg-green-500 {
@@ -104,7 +112,8 @@ div.mx-1:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) >
 
 /* Main chat input styling */
 div.chat-main-input.flex.absolute.left-8.bottom-8.right-8 {
-  height: var(--input-height);
+  height: auto;
+  min-height: 90px;
   border: 0.3px solid var(--input-border-color);
   margin-bottom: -4px;
   border-bottom-width: 5px;
@@ -197,10 +206,10 @@ body .gravatar-container img {
 
 /* Custom button styling */
 #customButton {
-  height: 50px;
-  margin-left: 33dvw;
+  height: 51px;
+  margin-left: 32.5dvw;
   margin-top: 76.3dvh;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 20px;
   padding: 0;
   width: 20px;
@@ -386,7 +395,7 @@ span.chat-text-message_content span {
   font-size: 20px;
   padding-bottom: 1px;
   box-sizing: border-box;
-  line-height: 2.5dvh;
+  line-height: normal;
   color: #2b2b2b;
   text-rendering: optimizeLegibility;
   letter-spacing: normal;
@@ -702,7 +711,8 @@ span.chat-note-actor-message-note {
 
 .chat-note-actor-message-note .chat-text-message_content > * {
 font-size: 18px;
-font-style: italic;
+font-style: normal;
+color: white;
 text-transform: lowercase;
 letter-spacing: -0.4px;
 }
