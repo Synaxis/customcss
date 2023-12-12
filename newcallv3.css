@@ -15,11 +15,41 @@
   --hover-font-color: #2b2b2b;
 }
 
+nav.-mb-px  {
+  display: none;
+}
+
+
+
+.conversation-search > div:nth-child(1) {
+  display: none;
+}
+
+.conversation-search {
+  background-color: inherit;
+  height: 40px;
+  margin-bottom: 4px;
+  margin-left: -10px;
+}
+
+.flex-col.relative.flex-grow.ml-2.mr-4.my-4.border.bg-gray-100{
+  margin-left: -50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+
+
 /* buttons of the input */
 .h-9 {
   height: 0px;
   margin-top: -20px;
   border: none;
+}
+
+/* remove border-line bottom of the input */
+.border-gray-200 {
+border: none;
 }
 
 
@@ -28,7 +58,6 @@
   background-color: #4287f5 !important;
   border-radius: 8px;
 }
-
 
 
 /* usefull to debug 
@@ -115,8 +144,8 @@ div.chat-main-input.flex.absolute.left-8.bottom-8.right-8 {
   height: auto;
   min-height: 90px;
   border: 0.3px solid var(--input-border-color);
-  margin-bottom: -4px;
-  border-bottom-width: 5px;
+  margin-bottom: -7px;
+  border-bottom-width: 0x;
   width: 1100px;
   padding-top: -15px;
   margin-top: 0;
@@ -385,14 +414,32 @@ div.flex.h-screen.overflow-y-hidden > div {
   /* background of chat
 background-color: #efefef !important;
 */
-background-color: #010469;
+background-color: #110469;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
+.chat-container_conversations > div:nth-child(1) > div:nth-child(1) {
+  padding-bottom:  10px;
+
+}
+
+
+
+#HW_frame_cont {
+  display: none;
+}
+.w-full {
+  width: 100%;
+}
+
+.mb-10 {
+  margin-bottom: 2.2rem;
+} 
+
 /* Our text */
 span.chat-text-message_content span {
-  font-size: 20px;
+  font-size: 19.5px;
   padding-bottom: 1px;
   box-sizing: border-box;
   line-height: normal;
@@ -414,7 +461,7 @@ span.chat-text-message_content span {
   background-color: #f8f8f8;
  border-radius: 5px !important;
  direction: ltr !important;
- font-size: 1rem !important;
+ font-size: 19.5px !important;
  line-height: 18px !important;
  text-transform: none !important;
 cursor: auto !important;
@@ -434,7 +481,7 @@ box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.10) 0px 1p
  user-select: text !important;
  padding-left: 5px;
  padding-top: 6px;
- padding-right: 20px;
+ padding-right: 19.5px;
 text-rendering: optimizeLegibility !important;
 font-family: Arial, sans-serif !important;
   background-color: #f8f8f8;
@@ -459,7 +506,7 @@ cursor: auto !important;
 
  /* divs of our messages */
 body .chat-container_messages_row > span {
-  margin-bottom: -1px;
+  margin-bottom: -3px;
   margin-top: -1px;
   max-width: 75%;
   padding-top: 7px;
@@ -548,19 +595,28 @@ margin-bottom: 9px;
 margin-top: 0.3dvh;
 margin-left: 1px;
 border-radius: 4px;
-border: solid 0.01px #b3b3b3;
+border: solid 0.01px #f5f5f5;
 background-color: #f8f9fa;
 }
 
 /* Focus effect on hover */
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li:hover {
 color: white;
-font-weight: 900;
-box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.45) 0px 2px 4px -1px, rgba(255, 255, 255, 0.06) 0px 1px 0px inset;
+box-shadow: rgba(6, 24, 44, 0.3) 0px 0px 0px 2px, rgba(6, 24, 44, 0.45) 0px 1px 2px -1px, rgba(255, 255, 255, 0.03) 0px 1px 0px inset;
 border-radius: 10px;
-font-family: Arial, Helvetica, sans-serif;
 line-height: normal;
 background-color: white;
+}
+
+/* container_conversations */
+body .chat-container_conversations{
+background-color: white;
+width: 250px;
+margin-left: -20px;
+}
+
+div.flex-grow.h-screen.main-content > div > div> div > div > div > div > div > div {
+  margin-left: -2px
 }
 
 
@@ -840,4 +896,9 @@ div.relative.inline-block.align-top.truncate.max-w-full.pr-6.cursor-pointer {
   font-weight: 600;
   font-size: 16px;
   padding: 0px;
+}
+
+div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200 {
+  background-color: blue;
+  margin-left: 20px;
 }
