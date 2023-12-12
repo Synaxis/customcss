@@ -23,6 +23,7 @@ nav.-mb-px  {
 
 .conversation-search > div:nth-child(1) {
   display: none;
+  
 }
 
 .conversation-search {
@@ -219,9 +220,9 @@ body .gravatar-container img {
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 3px;
-  height: 2dvw;
+  height: 2.3dvw;
   color: white !important;
-  margin-top: -2px;
+  margin-top: -5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: #020ae3;
 }
@@ -411,26 +412,11 @@ font-size: 1rem;
 
 /* important background */
 div.flex.h-screen.overflow-y-hidden > div {
-  /* background of chat
+
 background-color: #efefef !important;
-*/
-background-color: #110469;
+
+/*background-color: #110469;*/
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-}
-
-.chat-container_conversations > div:nth-child(1) > div:nth-child(1) {
-  padding-bottom:  10px;
-
-}
-
-
-
-#HW_frame_cont {
-  display: none;
-}
-.w-full {
-  width: 100%;
 }
 
 .mb-10 {
@@ -516,7 +502,7 @@ body .chat-container_messages_row > span {
 }
 
 .px-10 {
-  padding: 2px;
+  padding: 0px;
 }
 
 /* targets entire scrollbar */
@@ -575,35 +561,40 @@ tr:nth-child(even) {
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li > a > div.flex.items-center.whitespace-nowrap.truncate.py-1.flex-grow > div.flex-col.truncate.flex-grow > div > div {
   font-size: 17px;
   margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
   color: #2b2b2b !important;
-  word-spacing: -1px;
-  letter-spacing: -0.4px;
-  font-weight: 600;
+  word-spacing: 1px;
+  letter-spacing: -0.7px;
+  font-weight: 500;
+  font-feature-settings: "kern";
+  height: 19px;
+  line-height: 18px;
+  width: 155px;
+  margin-left: -1px;
 }
 
 /* Grid with divs of user chats and their names to click */
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li  {
 
-box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 14px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+box-shadow: rgba(0, 0, 0, 0.03) 0px 3px 8px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 font-family: Arial, Helvetica, sans-serif;
-padding: 6px;
+padding: 1px;
 order: index !important;
 max-width: 300px;
-width: 15dvw;
+width: 13dvw;
 height: 5dvh;
 margin-bottom: 9px;
 margin-top: 0.3dvh;
 margin-left: 1px;
 border-radius: 4px;
 border: solid 0.01px #f5f5f5;
-background-color: #f8f9fa;
+-webkit-overflow-scrolling: none;
 }
 
 /* Focus effect on hover */
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li:hover {
 color: white;
 box-shadow: rgba(6, 24, 44, 0.3) 0px 0px 0px 2px, rgba(6, 24, 44, 0.45) 0px 1px 2px -1px, rgba(255, 255, 255, 0.03) 0px 1px 0px inset;
-border-radius: 10px;
 line-height: normal;
 background-color: white;
 }
@@ -611,8 +602,7 @@ background-color: white;
 /* container_conversations */
 body .chat-container_conversations{
 background-color: white;
-width: 250px;
-margin-left: -20px;
+margin-left: -10px;
 }
 
 div.flex-grow.h-screen.main-content > div > div> div > div > div > div > div > div {
@@ -766,11 +756,11 @@ span.chat-note-actor-message-note {
 
 
 .chat-note-actor-message-note .chat-text-message_content > * {
-font-size: 18px;
+font-size: 17px;
+padding: 15px;
 font-style: normal;
-color: white;
+color: black;
 text-transform: lowercase;
-letter-spacing: -0.4px;
 }
 
 /* Date of chat */
@@ -901,4 +891,13 @@ div.relative.inline-block.align-top.truncate.max-w-full.pr-6.cursor-pointer {
 div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200 {
   background-color: blue;
   margin-left: 20px;
+}
+
+div.flex.w-full.py-4.border-b.border-gray-200 {
+  display: none;
+}
+
+div.conversation-search.bg-white {
+    display: none;
+
 }
