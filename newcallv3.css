@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+* {
+    font-family: 'Comfortaa', sans-serif;
+    color:
+}
+
 /* Define CSS variables at the root level for easy adjustments */
 :root {
   --input-height: 90px; /* Adjust the height of the chat input */
@@ -14,6 +20,7 @@
   --hover-font-weight: 400;
   --hover-font-color: #2b2b2b;
 }
+
 
 nav.-mb-px  {
   display: none;
@@ -270,18 +277,18 @@ body .gravatar-container img {
 }
 
 .btnRegras {
-    padding-right: 3px;
-    padding-top: 12px;
-    padding-left: 3px;
-    margin: 5px;
-    font-size: 21px;
+    padding-right: 2px;
+    padding-top: 6px;
+    padding-left: 2px;
+    margin: 3px;
+    letter-spacing: -0.2px;
+    font-size: 20px;
     font-weight: 600;
-    color: white;
+    color: #fafafa;
     background-color: #0d76e7;
-    border: solid black 0.1px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    border: solid gray 0.01px;
+    border-radius: 7px;
+    transition: all 0.2s ease;
 }
 
 .botao_mei {
@@ -819,13 +826,13 @@ div.chat-container_messages_row.px-10.mt-10.flex.flex-wrap.message-id-1180282471
 span.chat-text-message_content {
   min-width: 10dvh;
   max-width: 200dvh;
-  padding-top: 0px;
+  padding-top: 00px;
   display: normal;
   border-top-width: 0px;
-  margin-top: -1px;
+  margin-top: -8px;
   margin-bottom: -1px;
   margin-right: -21px;
-  margin-left: 1px;
+  margin-left: 3px;
 }
 
 div.text-xs.uppercase.font-semibold.mx-auto.mt-10.text-gray-600.dark:text-dark-400.text-center {
@@ -837,6 +844,12 @@ body .chat-container_messages {
   overflow-y: hidden;
   overflow-y: auto;
   height: calc(100dvh - 150px);
+}
+
+/* distance of messages from each other etc */
+div.chat-container_messages_row.px-10.mt-10.flex.flex-wrap {
+  margin-top: 12px;
+  margin-bottom: 8px;
 }
 
 /* remove funnel */
