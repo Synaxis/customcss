@@ -1,3 +1,262 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Define CSS variables at the root level for easy adjustments */
+:root {
+  --input-height: 90px; /* Adjust the height of the chat input */
+  --input-border-color: #5397ff;
+  --input-border-radius: 4px;
+  --input-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  --input-padding: 0 2px; /* top/bottom, left/right */
+  --input-margin-bottom: -5px;
+  --default-font-size: 12px;
+  --default-font-color: #2b2b2b !important;
+  --default-font-weight: 400;
+  --default-font-family: Arial, sans-serif;
+  --hover-font-size: 17px;
+  --hover-font-weight: 400;
+  --hover-font-color: #2b2b2b;
+}
+
+nav.-mb-px  {
+  display: none;
+}
+
+
+.conversation-search > div:nth-child(1) {
+  display: none;
+}
+
+.conversation-search {
+  background-color: inherit;
+  height: 40px;
+  margin-bottom: 4px;
+  margin-left: -10px;
+}
+
+.flex-col.relative.flex-grow.ml-2.mr-4.my-4.border.bg-gray-100{
+  margin-left: -50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+/* buttons of the input */
+.h-9 {
+  height: 0px;
+  margin-top: -20px;
+  border: none;
+}
+
+/* remove border-line bottom of the input */
+.border-gray-200 {
+border: none;
+}
+
+
+/* remove green colors */
+.bg-green-500 {
+  background-color: #4287f5 !important;
+  border-radius: 8px;
+}
+
+
+/* usefull to debug 
+.flex-grow > div:nth-child(1) {
+  display: none;
+} 
+*/
+
+/* remove New "phone" */
+div.border-b > div:nth-child(3) {
+  display: none;
+}
+
+/* remove "My chats" title */
+a.whitespace-nowrap:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  display: none;
+}
+
+/*Preview of chats (first panel) */
+.chat-container_conversations {
+
+background-color: white;
+
+}
+
+/* Global Styles */
+body {
+  font-family: var(--default-font-family);
+  color: var(--default-font-color);
+}
+
+/* Placeholder styling */
+.placeholder-gray-300 {
+  color: var(--default-font-color);
+  font-weight: var(--default-font-weight);
+  text-rendering: optimizeLegibility;
+  word-spacing: -0.1px;
+  font-size: 1.1dvw;
+  padding-top: 3px;
+  padding-bottom: 20px;
+  padding-left: 3px;
+  line-height: 2.5dvh;
+  user-select: text;
+  min-height: 3dvh;
+  margin-top: -8px;
+}
+
+textarea::placeholder {
+  color: transparent;
+}
+
+/* Remove tag button */
+div.mx-1:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
+  display: none;
+}
+
+/* Search input styling */
+.search-input > input {
+  background-color: white;
+  border: 0.1px solid #f6f6f6;
+  border-radius: 6px;
+  padding-left: 2rem;
+  font-size: var(--default-font-size);
+}
+
+/* Text size and hover effect */
+.text-xs {
+  font-size: var(--default-font-size);
+  margin-top: 0;
+  color: var(--default-font-color);
+  user-select: none;
+  font-weight: var(--default-font-weight);
+  letter-spacing: -0.4px;
+}
+
+.text-xs:hover {
+  font-size: var(--hover-font-size);
+  color: var(--hover-font-color);
+  font-weight: var(--hover-font-weight);
+}
+
+/* Main chat input styling */
+div.chat-main-input.flex.absolute.left-8.bottom-8.right-8 {
+  height: auto;
+  min-height: 90px;
+  border: 0.3px solid var(--input-border-color);
+  margin-bottom: -7px;
+  border-bottom-width: 0x;
+  width: 1100px;
+  padding-top: -15px;
+  margin-top: 0;
+  border-top-width: 1px;
+  border-style: solid;
+  text-align: right;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Responsive Design for Chat Input */
+@media (max-width: 600px) {
+  .chat-main-input.flex.absolute.left-8.bottom-8.right-8 {
+    padding: 4px;
+    border-radius: 2px;
+  }
+}
+
+/* Remove favorites tab */
+.leading-5:nth-child(2) {
+  display: none;
+}
+
+/* Toggle button styling */
+#toggleButton1 {
+  margin-top: 35px;
+  margin-left: 2px;
+  font-size: 1rem;
+}
+
+/* Form styling */
+form.w-full {
+  font-size: 16px;
+}
+
+/* Opacity fix for certain elements */
+.opacity-25 > * {
+  opacity: 1;
+  color: gray;
+}
+
+/* User select text */
+div.truncate {
+  user-select: text;
+}
+
+/* User name box styling */
+body .gravatar-container {
+  width: 10px;
+  height: 30px;
+  min-width: 30px;
+}
+
+/* remove wpp logo */
+body .integration-whatsapp {
+  display: none;
+}
+
+/* User image styling */
+body .gravatar-container img {
+  width: 95%;
+  height: 95%;
+  border-radius: 3px;
+  padding-bottom: 2px;
+  object-fit: cover;
+}
+
+/* Padding of customer chat name header */
+.chat-container_tags-top-bar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  height: 2.3dvw;
+  color: white !important;
+  margin-top: -5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #020ae3;
+}
+
+/* Padding of input text we type */
+.px-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 10px;
+}
+
+/* Custom button styling */
+#customButton {
+  height: 51px;
+  margin-left: 32.5dvw;
+  margin-top: 76.3dvh;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0;
+  width: 20px;
+}
+
+#customButton:hover {
+  color: blue;
+  font-weight: 600;
+}
+
+/* Chat window box styling */
+.my-4 {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+  margin-top: 4px;
+  margin-bottom: -25px;
+}
+
 .botao_whats {
     padding: 6px 10px;
     font-size: 1.1rem;
@@ -11,18 +270,18 @@
 }
 
 .btnRegras {
-    padding-right: 3px;
-    padding-top: 12px;
-    padding-left: 3px;
-    margin: 5px;
-    font-size: 21px;
+    padding-right: 2px;
+    padding-top: 6px;
+    padding-left: 2px;
+    margin: 3px;
+    letter-spacing: -0.2px;
+    font-size: 20px;
     font-weight: 600;
-    color: white;
+    color: #fafafa;
     background-color: #0d76e7;
-    border: solid black 0.1px;
-    border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    border: solid gray 0.01px;
+    border-radius: 7px;
+    transition: all 0.2s ease;
 }
 
 .botao_mei {
@@ -120,232 +379,25 @@
     transition: all 0.3s ease;
 }
 
-/* stuff we type */
-.placeholder-gray-300 {
-  color: #2b2b2b;
-  font-weight: 400;
-  font-feature-settings: 'kern';
-  direction: ltr;
-  text-rendering: optimizeLegibility;
-  word-spacing: -0.1px !important;
-  letter-spacing: normal !important;
-  font-size: 1.2dvw;
-  padding-top: 3px;
-  padding-bottom: 20px;
-  padding-left: 3px;
-  line-height: 2.6dvh;
-  user-select: text;
-  min-height: 3dvh;
-  margin-top: -8px;
-  font-family: Arial, sans-serif !important;
+
+button:hover {
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
 
-textarea::placeholder {
-  color: transparent !important;
+button:active {
+    background-color: #004085;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/* remove tag */
-  div.mx-1:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
-    display: none;
-}
-
-.search-input > input {
-  background-color: white;
-  border: solid #f6f6f6 0.1px;
-  border-radius: 6px;
-  padding-left: 2rem;
-  font-size: 12px;
-}
-
-.text-xs {
-  font-size: 15px;
-  margin-top: 0px;
-  color: #2b2b2b;
-  user-select: none;
-  font-weight: 400;
- letter-spacing: -0.4px;
-}
-
-.text-xs:hover {
-  font-size: 17px;
-  margin-top: 0px;
-  color: #2b2b2b;
-  user-select: none;
-  font-weight: 400;
- letter-spacing: -0.4px;
-}
-
-/* Define CSS variables at the root level for easy adjustments */
-:root {
-  --input-height: auto; /* Adjust the height of the chat input */
-  --input-border-color: #5397ff;
-  --input-border-radius: 4px;
-  --input-box-shadow: rgba(0, 0, 0, 0.20) 0px 4px 8px;
-  --input-padding: 0 2px; /* top/bottom, left/right */
-  --input-margin-bottom: -5px;
-}
-
-/* Main chat input styling */
-div.chat-main-input.flex.absolute.left-8.bottom-8.right-8 {
-  height: var(--input-height);
-  border: solid 0.3px var(--input-border-color);
-  margin-bottom: -4px;
-  border-bottom-width: 5px;
-  width: 1100px;
-  padding-top: -15px;
-  margin-top: 0px;
-  border-top-width: 1px;
-  border-style: solid;
-  text-align: right;
-  position: absolute; /* Keep your absolute positioning */
-  left: 50%;
-  transform: translate(-50%);
-  /* Rest of your styles */
-  
-}
-
-/* Styling for child divs of the chat input */
-.chat-main-input > div {
-  height: var(--input-height);
-  margin-bottom: var(--input-margin-bottom);
-  
-  position: relative;
-  border-radius: var(--input-border-radius);
-  box-shadow: var(--input-box-shadow);
-  padding: var(--input-padding);
-  text-align: center; /* Center text inside the input box */
-
-  /* Responsive Design */
-  /* You can adjust these breakpoints and properties as needed */
-  @media (max-width: 600px) {
-    padding: 4px;
-    border-radius: 2px;
-  }
-
-  /* Add more media queries as needed for different screen sizes */
-}
-
-/* Additional styles and modifications can be added here */
-
-
-/* Additional styles and modifications can be added here */
-
-body .chat-container_conversations {
-  padding-left: 1px;
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    .myResponses {
+        grid-template-columns: 1fr;  /* Define uma única coluna em dispositivos móveis */
+    }
 }
 
 
-/* remove favorites tab */
-.leading-5:nth-child(2)  {
-  display: none;
-}
-
-#toggleButton1 {
-margin-top: 35px;
-margin-left: 2px;
-font-size: 1rem;
-}
-
-form.w-full > {
- font-size: 16px;
- font-family: Arial, sans-serif !important;
-}
-
-
-.opacity-25 > * {
-  opacity: 1 !important;
-  color: gray !important;
-}
-
-div.truncate {
-  user-select: text;
-}
-
-.text-gray-500 {
-  color: #2b2b2b;
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: lowercase;
-}
-
-
-/* user name box */
-body .gravatar-container {
-  width: 10px;
-  height: 30px;
-  min-width: 30px; 
-}
-
-/* user img */
-body .gravatar-container img {
-  width: 95%;
-  height: 95%;
-    border-radius: 3px;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-div.truncate:hover {
-  text-decoration: none;
-}
-
-/* padding of customer chat name header */
-.chat-container_tags-top-bar {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 3px;
-  height: 2dvw;
-  color: black;
-  margin-top: -2px;
-  background-color: #f8f8f8;
-}
-
-/* padding of input text we type */
-.px-6 {
- padding-left: 10px;
-  padding-right: 10px;
-  font-family: Arial, sans-serif !important;
-  line-height: 10px !important;
-  color: #2b2b2b;
-}
-
-#customButton {
-  height: 50px;
-  margin-left: 33dvw;
-  margin-top: 76.3dvh;
-  color: #2b2b2b;
-  font-size: 18px;
-  line-height: 20px;
-  font-family: Arial, sans-serif !important;
-  padding: 0px;
-  width: 20px;
-}
-
-#customButton:hover {
-  height: 50px;
-  margin-left: 33dvw;
-  margin-top: 76.3dvh;
-  color: blue;
-  font-size: 18px;
-  font-weight: 600;
-  box-shadow: none;
-  line-height: 20px;
-  font-family: Arial, sans-serif !important;
-  padding: 0px;
-  width: 20px;
-}
-
-div.cursor-pointer:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
-  display: inline;
-}
-
-
-/* Chat window box */
-.my-4 {
-  box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px;
-  margin-top: 4px;
-  margin-bottom: -25px;
-}
 
 /* remove "assigned to me"*/
 .text-green-600 {
@@ -360,15 +412,23 @@ font-size: 1rem;
 
 /* important background */
 div.flex.h-screen.overflow-y-hidden > div {
-  background-color: #efefef !important;
+
+background-color: #efefef !important;
+
+/*background-color: #110469;*/
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.mb-10 {
+  margin-bottom: 2.2rem;
+} 
 
 /* Our text */
 span.chat-text-message_content span {
-  font-size: 20px;
+  font-size: 19.5px;
   padding-bottom: 1px;
   box-sizing: border-box;
-  line-height: 2.5dvh;
+  line-height: normal;
   color: #2b2b2b;
   text-rendering: optimizeLegibility;
   letter-spacing: normal;
@@ -383,11 +443,11 @@ span.chat-text-message_content span {
  padding: 5px !important;
  text-rendering: optimizeLegibility !important;
  font-family: Arial, sans-serif !important;
- color: #2b2b2b !important;
+  color: #2b2b2b !important;
   background-color: #f8f8f8;
  border-radius: 5px !important;
  direction: ltr !important;
- font-size: 1rem !important;
+ font-size: 19.5px !important;
  line-height: 18px !important;
  text-transform: none !important;
 cursor: auto !important;
@@ -399,16 +459,15 @@ cursor: auto !important;
   padding-right: 30px;
   margin-right: 15px;
 }
-
    
 /* span of customer text */
 span.chat-text-message {
 font-weight: 500 !important;
-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 1px 2px 1px !important;
+box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.10) 0px 1px 2px 1px !important;
  user-select: text !important;
  padding-left: 5px;
  padding-top: 6px;
- padding-right: 20px;
+ padding-right: 19.5px;
 text-rendering: optimizeLegibility !important;
 font-family: Arial, sans-serif !important;
   background-color: #f8f8f8;
@@ -422,21 +481,33 @@ cursor: auto !important;
  word-wrap: normal !important;
 }
 
+ /* Notes */
+.chat-text-message-note {
+  background-color: #FFFACD;
+  color: #2b2b2b !important;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 2px;
+}
+
+ /* divs of our messages */
 body .chat-container_messages_row > span {
-  margin-bottom: -1px;
+  margin-bottom: -3px;
   margin-top: -1px;
   max-width: 75%;
+  padding-top: 7px;
+  padding-bottom: 7px;
   /*color: black;
-
    background-color: white; */
 }
 
 .px-10 {
-  padding: 1px;
+  padding: 0px;
 }
 
 /* targets entire scrollbar */
 ::webkit-scrollbar {
+  background-color: #eaeef2;
   width: 20px;  /* vertical scroll */
   height: 20px; /* horizontal scroll*/
 }
@@ -450,18 +521,18 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 /* Customer ext span border */
 .message-id-1143115732 > span:nth-child(1):hover {
 box-shadow: rgba(34, 39, 64, 0.25) -7px 0px 17px -5px;
-color: black;
+  color: #2b2b2b !important;
 }
 
 /* This targets the handle (or thumb) of the scrollbar */
 ::webkit-scrollbar-thumb {
-    background-color: darkgrey;
+    background-color: #eaeef2;
     border-radius: 10px;
 }
 
 /* This targets the track (or background) of the scrollbar */
 ::webkit-scrollbar-track {
-    background-color: lightgrey;
+    background-color: #eaeef2;
     border-radius: 10px;
 }
 
@@ -490,23 +561,52 @@ tr:nth-child(even) {
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li > a > div.flex.items-center.whitespace-nowrap.truncate.py-1.flex-grow > div.flex-col.truncate.flex-grow > div > div {
   font-size: 17px;
   margin-top: 5px;
-  color: black;
-  word-spacing: -1px;
-  letter-spacing: -0.4px;
-  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2b2b2b !important;
+  word-spacing: 1px;
+  letter-spacing: -0.7px;
+  font-weight: 500;
+  font-feature-settings: "kern";
+  height: 19px;
+  line-height: 18px;
+  width: 155px;
+  margin-left: -1px;
 }
 
+/* Grid with divs of user chats and their names to click */
 body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li  {
- box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-border-radius: 6px;
-padding: 8px;
+
+box-shadow: rgba(0, 0, 0, 0.03) 0px 3px 8px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 1px;
+order: index !important;
 max-width: 300px;
-width: 16dvw;
-height: 6dvh;
-margin-bottom: 8px;
+width: 13dvw;
+height: 5dvh;
+margin-bottom: 9px;
 margin-top: 0.3dvh;
-border: solid 0.01px #8a8a8a;
-background-color: #f8f8f8;
+margin-left: 1px;
+border-radius: 4px;
+border: solid 0.01px #f5f5f5;
+-webkit-overflow-scrolling: none;
+}
+
+/* Focus effect on hover */
+body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li:hover {
+color: white;
+box-shadow: rgba(6, 24, 44, 0.3) 0px 0px 0px 2px, rgba(6, 24, 44, 0.45) 0px 1px 2px -1px, rgba(255, 255, 255, 0.03) 0px 1px 0px inset;
+line-height: normal;
+background-color: white;
+}
+
+/* container_conversations */
+body .chat-container_conversations{
+background-color: white;
+margin-left: -10px;
+}
+
+div.flex-grow.h-screen.main-content > div > div> div > div > div > div > div > div {
+  margin-left: -2px
 }
 
 
@@ -518,15 +618,6 @@ margin-top: 0.3dvh;
 border:rgba(0, 0, 0, 0.26) solid 0.1px;
 }
 
-body > div.px-auto.flex.w-full.h-screen > div > div.fullwidth-container.chat-container > div > div > div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200.dark\:bg-dark-800.dark\:border-dark-600.rounded-lg.chat-container_sidebar > div.chat-container_conversations.flex-nowrap.overflow-x-hidden.rounded-b-lg.bg-white.dark\:bg-dark-800.overflow-y-auto > div > div > div > div > li:hover {
- zoom: 102%;
- margin: 5px;
- color: white;
- font-weight: 600;
- box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 26px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
-border-radius: 1.5vw;
-background-color: white;
-}
 
 /* First mini bar */
 div.flex.flex-col.text-white.w-full.text-sm {
@@ -548,10 +639,10 @@ background-color:  #f6f6f6 ;
 border: 0px;
 }
 
+/* Make 2nd bar override first mini bar */
 nav.main-sidebar.flex.h-screen {
   z-index: 0;
   box-shadow: none;
-
 }
 
 /* important background properties of html */ 
@@ -595,7 +686,7 @@ span.chat-text-message_time * {
 
 span span span {
   font-size: 12px !important;
-  color: #2b2b2b;
+  color: #2b2b2b !important;
   letter-spacing: normal;
   word-spacing: normal;
   text-shadow: none;
@@ -639,6 +730,7 @@ div.mx-1:nth-child(4) > div:nth-child(1) > button:nth-child(1):hover {
   box-shadow: rgba(0, 0, 0, 0.26) 0px 4px 6px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 2px;
 }
 
+
  /* System notification */ 
 span.chat-note-actor-message-note {
   all: unset !important;
@@ -664,10 +756,11 @@ span.chat-note-actor-message-note {
 
 
 .chat-note-actor-message-note .chat-text-message_content > * {
-font-size: 18px;
-font-style: italic;
+font-size: 17px;
+padding: 15px;
+font-style: normal;
+color: black;
 text-transform: lowercase;
-letter-spacing: -0.4px;
 }
 
 /* Date of chat */
@@ -701,7 +794,7 @@ div.flex.w-full.py-4.border-b.border-gray-200 {
 }
 
 svg.feather.feather-check-circle {
-  color: black;
+  color: #2b2b2b !important;
 }
 
 svg * {
@@ -726,13 +819,13 @@ div.chat-container_messages_row.px-10.mt-10.flex.flex-wrap.message-id-1180282471
 span.chat-text-message_content {
   min-width: 10dvh;
   max-width: 200dvh;
-  padding-top: 0px;
+  padding-top: 00px;
   display: normal;
   border-top-width: 0px;
-  margin-top: -1px;
+  margin-top: -8px;
   margin-bottom: -1px;
   margin-right: -21px;
-  margin-left: 1px;
+  margin-left: 3px;
 }
 
 div.text-xs.uppercase.font-semibold.mx-auto.mt-10.text-gray-600.dark:text-dark-400.text-center {
@@ -744,6 +837,12 @@ body .chat-container_messages {
   overflow-y: hidden;
   overflow-y: auto;
   height: calc(100dvh - 150px);
+}
+
+/* distance of messages from each other etc */
+div.chat-container_messages_row.px-10.mt-10.flex.flex-wrap {
+  margin-top: 12px;
+  margin-bottom: 8px;
 }
 
 /* remove funnel */
@@ -761,8 +860,10 @@ div.truncate {
   color: #2b2b2b;
   font-weight: 500;
    height: auto;
-  line-height: 1.2dvh;
+  line-height: normal;
   font-size: 0.8dvw;
+  padding-top: 1px;
+
   font-family: Arial, sans-serif !important;
   letter-spacing: -0.1px;
   word-spacing: normal;
@@ -774,4 +875,35 @@ display: none;
 
 button:hover, svg:hover{ 
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+div.flex.text-xs {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.4px;
+  color: black;
+  margin-top: 7px;
+  font-weight: 500;
+}
+
+div.relative.inline-block.align-top.truncate.max-w-full.pr-6.cursor-pointer {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0px;
+}
+
+div.mr-2.ml-4.my-4.border.bg-gray-100.border-gray-200 {
+  background-color: blue;
+  margin-left: 20px;
+}
+
+div.flex.w-full.py-4.border-b.border-gray-200 {
+  display: none;
+}
+
+div.conversation-search.bg-white {
+    display: none;
+
 }
