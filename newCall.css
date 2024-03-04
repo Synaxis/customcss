@@ -422,63 +422,39 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .mb-10 {
   margin-bottom: 2.2rem;
 } 
-
-/* Our text */
-span.chat-text-message_content span {
-  font-size: 19.5px;
-  padding-bottom: 1px;
-  box-sizing: border-box;
-  line-height: normal;
-  color: #2b2b2b;
-  text-rendering: optimizeLegibility;
-  letter-spacing: normal;
-  font-weight: 400;
+/* Base text styling */
+span.chat-text-message_content span, span.chat-text-message-primary, span.chat-text-message {
+  font-family: Arial, sans-serif !important;
+  font-size: 19.5px !important; /* Consistent font size */
+  line-height: 1.58 !important; /* Improved line height for better readability */
+  color: #2b2b2b !important; /* Consistent text color */
+  text-rendering: optimizeLegibility !important;
+  font-weight: 400 !important; /* Standardized font weight */
+  user-select: text !important;
+  text-transform: none !important;
+  cursor: auto !important;
+  visibility: visible !important;
+  text-shadow: none !important;
+  word-wrap: normal !important;
+  background-color: #f8f8f8; /* Consistent background color */
+  border-radius: 5px !important; /* Consistent border radius */
+  direction: ltr !important;
 }
 
-/* span of our text */
- span.chat-text-message-primary {
- font-weight: 500 !important;
- box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 1px 2px 1px !important;
- user-select: text !important;
- padding: 5px !important;
- text-rendering: optimizeLegibility !important;
- font-family: Arial, sans-serif !important;
-  color: #2b2b2b !important;
-  background-color: #f8f8f8;
- border-radius: 5px !important;
- direction: ltr !important;
- font-size: 19.5px !important;
- line-height: 18px !important;
- text-transform: none !important;
-cursor: auto !important;
- visibility: visible; /* Effects */
- text-shadow: none !important;
- word-wrap: normal !important;
-  margin-top: 4px;
-  padding-top: 7px;
-  padding-right: 30px;
-  margin-right: 15px;
+/* Enhanced primary text styling */
+span.chat-text-message-primary {
+  font-weight: 500 !important; /* Slightly bolder font for primary text */
+  padding: 7px 30px 7px 5px !important; /* Adjusted padding for better spacing */
+  margin-top: 4px !important;
+  margin-right: 15px !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important; /* Refined box shadow */
 }
-   
-/* span of customer text */
+
+/* Customer text styling */
 span.chat-text-message {
-font-weight: 500 !important;
-box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.10) 0px 1px 2px 1px !important;
- user-select: text !important;
- padding-left: 5px;
- padding-top: 6px;
- padding-right: 19.5px;
-text-rendering: optimizeLegibility !important;
-font-family: Arial, sans-serif !important;
-  background-color: #f8f8f8;
- border-radius: 5px !important;
- direction: ltr !important;
- font-size: 1rem !important;
- line-height: 18px !important;
- text-transform: none !important;
-cursor: auto !important;
- text-shadow: none !important;
- word-wrap: normal !important;
+  font-weight: 500 !important;
+  padding: 6px 19.5px 6px 5px !important; /* Adjusted padding for consistency */
+  box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 1px 3px 1px !important; /* Refined box shadow */
 }
 
  /* Notes */
