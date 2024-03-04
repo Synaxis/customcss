@@ -1,6 +1,7 @@
 * {
-    font-family: 'Arial', sans-serif;
-}
+  font-family: 'Arial', sans-serif;
+  line-height: 1.4; /* Standard line height for better readability */
+  color: #2b2b2b; /* Dark grey color for better contrast and less strain */}
 
 /* Define CSS variables at the root level for easy adjustments */
 :root {
@@ -412,9 +413,7 @@ font-size: 1rem;
 
 /* important background */
 div.flex.h-screen.overflow-y-hidden > div {
-
 background-color: #efefef !important;
-
 /*background-color: #110469;*/
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -422,59 +421,59 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .mb-10 {
   margin-bottom: 2.2rem;
 } 
-/* Base text styling */
-span.chat-text-message_content span, span.chat-text-message-primary, span.chat-text-message {
+/* Base text styling for chat messages */
+span.chat-text-message_content span,
+span.chat-text-message-primary,
+span.chat-text-message {
   font-family: Arial, sans-serif !important;
-  font-size: 19.5px !important; /* Consistent font size */
-  line-height: 1.58 !important; /* Improved line height for better readability */
-  color: #2b2b2b !important; /* Consistent text color */
+  color: #2b2b2b !important;
   text-rendering: optimizeLegibility !important;
-  font-weight: 400 !important; /* Standardized font weight */
   user-select: text !important;
-  text-transform: none !important;
   cursor: auto !important;
   visibility: visible !important;
   text-shadow: none !important;
   word-wrap: normal !important;
-  background-color: #f8f8f8; /* Consistent background color */
-  border-radius: 5px !important; /* Consistent border radius */
+  background-color: #f8f8f8 !important;
+  border-radius: 5px !important;
   direction: ltr !important;
+  padding: 4px 10px; /* Smaller padding to fit more text */
+  line-height: 1.4; /* Improved line height for readability */
+  font-size: 16px; /* Adjusted font size for better fit and readability */
+  font-weight: 400; /* Normal weight for base text */
 }
 
-/* Enhanced primary text styling */
+/* Specific styles for primary chat text */
 span.chat-text-message-primary {
-  font-weight: 500 !important; /* Slightly bolder font for primary text */
-  padding: 7px 30px 7px 5px !important; /* Adjusted padding for better spacing */
+  font-weight: bold !important; /* Highlight primary text */
+  padding: 7px 30px 7px 5px !important; /* Custom padding for emphasis */
   margin-top: 4px !important;
   margin-right: 15px !important;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important; /* Refined box shadow */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px, rgba(60, 64, 67, 0.15) 0px 1px 3px !important; /* Soft shadow for depth */
 }
 
-/* Customer text styling */
+/* Styling for customer's chat text */
 span.chat-text-message {
-  font-weight: 500 !important;
-  padding: 6px 19.5px 6px 5px !important; /* Adjusted padding for consistency */
-  box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.12) 0px 1px 3px 1px !important; /* Refined box shadow */
+  font-weight: 500 !important; /* Slightly bolder for distinction */
+  padding: 6px 19.5px 6px 5px !important; /* Padding adjusted for balance */
+  box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px, rgba(60, 64, 67, 0.12) 0px 1px 3px !important; /* Consistent with primary text */
 }
 
- /* Notes */
+/* Note messages styling */
 .chat-text-message-note {
-  background-color: #FFFACD;
+  background-color: #FFFACD !important;
   color: #2b2b2b !important;
-  font-size: 16px;
-  text-transform: capitalize;
-  margin-bottom: 2px;
+  font-size: 16px; /* Matching base text size */
+  text-transform: capitalize; /* Aesthetic choice for notes */
+  margin-bottom: 2px; /* Spacing below notes */
 }
 
- /* divs of our messages */
+/* Container for messages */
 body .chat-container_messages_row > span {
-  margin-bottom: -3px;
-  margin-top: -1px;
-  max-width: 75%;
+  max-width: 75%; /* Limit width to avoid overflow */
   padding-top: 7px;
-  padding-bottom: 7px;
-  /*color: black;
-   background-color: white; */
+  padding-bottom: 7px; /* Padding for visual separation */
+  margin-top: -1px;
+  margin-bottom: -3px; /* Negative margin to reduce gap between messages */
 }
 
 .px-10 {
@@ -795,7 +794,7 @@ div.chat-container_messages_row.px-10.mt-10.flex.flex-wrap.message-id-1180282471
 span.chat-text-message_content {
   min-width: 10dvh;
   max-width: 200dvh;
-  padding-top: 00px;
+  padding: 4px 10px; /* Reduced padding to fit more text */
   display: normal;
   border-top-width: 0px;
   margin-top: -8px;
